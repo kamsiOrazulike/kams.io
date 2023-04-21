@@ -15,13 +15,13 @@ export default function Navbar() {
       <div className="flex fixed dark:text-white text-black w-screen justify-between align-middle items-center h-24 max-w-[1840px] mx-auto px-4">
         <a
           href="/"
-          className="text-5xl font-bold dark:text-[#FFBE40] text-gray-700 cursor-pointer"
+          className="text-5xl font-bold dark:text-yellow-500 text-gray-700 cursor-pointer"
         >
           K
         </a>
         <ul className="hidden md:flex">
           <li className="py-2 mx-4 cursor-pointer">Projects</li>
-          <li className="py-2 mx-4 border dark:border-[#FFBE40] border-gray-700 w-[150px] hover:scale-105 rounded-md font-medium text-center transition-all duration-500 cursor-pointer">
+          <li className="py-2 mx-4 border dark:border-yellow-500 border-gray-700 w-[150px] hover:scale-105 rounded-md font-medium text-center transition-all duration-500 cursor-pointer">
             <LinkScroll
               to=""
               spy={true}
@@ -32,7 +32,7 @@ export default function Navbar() {
               Get in touch
             </LinkScroll>
           </li>
-          <div className="py-2 mx-4 cursor-pointer">
+          <div className="mx-4 cursor-pointer">
             <DarkModeToggle />
           </div>
         </ul>
@@ -47,7 +47,7 @@ export default function Navbar() {
               : "fixed top-[-500em]"
           }
         >
-          <h1 className="w-auto text-2xl font-bold mx-auto my-4 dark:text-[#FFBE40] text-gray-700">K</h1>
+          <h1 className="w-auto text-2xl font-bold mx-auto my-4 dark:text-yellow-500 text-gray-700">K</h1>
           <ul className="flex flex-col pt-14 uppercase p-4 align-middle">
             <li className="p-4 border-b border-gray-600">Projects</li>
             <li className="p-4 border-b border-gray-600">About Me</li>

@@ -9,7 +9,7 @@ export const avatar = () => {
     <img
       src="/static/imgs/Me.png"
       alt={name}
-      className="w-[200px] h-auto mx-auto my-4 dark:bg-slate-950 bg-gray-400 border border-gray-500 hover:scale-105 transition-all duration-500 rounded-full"
+      className="w-[200px] h-auto mx-auto my-4 dark:bg-slate-800 bg-gray-700 border border-gray-800 hover:scale-105 transition-all duration-500 rounded-full"
     />
   );
 };

@@ -1,3 +1,4 @@
+import { FiSun, FiMoon } from "react-icons/fi";
 import React, { useState, useEffect } from "react";
 
 const DarkModeToggle = () => {
@@ -17,14 +18,14 @@ const DarkModeToggle = () => {
 
   return (
     <button
-      className="text-gray-800 dark:text-white bg-gray-200 dark:bg-gray-700 rounded-full w-14 h-7 flex items-center justify-between focus:outline-none"
+      className="w-9 h-9 rounded-full flex items-center justify-center bg-gray-700 dark:bg-slate-800 transition duration-300 ease-in-out"
       onClick={handleDarkModeToggle}
     >
-      <span
-        className={`w-5 h-5 rounded-full bg-white shadow-md transform transition-all duration-300 ease-in ${
-          darkMode ? "translate-x-7" : ""
-        }`}
-      />
+      {darkMode ? (
+        <FiMoon className="text-gray-500 dark:text-gray-300 text-xl" />
+      ) : (
+        <FiSun className="text-yellow-500 dark:text-yellow-300 text-xl" />
+      )}
     </button>
   );
 };
