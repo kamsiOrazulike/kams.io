@@ -18,7 +18,7 @@ const DarkModeToggle = () => {
 
   return (
     <button
-      className="w-9 h-9 rounded-full flex items-center justify-center bg-gray-700 dark:bg-slate-800 transition duration-300 ease-in-out"
+      className="w-9 h-9 rounded-full flex items-center justify-center bg-gray-700 dark:bg-slate-800 transition duration-500 ease-in-out"
       onClick={handleDarkModeToggle}
     >
       {darkMode ? (
@@ -31,3 +31,5 @@ const DarkModeToggle = () => {
 };
 
 export default DarkModeToggle;
+
+
