@@ -5,7 +5,9 @@ const DarkModeToggle = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   const handleDarkModeToggle = () => {
-    setDarkMode(!darkMode);
+    const newDarkMode = !darkMode;
+    setDarkMode(newDarkMode);
+    localStorage.setItem("darkMode", newDarkMode);
   };
 
   useEffect(() => {
@@ -22,14 +24,12 @@ const DarkModeToggle = () => {
       onClick={handleDarkModeToggle}
     >
       {darkMode ? (
-        <FiMoon className="text-gray-500 dark:text-gray-300 text-xl" />
-      ) : (
         <FiSun className="text-yellow-500 dark:text-yellow-300 text-xl" />
+      ) : (
+        <FiMoon className="text-gray-500 dark:text-gray-300 text-xl" />
       )}
     </button>
   );
 };
 
 export default DarkModeToggle;
-
-

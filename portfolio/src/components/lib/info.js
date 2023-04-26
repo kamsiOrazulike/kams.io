@@ -1,4 +1,6 @@
 "use client";
+import { Link as LinkScroll } from "react-scroll";
+
 export const name = "Kamsi Orazulike";
 export const role = "Web developer | UI Designer";
 
@@ -48,13 +50,13 @@ export const bio = () => {
   return (
     <div className="m-4 font-mono">
       <p className="text-black dark:text-white text-xs text-left">
-        Hi, I'm Kamsi, <span className="dark:text-white text-black">"kam-see"</span>. A first class graduate from Queen Mary
-        University of London with 2 years experience as a software developer
+        Hi, I'm Kamsi,{" "}
+        <span className="dark:text-white text-black">"kam-see"</span>. A first
+        class graduate from Queen Mary University of London with 2 years
+        experience as a software developer
       </p>
-      <button className="py-2 mx-auto w-[150px] hover:scale-105 rounded-md font-xs dark:text-slate-400 text-gray-700 text-center transition-all duration-500">
-        <a href="/about">Read more</a>
-      </button>
-      <div className="flex flex-row justify-evenly my-2">{skillList()}</div>
+
+      <div className="flex flex-row justify-evenly my-4">{skillList()}</div>
     </div>
   );
 };

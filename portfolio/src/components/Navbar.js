@@ -12,7 +12,7 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="flex relative dark:text-white dark:bg-slate-900 bg-gray-300 text-black w-screen justify-between align-middle items-center h-24 max-w-[1840px] mx-auto px-4">
+      <div className="flex fixed top-0 z-50 dark:text-white text-black w-screen justify-between align-middle items-center h-24 max-w-[1840px] mx-auto px-4">
         <a
           href="/"
           className="text-5xl font-bold dark:text-yellow-500 text-gray-700 cursor-pointer"
@@ -34,9 +34,11 @@ export default function Navbar() {
               Get in touch
             </LinkScroll>
           </li>
-          <div className="mx-4 cursor-pointer">
-            <DarkModeToggle />
-          </div>
+          <li className="mx-4 cursor-pointer">
+            <div>
+              <DarkModeToggle />
+            </div>
+          </li>
         </ul>
 
         <div onClick={handleNav} className="block md:hidden z-40 fixed right-4">
@@ -45,7 +47,7 @@ export default function Navbar() {
         <div
           className={
             nav
-              ? "z-30 flex flex-col fixed left-0 top-0 w-full h-full bg-gray-300 dark:bg-slate-900 border-r border-r-gray-900 transition-all ease-in-out duration-300"
+              ? "z-30 flex flex-col fixed left-0 top-0 w-full h-full bg-gray-300 dark:bg-gray-900 border-r border-r-gray-900 transition-all ease-in-out duration-300"
               : "fixed top-[-500em]"
           }
         >
@@ -54,11 +56,7 @@ export default function Navbar() {
           </h1>
           <ul className="flex flex-col pt-14 uppercase p-4 align-middle">
             <li className="p-4 border-b border-gray-600">Projects</li>
-            <li className="p-4 border-b border-gray-600">About Me</li>
             <li className="p-4">Get in touch</li>
-            <div className="py-6 mx-4 cursor-pointer">
-              <DarkModeToggle />
-            </div>
           </ul>
         </div>
       </div>

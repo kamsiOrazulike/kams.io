@@ -1,3 +1,4 @@
+import '@/styles/hero.css'
 import "@/styles/globals.css";
 import Layout from "@/components/layout";
 
