@@ -6,7 +6,7 @@ import { name, role, avatar, bio } from "./lib/info";
 const Intro = () => {
   return (
     <div className="h-screen">
-      <div className="w-[80%] md:w-[25%] mx-auto mt-4 pt-16">
+      <div className="w-[70%] md:w-[50%] lg:w-[30%] mx-auto mt-4 pt-16">
         <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold tracking-wide md:py-2 ease-in-out duration-500 ">
           {name}
         </h1>
@@ -27,7 +27,6 @@ const About = () => {
         <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold tracking-wide md:py-2 ease-in-out duration-500 ">
           About me
         </h1>
-        {avatar()}
       </div>
     </div>
   );
