@@ -23,7 +23,7 @@ export const UXProject = () => {
             <figure>
               <img
                 class="w-full rounded-lg hover:scale-[1.05] transition-all duration-500"
-                src="/static/imgs/mockup/inHandyMockup.jpg"
+                src="./static/imgs/mockup/inHandyMockup.jpg"
                 alt="projectimg"
               />
               <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">
@@ -33,7 +33,7 @@ export const UXProject = () => {
             <figure>
               <img
                 class="mt-4 w-full lg:mt-10 rounded-lg hover:scale-[1.05] transition-all duration-500"
-                src="/static/imgs/mockup/GenesisMockup.jpg"
+                src="./static/imgs/mockup/GenesisMockup.jpg"
                 alt="projectimg"
               />
               <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">

@@ -9,7 +9,7 @@ export const skillList = () => {
       icon: (
         <img
           id="githubLogo"
-          src="/static/imgs/gitHub/github-mark.svg"
+          src="./static/imgs/gitHub/github-mark.svg"
           alt="gitHub"
           className="m-2 w-9 h-9 bg-gray-300 hover:bg-green-300 transition duration-300 rounded-full border border-gray-300 hover:border-green-300"
         />
@@ -42,7 +42,7 @@ export const skillList = () => {
 export const avatar = () => {
   return (
     <img
-      src="/static/imgs/Me.png"
+      src="./static/imgs/Me.png"
       alt={name}
       className="w-[200px] h-auto mx-auto my-4 dark:bg-slate-800 bg-gray-700 border border-gray-800 hover:scale-105 transition-all duration-500 rounded-full"
     />
