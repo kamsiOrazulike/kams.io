@@ -15,7 +15,7 @@ export default function Navbar() {
       <div className="flex fixed top-0 z-50 dark:text-white text-black w-screen justify-between align-middle items-center h-24 max-w-[1840px] mx-auto px-4">
         <a
           href="/"
-          className="text-5xl font-bold dark:text-yellow-500 text-gray-700 cursor-pointer"
+          className="text-5xl font-bold dark:text-gray-200 text-gray-700 cursor-pointer"
         >
           K
         </a>
@@ -23,7 +23,7 @@ export default function Navbar() {
           <li className="py-2 mx-4 cursor-pointer">
             <a href="/projects">Projects</a>
           </li>
-          <li className="py-2 mx-4 border dark:border-yellow-500 border-gray-700 w-[150px] hover:scale-105 rounded-md font-medium text-center transition-all duration-500 cursor-pointer">
+          <li className="py-2 mx-4 border dark:border-gray-500 border-gray-700 w-[150px] hover:scale-105 rounded-md font-medium text-center transition-all duration-500 cursor-pointer">
             <LinkScroll
               to="contact"
               spy={true}
@@ -51,7 +51,7 @@ export default function Navbar() {
               : "fixed top-[-500em]"
           }
         >
-          <h1 className="w-auto text-2xl font-bold mx-auto my-4 dark:text-yellow-500 text-gray-700">
+          <h1 className="w-auto text-2xl font-bold mx-auto my-4 dark:text-gray-200 text-gray-700">
             K
           </h1>
           <ul className="flex flex-col pt-14 uppercase p-4 align-middle">

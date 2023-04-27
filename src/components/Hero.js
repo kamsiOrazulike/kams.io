@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
+import Project from "./Project";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import { name, role, avatar, bio } from "./lib/info";
+import { name, role, avatar, bio, ann } from "./lib/info";
 
 const Intro = () => {
   return (
@@ -10,6 +11,7 @@ const Intro = () => {
         <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold tracking-wide md:py-2 ease-in-out duration-500 ">
           {name}
         </h1>
+        <span className="dark:text-slate-300 text-gray-800 italic">{ann}</span>
         <p className="dark:text-slate-400 text-gray-700 md:text-md sm:text-md text-sm tracking-wide font-light my-1">
           {role}
         </p>
@@ -22,11 +24,9 @@ const Intro = () => {
 
 const About = () => {
   return (
-    <div id="about" className="bg-gray-300 dark:bg-gray-800 h-screen">
-      <div className="w-[90%] mx-auto pt-16">
-        <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold tracking-wide md:py-2 ease-in-out duration-500 ">
-          About me
-        </h1>
+    <div id="about" className="bg-gray-300 dark:bg-gray-800 h-full">
+      <div className="w-[90%] mx-auto py-12">
+        <Project/>
       </div>
     </div>
   );

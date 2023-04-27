@@ -1,8 +1,7 @@
 "use client";
-import { Link as LinkScroll } from "react-scroll";
-
 export const name = "Kamsi Orazulike";
-export const role = "Web developer | UI Designer";
+export const ann = '"kam-see"';
+export const role = "Designer | Developer";
 
 export const skillList = () => {
   const contact = [
@@ -12,25 +11,29 @@ export const skillList = () => {
           id="githubLogo"
           src="/static/imgs/gitHub/github-mark.svg"
           alt="gitHub"
-          className="w-9 h-9 bg-gray-300 hover:bg-green-300 transition duration-300 rounded-full border border-gray-300 hover:border-green-300"
+          className="m-2 w-9 h-9 bg-gray-300 hover:bg-green-300 transition duration-300 rounded-full border border-gray-300 hover:border-green-300"
         />
       ),
       name: "github",
+      href: "https://github.com/kamsiOrazulike",
     },
     {
       icon: (
         <img
           src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
           alt="linkedIn"
-          className="w-9 h-9 transition duration-300 filter grayscale-[0.5] hover:grayscale-0 rounded-md hover:bg-blue-200"
+          className="m-2 w-9 h-9 transition duration-300 filter grayscale-[0.5] hover:grayscale-0 rounded-md hover:bg-blue-200"
         />
       ),
       name: "linkedIn",
+      href: "https://www.linkedin.com/in/kamsiyonnaorazulike",
     },
   ];
 
   const contactMap = contact.map((contact, key) => (
-    <div key={key}>{contact.icon}</div>
+    <a key={key} href={contact.href} target="_blank">
+      {contact.icon}
+    </a>
   ));
 
   return contactMap;
@@ -49,14 +52,10 @@ export const avatar = () => {
 export const bio = () => {
   return (
     <div className="m-4 font-mono">
-      <p className="text-black dark:text-white text-xs text-left">
-        Hi, I'm Kamsi,{" "}
-        <span className="dark:text-white text-black">"kam-see"</span>. A first
-        class graduate from Queen Mary University of London with 2 years
-        experience as a software developer
+      <p className="text-black dark:text-white text-center text-xs">
+        Hi, I'm Kamsi. A first class graduate from Queen Mary University of
+        London with 2 years experience as a software developer
       </p>
-
-      <div className="flex flex-row justify-evenly my-4">{skillList()}</div>
     </div>
   );
 };

@@ -20,13 +20,13 @@ const DarkModeToggle = () => {
 
   return (
     <button
-      className="w-9 h-9 rounded-full flex items-center justify-center bg-gray-700 dark:bg-slate-800 transition duration-500 ease-in-out"
+      className="w-9 h-9 rounded-full flex items-center justify-center bg-slate-600 dark:bg-slate-700 transition duration-500 ease-in-out"
       onClick={handleDarkModeToggle}
     >
       {darkMode ? (
         <FiSun className="text-yellow-500 dark:text-yellow-300 text-xl" />
       ) : (
-        <FiMoon className="text-gray-500 dark:text-gray-300 text-xl" />
+        <FiMoon className="text-gray-200 dark:text-gray-300 text-xl" />
       )}
     </button>
   );
