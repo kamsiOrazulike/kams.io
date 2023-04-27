@@ -1,13 +1,13 @@
-export default function Project() {
+export const UXProject = () => {
   return (
     <>
       <section class="bg-white dark:bg-gray-900">
         <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
-          <div class="font-light text-left text-gray-500 sm:text-lg dark:text-gray-400">
+          <div class="cursor-default font-light text-left text-gray-500 sm:text-lg dark:text-gray-400">
             <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
               A User first approach.
             </h2>
-            <p class="mb-4">
+            <p class="mb-8">
               By doing this, I can make sure my end product meets the needs of
               my target audience. It's all about getting to know the users and
               understanding what they want and need. By doing this, I can make
@@ -15,7 +15,9 @@ export default function Project() {
               solves real problems. It's a key part of creating a product that
               people will love and find useful!
             </p>
-            <p>Check out some of my UX/UI Projects!</p>
+            <div className="py-2 px-4 text-gray-700 dark:text-slate-300 border border-gray-700 dark:border-slate-300 rounded-lg text-center">
+              <a href="/projects"> All projects</a>
+            </div>
           </div>
           <div class="grid grid-cols-2 gap-4 mt-8">
             <figure>
@@ -43,4 +45,4 @@ export default function Project() {
       </section>
     </>
   );
-}
+};

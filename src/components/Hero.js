@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import Project from "./Project";
+import { UXProject, DevProject } from "./Project";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { name, role, avatar, bio, ann } from "./lib/info";
 
@@ -26,7 +26,7 @@ const About = () => {
   return (
     <div id="about" className="bg-gray-300 dark:bg-gray-800 h-full">
       <div className="w-[90%] mx-auto py-12">
-        <Project/>
+        <UXProject />
       </div>
     </div>
   );
