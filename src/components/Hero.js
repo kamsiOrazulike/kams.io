@@ -22,9 +22,9 @@ const Intro = () => {
   );
 };
 
-const About = () => {
+const Project1 = () => {
   return (
-    <div id="about" className="bg-gray-300 dark:bg-gray-800 h-full">
+    <div id="about" className="bg-gray-300 dark:bg-gray-800 h-screen">
       <div className="w-[90%] mx-auto py-12">
         <UXProject />
       </div>
@@ -68,7 +68,7 @@ export default function Hero() {
             <div className="animation-layer parallax" id="background7"></div>
           </ParallaxLayer>
           <ParallaxLayer offset={1} speed={0.25}>
-            <About />
+            <Project1 />
           </ParallaxLayer>
         </Parallax>
       </div>

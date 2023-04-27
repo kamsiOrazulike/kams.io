@@ -27,7 +27,7 @@ export const UXProject = () => {
                 alt="projectimg"
               />
               <figcaption class="mt-2 text-sm text-center text-gray-500 dark:text-gray-400">
-                My Final Year: Joi de Vivre Project <br /> inHandy
+                My Final Year: Joi de Vivre <br /> inHandy
               </figcaption>
             </figure>
             <figure>

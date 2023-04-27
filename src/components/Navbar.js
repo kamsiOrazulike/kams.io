@@ -1,4 +1,5 @@
 "use client";
+import { skillList } from "./lib/info";
 import React, { useState, useEffect } from "react";
 import { Link as LinkScroll } from "react-scroll";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
@@ -51,13 +52,15 @@ export default function Navbar() {
               : "fixed top-[-500em]"
           }
         >
-          <h1 className="w-auto text-2xl font-bold mx-auto my-4 dark:text-gray-200 text-gray-700">
-            K
-          </h1>
-          <ul className="flex flex-col pt-14 uppercase p-4 align-middle">
-            <li className="p-4 border-b border-gray-600">Projects</li>
-            <li className="p-4">Get in touch</li>
+          <div className="my-8 mx-auto">
+            <DarkModeToggle />
+          </div>
+          <ul className="flex flex-col mx-auto text-center pt-14 uppercase p-4 align-middle">
+            <li className="p-4">
+              <a href="/projects">Projects</a>
+            </li>
           </ul>
+          <div className="flex flex-row justify-center px-4">{skillList()}</div>
         </div>
       </div>
     </>
