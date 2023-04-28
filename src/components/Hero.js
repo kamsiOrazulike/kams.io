@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
-import { UXProject, DevProject } from "./Project";
+import { Projects } from "./Project";
+import { AiOutlineArrowDown } from "react-icons/ai";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { name, role, avatar, bio, ann } from "./lib/info";
 
@@ -8,7 +9,7 @@ const Intro = () => {
   return (
     <div className="h-screen">
       <div className="w-[70%] md:w-[50%] lg:w-[30%] mx-auto mt-4 pt-16">
-        <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold tracking-wide md:py-2 ease-in-out duration-500 ">
+        <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold tracking-wide md:py-2 ease-in-out duration-500">
           {name}
         </h1>
         <span className="dark:text-slate-300 text-gray-800 italic">{ann}</span>
@@ -16,17 +17,8 @@ const Intro = () => {
           {role}
         </p>
         {avatar()}
-        <div className="mx-auto md:my-4 p-1">{bio()}</div>
-      </div>
-    </div>
-  );
-};
-
-const Project1 = () => {
-  return (
-    <div id="about" className="bg-gray-300 dark:bg-gray-800 h-screen">
-      <div className="w-[90%] mx-auto py-12">
-        <UXProject />
+        {bio()}
+        <AiOutlineArrowDown className="mx-auto text-xl" />
       </div>
     </div>
   );
@@ -68,7 +60,7 @@ export default function Hero() {
             <div className="animation-layer parallax" id="background7"></div>
           </ParallaxLayer>
           <ParallaxLayer offset={1} speed={0.25}>
-            <Project1 />
+            <Projects />
           </ParallaxLayer>
         </Parallax>
       </div>

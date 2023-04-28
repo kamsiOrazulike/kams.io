@@ -1,7 +1,7 @@
 "use client";
 export const name = "Kamsi Orazulike";
 export const ann = '"kam-see"';
-export const role = "Designer | Developer";
+export const role = "UI Designer | Web Developer";
 
 export const skillList = () => {
   const contact = [
@@ -51,7 +51,7 @@ export const avatar = () => {
 
 export const bio = () => {
   return (
-    <div className="m-4 font-mono">
+    <div className="m-4">
       <p className="text-black dark:text-white text-center text-xs">
         Hi, I'm Kamsi. A first class graduate from Queen Mary University of
         London with 2 years experience as a software developer
