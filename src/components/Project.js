@@ -21,7 +21,7 @@ export const Projects = () => {
                   alt="projectimg"
                 />
               </a>
-              <figcaption class="mt-2 text-sm text-center text-gray-200">
+              <figcaption class="mt-2 text-sm text-center">
                 My Final Year: Joi de Vivre <br /> inHandy
               </figcaption>
             </figure>
@@ -34,7 +34,7 @@ export const Projects = () => {
                   alt="projectimg"
                 />
               </a>
-              <figcaption class="mt-2 text-sm text-center text-gray-200">
+              <figcaption class="mt-2 text-sm text-center">
                 Genesis Restaurant <br /> Food Delivery app
               </figcaption>
             </figure>
