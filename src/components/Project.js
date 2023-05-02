@@ -1,5 +1,3 @@
-import { AiFillDownCircle } from "react-icons/ai";
-import { bio } from "./lib/info";
 
 export const Projects = () => {
   return (
@@ -14,7 +12,7 @@ export const Projects = () => {
           </p>
           <div className="flex flex-col md:flex-row justify-center">
             <figure className="relative w-[80%] md:w-[50%] mx-auto my-2 md:mx-4 transition-all duration-300 cursor-pointer filter grayscale-[0.7] hover:grayscale-0">
-              <a href="#">
+              <a href="/inHandy">
                 <img
                   class="rounded-lg"
                   src="./static/imgs/mockup/inHandyMockup.jpg"
@@ -27,7 +25,7 @@ export const Projects = () => {
             </figure>
 
             <figure className="relative w-[80%] md:w-[50%] mx-auto my-2 md:mx-4 transition-all duration-300 cursor-pointer filter grayscale-[0.7] hover:grayscale-0">
-              <a href="#">
+              <a href="/genesis">
                 <img
                   class="rounded-lg"
                   src="./static/imgs/mockup/GenesisMockup.jpg"

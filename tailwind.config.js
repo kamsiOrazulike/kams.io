@@ -19,6 +19,7 @@ module.exports = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "table-dark": "url('/static/imgs/background/bgtableLight.jpg')",
+        "inhandy-img": "url('https://acutrans.com/wp-content/uploads/2020/08/ASL.png')",
       },
     },
   },
