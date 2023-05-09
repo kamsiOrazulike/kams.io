@@ -4,8 +4,9 @@ import { AiFillVideoCamera, AiOutlineCheck } from "react-icons/ai";
 import { MdOutlineVideogameAsset } from "react-icons/md";
 import { FaFigma, FaPinterestP } from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
+import { BiPencil } from "react-icons/bi";
 
-const Ideation = () => {
+const Intro = () => {
   return (
     <>
       <div className="relative isolate overflow-hidden bg-gray-300 dark:bg-gray-900 px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
@@ -60,18 +61,16 @@ const Ideation = () => {
                   benefits.
                   <ul className="my-12 text-sm shadow-xl p-2 dark:text-gray-300">
                     <li className="m-4 flex flex-row align-middle justify-start items-center">
-                      <AiOutlineCheck className="mx-4 text-green-600" />
+                      <AiOutlineCheck className="mx-4 text-green-600 dark:text-green-400" />
                       Improving spatial awareness
                     </li>
                     <li className="m-4 flex flex-row align-middle justify-start items-center">
-                      <AiOutlineCheck className="mx-4 text-green-600" />
-                      Enhance cognitive function due to more focus on gestures,
-                      facial expressions and body language
+                      <AiOutlineCheck className="mx-4 text-green-600 dark:text-green-400" />
+                      Enhance cognitive function
                     </li>
                     <li className="m-4 flex flex-row align-middle justify-start items-center">
-                      <AiOutlineCheck className="mx-4 text-green-600" />
-                      Bridge the communication gap between hearing and
-                      non-hearing individuals
+                      <AiOutlineCheck className="mx-4 text-green-600 dark:text-green-400" />{" "}
+                      Bridge the communication gaps
                     </li>
                   </ul>
                   Whether you're interested in learning Sign Language as a
@@ -148,6 +147,10 @@ const Ideation = () => {
                         <DiIllustrator className="mr-4" />
                         Adobe Illustrator
                       </li>
+                      <li className="m-4 flex flex-row align-middle justify-start items-center">
+                        <BiPencil className="mr-4" />
+                        Procreate for iPad
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -169,12 +172,11 @@ export default function InHandy() {
       <div className="bg-inhandy-img bg-cover bg-no-repeat dark:text-white text-black">
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-row justify-center align-middle">
           <h1 className="md:text-5xl text-3xl my-[80px] mx-auto transition-all duration-300">
-            {" "}
-            inHandy{" "}
+            inHandy
           </h1>
         </div>
 
-        <Ideation />
+        <Intro />
       </div>
     </>
   );
