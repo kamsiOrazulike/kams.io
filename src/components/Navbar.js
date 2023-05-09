@@ -13,10 +13,10 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="flex fixed top-0 z-50 dark:text-white text-black w-screen justify-between align-middle items-center h-24 max-w-[1840px] mx-auto px-4">
+      <div className="bg-transparent dark:text-white text-gray-900 flex fixed top-0 z-50 w-screen justify-between align-middle items-center h-24 max-w-[1840px] mx-auto px-4">
         <a
           href="/"
-          className="text-5xl font-bold dark:text-gray-200 text-gray-700 cursor-pointer"
+          className="text-5xl font-bold cursor-pointer"
         >
           K
         </a>
@@ -56,6 +56,9 @@ export default function Navbar() {
             <DarkModeToggle />
           </div>
           <ul className="flex flex-col mx-auto text-center pt-14 uppercase p-4 align-middle">
+            <li className="p-4">
+              <a href="/">Home</a>
+            </li>
             <li className="p-4">
               <a href="/projects">Projects</a>
             </li>
