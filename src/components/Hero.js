@@ -1,13 +1,13 @@
 "use client";
 import React from "react";
-import { Projects } from "./Project";
+import { Projects } from "./Featured";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { name, role, avatar, bio, ann } from "./lib/info";
 
 const Intro = () => {
   return (
-    <div className="h-screen">
+    <>
       <div className="w-[70%] md:w-[50%] lg:w-[30%] mx-auto mt-4 pt-16">
         <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold tracking-wide md:py-2 ease-in-out duration-500">
           {name}
@@ -18,15 +18,15 @@ const Intro = () => {
         </p>
         {avatar()}
         {bio()}
-        <AiOutlineArrowDown className="mx-auto text-xl" />
+        <AiOutlineArrowDown className="mx-auto text-xl animate-bounce" />
       </div>
-    </div>
+    </>
   );
 };
 
 export default function Hero() {
   return (
-    <div className="dark:text-white text-black">
+    <div className="dark:text-gray-200 text-gray-900">
       <div className="max-w-[900px] w-full h-screen mx-auto text-center flex flex-row justify-center align-middle">
         <Parallax
           pages={2}
