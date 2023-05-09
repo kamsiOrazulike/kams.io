@@ -2,7 +2,7 @@ import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { Noto_Serif } from "next/font/google";
 
-const notoserif = Noto_Serif({
+export const notoserif = Noto_Serif({
   weight: ["400", "700"],
   subsets: ["latin"],
   variable: "--font-noto-serif",
