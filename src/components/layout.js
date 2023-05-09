@@ -10,10 +10,12 @@ const notoserif = Noto_Serif({
 
 export default function Layout({ children }) {
   return (
-    <div className={`${notoserif.className}`}>
-      <Navbar />
-      {children}
-      <Footer />
-    </div>
+    <>
+      <div className={`${notoserif.className}`}>
+        <Navbar />
+        {children}
+        <Footer />
+      </div>
+    </>
   );
 }
