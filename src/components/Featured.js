@@ -3,7 +3,7 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 export const Projects = () => {
   return (
     <>
-      <div className="bg-gray-300 dark:bg-gray-900 w-[100%] h-full">
+      <div className="bg-gray-300 dark:bg-gray-900 w-[100%] h-[100%]">
         <div className="mx-auto pt-16">
           <h1 className="md:text-4xl sm:text-3xl text-3xl font-bold tracking-wide md:py-2 ease-in-out duration-500">
             Featured Projects
