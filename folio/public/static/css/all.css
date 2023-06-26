@@ -1,0 +1,37 @@
+.animation,
+.animation-layer {
+  height: 1000px;
+}
+
+.animation {
+  display: block;
+  position: relative;
+  z-index: 10;
+}
+
+.animation-layer {
+  background-position: bottom center;
+  background-size: auto 1040px;
+  background-repeat: repeat-x;
+  width: 100%;
+  position: absolute;
+}
+.animation-layer.parallax {
+  position: fixed;
+}
+
+#background1 {
+  background-image: url("/static/svg/bg-img-1.svg");
+}
+#background2 {
+  background-image: url("/static/svg/bg-img-2.svg");
+}
+#background3 {
+  background-image: url("/static/svg/bg-img-3.svg");
+}
+#background4 {
+  background-image: url("/static/svg/bg-img-4.svg");
+}
+#background5 {
+  background-image: url("/static/svg/bg-img-5.svg");
+}
