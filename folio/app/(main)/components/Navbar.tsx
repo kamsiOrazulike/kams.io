@@ -50,7 +50,7 @@ export default function Navbar() {
                 </a>
               </li>
               <li className="px-4 my-2 ml-8 cursor-pointer hover:scale-105 transition-all duration-200">
-                <a href="mailto:kamsi_orazulike@icloud.com?subject=Getting in touch:&body=Hey Kamsi," className="">
+                <a href="mailto:kamsi_orazulike@icloud.com" className="">
                   Get in touch
                 </a>
               </li>
