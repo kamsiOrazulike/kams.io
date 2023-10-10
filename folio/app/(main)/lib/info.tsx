@@ -1,5 +1,5 @@
 "use client";
-export const name = "Kamsi Orazulike";
+export const name = "Hi, I'm Kamsi";
 export const ann = '"kam-see"';
 export const role = "Product Designer";
 
@@ -44,18 +44,43 @@ export const avatar = () => {
     <img
       src="./static/imgs/Me.png"
       alt={name}
-      className="w-[200px] h-auto mx-auto my-4 dark:bg-slate-800 bg-gray-700 border border-gray-800 hover:scale-105 transition-all duration-500 rounded-full"
+      className="w-[300px] h-auto mx-auto my-4 dark:bg-slate-800 bg-gray-700 border border-gray-800 hover:scale-105 transition-all duration-500 rounded-full"
     />
   );
 };
 
 export const bio = () => {
   return (
-    <div className="m-4">
-      <p className="text-center text-xs">
-        Hi, I'm Kamsi. A first class graduate from Queen Mary University of
-        London with 2 years experience as a software developer
-      </p>
+    <div className="w-full my-10 mx-12">
+      <div className="w-[90%]">
+        <div className="w-full text-left text-gray-200/50 hover:text-white duration-150">
+          <div className="mb-1 text-xs font-sm">Figma</div>
+          <div className="w-full bg-gray-600 rounded-full h-2 mb-4">
+            <div className="h-2 w-[70%] rounded-full bg-green-500"></div>
+          </div>
+        </div>
+
+        <div className="w-full text-left text-gray-200/50 hover:text-white duration-150">
+          <div className="mb-1 text-xs">Adobe Illustrator | Procreate</div>
+          <div className="w-full bg-gray-600 rounded-full h-2 mb-4">
+            <div className="h-2 w-[85%] rounded-full bg-green-500"></div>
+          </div>
+        </div>
+
+        <div className="w-full text-left text-gray-200/50 hover:text-white duration-150">
+          <div className="mb-1 text-xs font-sm">JavaScript | TypeScript</div>
+          <div className="w-full bg-gray-600 rounded-full h-2 mb-4">
+            <div className="h-2 w-[85%] rounded-full bg-green-500"></div>
+          </div>
+        </div>
+
+        <div className="w-full text-left text-gray-200/50 hover:text-white duration-150">
+          <div className="mb-1 text-xs font-sm">React | React Native</div>
+          <div className="w-full bg-gray-600 rounded-full h-2 mb-4">
+            <div className="h-2 w-[85%] rounded-full bg-green-500"></div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };

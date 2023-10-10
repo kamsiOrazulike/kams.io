@@ -35,3 +35,61 @@
 #background5 {
   background-image: url("/static/svg/bg-img-5.svg");
 }
+
+.statgroup {
+  width: 70%;
+  margin: 3rem 0;
+  padding: 0 3rem;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  @media screen and (max-width: 800px) {
+    width: 80%;
+  }
+
+  h2 {
+    @media screen and (max-width: 800px) {
+      font-size: 3rem;
+    }
+  }
+
+  /* .points {
+    width: 100%;
+    margin: 0.2rem 0;
+
+    label {
+      font-size: 1.5rem;
+      font-weight: 400;
+      opacity: 0.5;
+      transition-duration: 0.6s;
+
+      &:hover {
+        opacity: 1;
+        font-size: 1.6rem;
+      }
+    }
+    progress {
+      width: 100%;
+      border-radius: 100px;
+      background-color: #111213;
+    }
+    progress::-webkit-progress-bar {
+      height: 5px;
+      background-color: #24282a;
+      border-radius: 100px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    }
+    progress::-moz-progress-bar {
+      height: 5px;
+      background-color: #24282a;
+      border-radius: 100px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+    }
+    progress::-webkit-progress-value {
+      background-color: #00ff80;
+    }
+  } */
+}

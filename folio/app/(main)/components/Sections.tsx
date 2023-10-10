@@ -8,16 +8,15 @@ import { MdOutlineArrowLeft } from "react-icons/md";
 export const Intro = () => {
   return (
     <>
-      <div className="w-[70%] md:w-[50%] lg:w-[30%] mx-auto mt-4 pt-28">
-        <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold tracking-wide md:py-2 ease-in-out duration-500">
+      <div className="w-[90%] md:w-[90%] lg:w-[90%] mx-auto mt-4 pt-28 flex flex-col justify-center">
+        <h1 className="w-full md:text-6xl sm:text-5xl text-4xl font-bold tracking-wide md:py-2 ease-in-out duration-500">
           {name}
         </h1>
-        <span className="text-slate-300 italic">{ann}</span>
+        <span className="text-blue-200 italic text-2xl">{ann}</span>
         <p className="text-slate-400 md:text-md sm:text-md text-sm tracking-wide font-light my-1">
           {role}
         </p>
         {avatar()}
-        {bio()}
         <AiOutlineArrowDown className="mx-auto text-xl animate-bounce" />
       </div>
     </>
@@ -28,9 +27,10 @@ export const ActionCall = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="bg-black w-full h-full flex flex-col justify-center items-center tracking-wide py-16 uppercase">
+    <div className="bg-black w-full h-full flex flex-col justify-center items-center tracking-wide py-16">
+      {/* <div className="w-[50%]">{bio()}</div> */}
       <div
-        className="mx-auto flex flex-row justify-evenly items-center"
+        className="mx-auto flex flex-row justify-evenly items-center uppercase"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
@@ -40,13 +40,6 @@ export const ActionCall = () => {
         >
           View my Projects
         </a>
-        {/* <div className="transition-transform duration-500 ease-in-out">
-          <AiOutlineArrowRight
-            className={`text-white text-xl mx-4 ${
-              isHovered ? "translate-x-2" : ""
-            }`}
-          />
-        </div> */}
       </div>
     </div>
   );
