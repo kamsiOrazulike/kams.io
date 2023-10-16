@@ -2,7 +2,7 @@ import "../globals.css";
 import "../../public/static/css/all.css";
 import { Inter, Roboto, Alfa_Slab_One, Noto_Serif } from "next/font/google";
 import Navbar from "./components/Navbar";
-// import Footer from "./components/Footer";
+import Footer from "./components/Footer";
 
 export const notoserif = Noto_Serif({
   weight: ["400", "700"],
@@ -29,7 +29,7 @@ export default function RootLayout({
       <body className={notoserif.className}>
         <Navbar />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

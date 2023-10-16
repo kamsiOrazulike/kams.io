@@ -1,11 +1,19 @@
 "use client";
 import Head from "next/head";
 import { AiOutlineCheck } from "react-icons/ai";
-import { FaFigma, FaCss3, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
+import {
+  FaFigma,
+  FaCss3,
+  FaHtml5,
+  FaJsSquare,
+  FaReact,
+  FaFileExcel,
+  FaGitAlt,
+} from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
 import ArrowToTop from "../../components/ArrowToTop";
 
-const Intro = () => {
+const Overview = () => {
   return (
     <>
       <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
@@ -49,20 +57,20 @@ const Intro = () => {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <p className="text-base font-semibold leading-7 text-red-600 dark:text-red-400">
-                  Food Delivery App
+                  Human Resources Management System for Genesis Group
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                   Introduction
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
-                  Genesis Restaurants wish to offer customers a Food Delivery
-                  application as a method to increment sales and generate
-                  revenue.
+                  Genesis Group is a Nigerian conglomorate in the Hospitality
+                  and Entertainment business.
                 </p>
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
-                  The company has a website for orders, but wants to expand to
-                  e-commerce for more order options and building customer
-                  loyalty to the brand.
+                  During my time working within the Innovation team at Genesis
+                  Group, we developed GenHRM: a Human Resources Management
+                  system to replace the outdated system that was currently in
+                  use.
                 </p>
               </div>
             </div>
@@ -70,7 +78,12 @@ const Intro = () => {
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <img
               className="w-[32rem] max-w-none rounded-xl sm:w-[48rem]"
-              src="/static/imgs/GenesisMockup.png"
+              src="/static/imgs/genHRM/login.png"
+              alt=""
+            />
+            <img
+              className="w-[32rem] max-w-none rounded-xl sm:w-[48rem] mt-8"
+              src="/static/imgs/genHRM/dashboard.png"
               alt=""
             />
           </div>
@@ -78,39 +91,30 @@ const Intro = () => {
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 lg:max-w-lg">
                 <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Goal
+                  Goals
                 </h1>
                 <p className="text-gray-700 dark:text-gray-400">
-                  The user experience should be designed to keep customers
-                  entertained and engaged with the brand. This should also
-                  influence the features in the product's user interface.
+                  <span className="text-white">Cleaning of rogue data:</span>{" "}
+                  Due to mishandling over time, the data had become inconsistent
+                  and inaccurate. There were instances where former employees,
+                  who were no longer with the company, remained in the system.
+                  It was essential to clean up the data before proceeding with
+                  the development of the new system.
                 </p>
                 <p className="text-gray-700 dark:text-gray-400 my-4">
-                  Some of the ways in which this can be done is through the
-                  implementation of:
+                  <span className="text-white">User Experience:</span> The
+                  system had to be easy to navigate through for all users.
+                  Meaning we had to make the most important features easy to
+                  find.
                 </p>
-                <ul className="my-12 text-sm shadow-xl p-2 dark:text-gray-300">
-                  <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-red-600 dark:text-red-400" />
-                    Loyalty programs and rewards
-                  </li>
-                  <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-red-600 dark:text-red-400" />
-                    Personalisation
-                  </li>
-                  <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-red-600 dark:text-red-400" />{" "}
-                    A streamlined ordering process
-                  </li>
-                  <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-red-600 dark:text-red-400" />
-                    Real time order tracking
-                  </li>
-                </ul>
-                <p>
-                  By focusing on these areas, the product can enhance customer
-                  satisfaction and retention, leading to increased revenue and
-                  growth.
+                <p className="text-gray-700 dark:text-gray-400 my-4">
+                  <span className="text-white">
+                    Scalability + Reusable components:
+                  </span>{" "}
+                  Moving forward it is likely that we would establish an
+                  ecosystem of in-house applications used by all staff within
+                  the company. It was important that we programmed with this in
+                  mind.
                 </p>
 
                 <div className="flex flex-wrap flex-row justify-between">
@@ -122,10 +126,8 @@ const Intro = () => {
                       role="list"
                       className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
                     >
-                      <li>UX Writer</li>
+                      <li>Frontend Developer</li>
                       <li>UI Designer</li>
-                      <li>Graphic Designer</li>
-                      <li>User Researcher</li>
                     </ul>
                   </div>
                   <div>
@@ -142,19 +144,28 @@ const Intro = () => {
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaReact className="mr-4" />
-                        React/Native
+                        TypeScript (React, Nextjs + Node)
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <FaJsSquare className="mr-4" />
-                        JavaScript
+                        <FaGitAlt className="mr-4" />
+                        GitHub
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <DiIllustrator className="mr-4" />
-                        Adobe Illustrator
+                        <FaFileExcel className="mr-4" />
+                        Microsoft Excel
                       </li>
                     </ul>
                   </div>
                 </div>
+
+                <a
+                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-red-500 hover:bg-red-500 transition-all duration mx-auto rounded-full"
+                  href="https://genhrm.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Check out
+                </a>
               </div>
             </div>
           </div>
@@ -170,14 +181,17 @@ export default function Genesis() {
       <Head>
         <title>Genesis</title>
       </Head>
-      <div className="bg-gradient-to-r from-red-500 to-orange-500 bg-repeat bg-4 dark:text-white text-black">
+      <div className="bg-genhrm bg-cover dark:text-white text-black">
         <ArrowToTop />
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-row justify-center align-middle">
-          <h1 id="top" className="md:text-5xl text-3xl mt-[90px] mx-auto transition-all duration-300">
-            Genesis Restaurants
+          <h1
+            id="top"
+            className="md:text-5xl text-3xl mt-[90px] mx-auto transition-all duration-300"
+          >
+            GENHRM
           </h1>
         </div>
-        <Intro />
+        <Overview />
       </div>
     </>
   );
