@@ -17,6 +17,15 @@ module.exports = {
         "404bg":
           "url(https://i.pinimg.com/originals/a5/d5/60/a5d56021b749bd3da560a014e3e433af.jpg)",
       },
+
+      backgroundSize: {
+        auto: "auto",
+        cover: "cover",
+        contain: "contain",
+        "50%": "50%",
+        16: "4rem",
+        4: "1rem",
+      },
     },
   },
   plugins: [],

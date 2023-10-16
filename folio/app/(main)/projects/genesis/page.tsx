@@ -3,11 +3,12 @@ import Head from "next/head";
 import { AiOutlineCheck } from "react-icons/ai";
 import { FaFigma, FaCss3, FaHtml5, FaJsSquare, FaReact } from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
+import ArrowToTop from "../../components/ArrowToTop";
 
 const Intro = () => {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-20 my-12 sm:py-18 lg:overflow-visible lg:px-0">
+      <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <svg
             className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
@@ -169,9 +170,10 @@ export default function Genesis() {
       <Head>
         <title>Genesis</title>
       </Head>
-      <div className="bg-fixed bg-red-400 dark:bg-red-500 dark:text-white text-black">
+      <div className="bg-gradient-to-r from-red-500 to-orange-500 bg-repeat bg-4 dark:text-white text-black">
+        <ArrowToTop />
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-row justify-center align-middle">
-          <h1 className="md:text-5xl text-3xl mt-[90px] mx-auto transition-all duration-300">
+          <h1 id="top" className="md:text-5xl text-3xl mt-[90px] mx-auto transition-all duration-300">
             Genesis Restaurants
           </h1>
         </div>

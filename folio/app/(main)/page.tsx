@@ -2,6 +2,7 @@
 import React from "react";
 import { Intro, ActionCall } from "./components/Sections";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
+import ArrowToTop from "./components/ArrowToTop";
 
 export default function Hero() {
   return (

@@ -8,14 +8,15 @@ import {
   AiOutlineMobile,
 } from "react-icons/ai";
 import { MdOutlineVideogameAsset } from "react-icons/md";
-import { FaBrain, FaFigma, FaPinterestP } from "react-icons/fa";
+import { FaBrain, FaFigma, FaFilm, FaPinterestP } from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
 import { BiPencil } from "react-icons/bi";
+import ArrowToTop from "../../components/ArrowToTop";
 
 const Overview = () => {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-20 my-12 sm:py-18 lg:overflow-visible lg:px-0">
+      <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <svg
             className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
@@ -167,10 +168,10 @@ const Overview = () => {
   );
 };
 
-const Ideation = () => {
+const Introduction = () => {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-20 my-12 sm:py-24 lg:overflow-visible lg:px-0">
+      <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-0">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <svg
             className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
@@ -265,6 +266,12 @@ const Ideation = () => {
                     alt="nhslogo"
                   />
                 </a>
+                <a
+                  className="flex text-sm flex-row justify-center items-center border border-blue-500 mx-auto mt-6 py-2 rounded-full"
+                  href="mailto:kamsi_orazulike@icloud.com?subject=inHandy full report"
+                >
+                  Enquire for full report
+                </a>
               </div>
             </div>
           </div>
@@ -272,6 +279,11 @@ const Ideation = () => {
           <div className="lg:col-span-2 lg:col-start-2 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
+                <img
+                  className="w-[22rem] max-w-none rounded-xl sm:w-[28rem] object-fit p-2 my-2"
+                  src={"/static/imgs/inHandy/inHandyPhoneMock.png"}
+                  alt=""
+                />
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                   Why inHandy?
                 </h1>
@@ -331,7 +343,7 @@ const Ideation = () => {
 const Design = () => {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-20 my-12 sm:py-24 lg:overflow-visible lg:px-0">
+      <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-0">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <svg
             className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
@@ -382,6 +394,11 @@ const Design = () => {
                     src={"/static/imgs/inHandy/handDesign.png"}
                     alt=""
                   />
+                  <img
+                    className="w-[22rem] max-w-none rounded-xl sm:w-[28rem] object-fit p-2 my-2"
+                    src={"/static/imgs/inHandy/characterInspiration.jpg"}
+                    alt=""
+                  />
                 </div>
               </div>
             </div>
@@ -420,21 +437,213 @@ const Design = () => {
                   </li>
                 </ul>
                 <p className="text-small italic leading-8 text-gray-400 mb-2">
-                  Organisation and presentation of this information is important
-                  Studies have shown that students in a classroom regardless of
-                  age benefit from a more engaging and 'fun' learning
-                  experience. Fun in learning allows an individual to develop a
-                  love for learning, having a knock on effect on their
-                  motivation levels.
+                  <span className="text-white">Organisation</span> and{" "}
+                  <span className="text-white">presentation</span> of this
+                  information is important Studies have shown that students in a
+                  classroom regardless of age benefit from a more engaging and
+                  'fun' learning experience. Fun in learning allows an
+                  individual to develop a love for learning, having a knock on
+                  effect on their motivation levels.
                 </p>
                 <p className="text-small italic leading-8 text-gray-400 mb-2">
                   Growth Engineering mentions an example where the company
                   Volkswagen, as part of their Fun theory', turned a staircase
                   into a giant functioning piano keyboard. A recorded 66% more
                   people chose the piano stairs over the normal one. This study
-                  is a prime example of how fun, engaging and interactive
+                  is a prime example of how{" "}
+                  <span className="text-white">fun</span>,{" "}
+                  <span className="text-white">engaging</span> and{" "}
+                  <span className="text-white">interactive </span>
                   technologies can transform the way people behave in situations
                   that would normally be seen as tiring.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+const Analysis = () => {
+  return (
+    <>
+      <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-0">
+        <div className="absolute inset-0 -z-10 overflow-hidden">
+          <svg
+            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+            aria-hidden="true"
+          >
+            <defs>
+              <pattern
+                id="e813992c-7d03-4cc4-a2bd-151760b470a0"
+                width="200"
+                height="200"
+                x="50%"
+                y="-1"
+                patternUnits="userSpaceOnUse"
+              >
+                <path d="M100 200V.5M.5 .5H200" fill="none" />
+              </pattern>
+            </defs>
+            <svg
+              x="50%"
+              y="-1"
+              className="overflow-visible fill-gray-300 dark:fill-gray-900"
+            >
+              <path
+                d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
+                stroke-width="0"
+              />
+            </svg>
+            <rect
+              width="100%"
+              height="100%"
+              stroke-width="0"
+              fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
+            />
+          </svg>
+        </div>
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:items-start lg:gap-y-10">
+          <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+            <div className="lg:pr-4">
+              <div className="lg:max-w-lg">
+                <p className="text-base font-semibold leading-7 text-indigo-600">
+                  Method I
+                </p>
+                <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+                  Contextual Learning
+                </h1>
+                <p className="mt-6 text-small italic leading-8 text-gray-400">
+                  Imagine Learning Sign Language through the use of imagery and
+                  videos. Demonstrating the language being used in real world
+                  scenarios.
+                </p>
+                <p className="mt-6 text-small italic leading-8 text-gray-400">
+                  It is a common misconception that memory techniques only work
+                  when it comes to learning vocabulary. Studies have shown that
+                  once a memory technique formula is created and understood, one
+                  can apply the same formulae and use them to learn more.
+                </p>
+                <img
+                  src="https://files.tofugu.com/articles/japanese/2014-09-03-learn-katakana/%E3%82%AA-opera.jpg"
+                  className="w-[22rem] max-w-none rounded-xl sm:w-[28rem] object-fit p-2 my-2"
+                  alt="tofuguimage"
+                />
+                <p className="figuretext">
+                  オ is the katakana for お (o). Looks like an Opera singer.
+                </p>
+                <a
+                  className="text-sm py-2 flex flex-row justify-center items-center border border-orange-500 hover:bg-orange-500 transition-all duration mx-auto my-2 rounded-full"
+                  href="https://www.tofugu.com/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Source - Tofugu
+                </a>
+
+                <p className="mt-6 text-small leading-8 text-gray-400">
+                  When learning and memorising the Japanese writing styles
+                  Hiragana and Katakana. A popular method used to teach these
+                  writing styles is known as{" "}
+                  <span className="text-white">Visual Mnemonics</span>.
+                </p>
+                <p className="mt-6 text-small leading-8 text-gray-400">
+                  This memory technique involves choosing a word or term that
+                  you want to memorise and associating that word with an object
+                  or character that you imagine sounds like the word you want to
+                  memorise. Visual Mnemonics associate words with visual clues
+                  and make them easier to memorise or learn.
+                </p>
+                <p className="mt-6 text-small leading-8 text-gray-400">
+                  The use of Visual Mnemonics in teaching highlights the
+                  importance of developing a visually stimulating learning
+                  experience for the user in order for them to retain what they
+                  have learnt as well as hold their interest.
+                </p>
+                <p className="mt-6 text-small leading-8 text-gray-400">
+                  When it comes to learning Sign Language it is important to
+                  consider the way in which the elements are designed. Designing
+                  to simplify the process of making reasonable connections in
+                  the language is key to developing a valuable learning
+                  experience.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="lg:col-span-2 lg:col-start-2 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:gap-x-8 lg:px-8">
+            <div className="lg:pr-4">
+              <div className="lg:max-w-lg">
+                <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+                  Language + Movies <FaFilm className="text-gray-400" />
+                </h1>
+                <img
+                  className="w-[22rem] max-w-none rounded-xl sm:w-[28rem] object-fit p-2 my-2"
+                  src={"/static/imgs/inHandy/screenshotnetflix.jpg"}
+                  alt="moviescreenshot"
+                />
+                <p className="mt-6 text-small italic leading-8 text-gray-400">
+                  Another example of how the use of a visual stimulus improves
+                  the User learning experience is in foreign movies.
+                </p>
+                <p className="mt-6 text-small leading-8 text-gray-400">
+                  Watching a foreign movie with subtitles is known as a good way
+                  to pick up certain words or phrases in that foreign language.
+                  Examples include the screenshot above taken from the TV series
+                  'Lupin' which was originally filmed in French. Watching the
+                  series on Netflix gives the option to watch in French with
+                  English subtitles which is great for both English individuals
+                  trying to learn French and French individuals trying to learn
+                  English.
+                </p>
+                <p className="mt-6 text-small leading-8 text-gray-400">
+                  Studies demonstrate that one of the main benefits of films in
+                  a foreign language is the fact that it provides the most
+                  authentic example of the language being used in a real-world
+                  scenario. It exposes the natural expressions and
+                  conversational cues hence placing the user in an environment
+                  where information can be received and retained in a more
+                  engaging manner.
+                </p>
+
+                <p className="mt-8 text-base font-semibold leading-7 text-indigo-600">
+                  Inspiration: Language learning application
+                </p>
+                <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
+                  Duolingo
+                </h1>
+                <img
+                  src="https://1000logos.net/wp-content/uploads/2020/10/Duolingo-logo.png"
+                  className="w-[100px] mt-2"
+                  alt="duolingologo"
+                />
+
+                <p className="mt-6 text-small leading-8 text-gray-400">
+                  The popular language learning application,
+                  <span className="text-white"> Duolingo</span> is the perfect
+                  example of how teaching using game-design and game principles
+                  is an effective way for a user to learn an entirely new
+                  language.
+                </p>
+                <img
+                  src={
+                    "https://media.cntraveler.com/photos/5859aff8b9f6ae2472e32578/master/w_1169,h_586,c_limit/duolingo-cr-courtesy.jpg"
+                  }
+                  className="w-30 mt-2 rounded-lg"
+                />
+                <p className="mt-6 text-small leading-8 text-gray-400">
+                  The screenshot on above displays the formatting of a test like
+                  question providing graphics that are also visually
+                  stimulating. This keeps any user active and engaged throughout
+                  the learning experience.
+                </p>
+                <p className="mt-6 text-small leading-8 text-gray-400">
+                  <b className="text-white">Feedback</b> on the User progress
+                  can also be noticed at the top. This is incredibly helpful in
+                  informing the user of exactly how much work they are doing and
+                  can act as either a source of motivation or discouragement.
                 </p>
               </div>
             </div>
@@ -451,15 +660,20 @@ export default function InHandy() {
       <Head>
         <title>InHandy</title>
       </Head>
-      <div className="bg-inhandy-img bg-cover bg-no-repeat dark:text-white text-black">
+      <div className="bg-gradient-to-r from-cyan-500 to-blue-500 bg-repeat bg-4 dark:text-white text-black">
+        <ArrowToTop />
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-row justify-center align-middle">
-          <h1 className="md:text-5xl text-3xl mt-[90px] mx-auto transition-all duration-300">
+          <h1
+            id="top"
+            className="md:text-5xl text-3xl mt-[90px] mx-auto transition-all duration-300"
+          >
             inHandy
           </h1>
         </div>
         <Overview />
-        <Ideation />
+        <Introduction />
         <Design />
+        <Analysis />
       </div>
     </>
   );

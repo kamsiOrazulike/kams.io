@@ -36,6 +36,19 @@
   background-image: url("/static/svg/bg-img-5.svg");
 }
 
+.to-top {
+  position: fixed;
+  z-index: 9999999;
+  bottom: 2%;
+  right: 2%;
+  transition-duration: 0.4s;
+
+  @media screen and (max-width: 768px) {
+    bottom: 2%;
+    right: 2%;
+  }
+}
+
 .statgroup {
   width: 70%;
   margin: 3rem 0;

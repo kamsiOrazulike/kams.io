@@ -26,7 +26,6 @@ export default function RootLayout({
     <html lang="en">
       <body className={notoserif.className}>
         {children}
-        {/* <Footer /> */}
       </body>
     </html>
   );
