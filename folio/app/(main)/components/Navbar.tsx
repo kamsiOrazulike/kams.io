@@ -1,8 +1,5 @@
 "use client";
-import { DropdownMenu } from "./Dropdowns";
 import React, { useState } from "react";
-import { MdFlight, MdOutlineSportsCricket } from "react-icons/md";
-import { FaTheaterMasks, FaMusic, FaLaughBeam } from "react-icons/fa";
 import { AiOutlineHome } from "react-icons/ai";
 
 export default function Navbar() {

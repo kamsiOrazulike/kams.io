@@ -27,10 +27,67 @@ export const ActionCall = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="bg-black w-full h-full flex flex-col justify-center items-center tracking-wide py-16">
-      {/* <div className="w-[50%]">{bio()}</div> */}
+    <div className="bg-black w-full h-full flex flex-col lg:flex-row justify-center items-center tracking-wide py-16">
+      <div className="w-full lg:w-1/2 flex flex-col items-center justify-center px-14 py-12">
+        {/* Work Experience */}
+        <div className="mb-4">
+          <h2 className="text-gray-500 italic text-sm my-4">Work experience</h2>
+          <div className="flex flex-row">
+            <div className="mx-2">
+              <img
+                src={"./static/imgs/logos/GenesisLogo.png"}
+                className="w-28 md:w-44 grayscale-[0.8] hover:grayscale-0 transition-all duration-150 ease-in"
+                alt="Work experience 1"
+              />
+            </div>
+            <div className="mx-2">
+              <img
+                src={
+                  "https://www.maritimelondon.com/wp-content/uploads/2017/04/Berenberg-Logo_UK_UZ-8pt-Standard_300dpi_rgb.png"
+                }
+                className="w-28 md:w-44 rounded-lg"
+                alt="Work experience 2"
+              />
+            </div>
+          </div>
+        </div>
+        {/* Education */}
+        <div>
+          <h2 className="text-gray-500 italic text-sm my-4">Education</h2>
+          <div className="flex flex-row">
+            <div className="mx-2">
+              <img
+                src={"./static/imgs/logos/CranleighSchoolCrest.png"}
+                className="w-14 md:w-28"
+                alt="Education 1"
+              />
+            </div>
+            <div className="mx-4 flex flex-col">
+              <img
+                src={"./static/imgs/logos/QueenMaryLogo.png"}
+                className="w-32 md:w-44"
+                alt="Education 2"
+              />
+              <img
+                src={"./static/imgs/logos/ImperialCollegeLogo.png"}
+                className="w-32 md:w-44 mt-4"
+                alt="Education 2"
+              />
+            </div>
+            <div className="mx-2">
+              <img
+                src={"./static/imgs/logos/RCALogo.png"}
+                className="w-16 md:w-32 bg-white p-2 rounded-md"
+                alt="Education 3"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
       <div
-        className="mx-auto flex flex-row justify-evenly items-center uppercase"
+        className={`w-full lg:w-auto mx-auto lg:mx-0 flex flex-col justify-evenly items-center uppercase ${
+          isHovered ? "lg:order-1" : "lg:order-2"
+        }`}
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
       >
