@@ -162,7 +162,7 @@ const Overview = () => {
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Check out
+                  Check out - All graphics designed by me!
                 </a>
               </div>
             </div>

@@ -159,6 +159,15 @@ const Overview = () => {
                     </ul>
                   </div>
                 </div>
+
+                <a
+                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-blue-500 hover:bg-blue-500 transition-all duration mx-auto rounded-full"
+                  href="https://www.figma.com/proto/iLR6o7KWBJGeLR4lMQquv5/inHandy-Mobile?page-id=0%3A1&type=design&node-id=0-56&viewport=361%2C129%2C0.25&t=pDBIU2iiDAulv4Xr-1&scaling=scale-down&starting-point-node-id=0%3A72&show-proto-sidebar=1&mode=design"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Check out - All graphics designed by me!
+                </a>
               </div>
             </div>
           </div>
@@ -253,25 +262,27 @@ const Introduction = () => {
                   hearing impared and those that are not. However not all
                   solutions are accessible, and some are not as known.
                 </p>
-                <a
-                  className="flex flex-row justify-center items-center bg-blue-500 mx-auto my-2 rounded-full"
-                  href="https://www.nhsinform.scot/illnesses-and-conditions/ears-nose-and-throat/hearing-loss#about-hearing-loss"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Source &nbsp;{" "}
-                  <img
-                    src="/static/imgs/inHandy/NHSLogo.png"
-                    className="relative h-auto w-6"
-                    alt="nhslogo"
-                  />
-                </a>
-                <a
-                  className="flex text-sm flex-row justify-center items-center border border-blue-500 mx-auto mt-6 py-2 rounded-full"
-                  href="mailto:kamsi_orazulike@icloud.com?subject=inHandy full report"
-                >
-                  Enquire for full report
-                </a>
+                <div className="w-full flex flex-row mt-6">
+                  <a
+                    className="w-1/3 flex flex-row justify-center items-center bg-blue-500 mr-2 py-2 rounded-full"
+                    href="https://www.nhsinform.scot/illnesses-and-conditions/ears-nose-and-throat/hearing-loss#about-hearing-loss"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Source &nbsp;{" "}
+                    <img
+                      src="/static/imgs/inHandy/NHSLogo.png"
+                      className="relative h-auto w-6"
+                      alt="nhslogo"
+                    />
+                  </a>
+                  <a
+                    className="w-2/3 text-sm text-center border border-blue-500 ml-2 py-2 rounded-full"
+                    href="mailto:kamsi_orazulike@icloud.com?subject=inHandy full report"
+                  >
+                    Enquire for full report
+                  </a>
+                </div>
               </div>
             </div>
           </div>

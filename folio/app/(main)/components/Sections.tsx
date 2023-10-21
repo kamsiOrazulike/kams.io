@@ -1,9 +1,16 @@
 "use client";
-import React, { useState } from "react";
+import React, { FC, useState } from "react";
 import { AiOutlineArrowDown } from "react-icons/ai";
 import { name, role, avatar, bio, ann } from "../lib/info";
 import { AiOutlineArrowRight } from "react-icons/ai";
 import { MdOutlineArrowLeft } from "react-icons/md";
+
+interface GraphicDesignSectionProps {
+  imageSrc: string;
+  header: string;
+  subheader: string;
+  message: string;
+}
 
 export const Intro = () => {
   return (
@@ -37,6 +44,13 @@ export const ActionCall = () => {
               <img
                 src={"./static/imgs/logos/GenesisLogo.png"}
                 className="w-28 md:w-44 grayscale-[0.8] hover:grayscale-0 transition-all duration-150 ease-in"
+                alt="Work experience 1"
+              />
+            </div>
+            <div className="mx-2">
+              <img
+                src={"./static/imgs/logos/RHPS.svg"}
+                className="w-20 md:w-22 grayscale-[0.8] hover:grayscale-0 transition-all duration-150 ease-in"
                 alt="Work experience 1"
               />
             </div>
@@ -101,3 +115,40 @@ export const ActionCall = () => {
     </div>
   );
 };
+
+export const GraphicDesignSection: FC<GraphicDesignSectionProps> = ({
+  imageSrc,
+  header,
+  subheader,
+  message,
+}) => {
+  return (
+    <div className="relative isolate overflow-hidden bg-gray-900 px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
+      {/* ... Background SVG Code ... */}
+      <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+        <div className="text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="lg:pr-4">
+            <div className="lg:max-w-lg">
+              <p className="text-base font-semibold leading-7 text-indigo-600">
+                {subheader}
+              </p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+                {header}
+              </h1>
+              <p className="mt-6 text-xl leading-8 text-gray-400">{message}</p>
+            </div>
+          </div>
+        </div>
+        <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
+          <img
+            className="w-[32rem] max-w-none rounded-xl sm:w-[48rem]"
+            src={imageSrc}
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default GraphicDesignSection;

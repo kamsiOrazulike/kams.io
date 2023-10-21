@@ -84,6 +84,9 @@ export default function Navbar() {
               <div className="w-full absolute bg-gray-900 text-gray-200 shadow-lg py-2 px-4">
                 <ul className="flex flex-col items-center justify-center">
                   <li className="cursor-pointer px-4 py-4 mx-2 mb-4 bg-transparent hover:scale-105 transition-all duration-200">
+                    <a href="/">Home</a>
+                  </li>
+                  <li className="cursor-pointer px-4 py-4 mx-2 mb-4 bg-transparent hover:scale-105 transition-all duration-200">
                     <a href="/about">About Me</a>
                   </li>
                   <li className="cursor-pointer px-4 py-4 mx-2 mb-4 bg-transparent hover:scale-105 transition-all duration-200">
