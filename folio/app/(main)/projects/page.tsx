@@ -16,21 +16,31 @@ export default function Projects() {
             <div className="max-w-5xl w-full grid grid-cols-1 md:grid-cols-2 gap-8">
               <ProjectCard
                 title="inHandy"
+                subtitle="UX/UI Design project"
                 message="Your brief introduction to BSL"
                 image={`./static/imgs/inHandyMockup.png`}
                 href="/projects/inhandy"
               />
               <ProjectCard
                 title="Genesis FDA"
+                subtitle="UX/UI Design project"
                 message="Genesis Restaurants food delivery application"
                 image={`./static/imgs/GenesisMockup.png`}
                 href="/projects/genesis-fda"
               />
               <ProjectCard
                 title="GenHRM"
+                subtitle="Dev project"
                 message="Genesis Group Human Resources Management Portal/System"
                 image={`./static/imgs/genHRM/login.png`}
                 href="/projects/genhrm"
+              />
+              <ProjectCard
+                title="The First Theatre"
+                subtitle="IDE Project"
+                message="Programmed using Arduino, Processing and Wekinator"
+                image={`./static/imgs/genHRM/login.png`}
+                href="#"
               />
             </div>
           </div>
