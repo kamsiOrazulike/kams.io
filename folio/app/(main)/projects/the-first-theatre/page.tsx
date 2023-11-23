@@ -1,6 +1,12 @@
 "use client";
 import Head from "next/head";
-import { FaFigma, FaReact, FaFileExcel, FaGitAlt } from "react-icons/fa";
+import {
+  FaFigma,
+  FaReact,
+  FaFileExcel,
+  FaGitAlt,
+  FaCogs,
+} from "react-icons/fa";
 import ArrowToTop from "../../components/ArrowToTop";
 
 const Overview = () => {
@@ -43,24 +49,27 @@ const Overview = () => {
           </svg>
         </div>
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-          <div className="text-gray-900 dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <p className="text-base font-semibold leading-7 text-red-600 dark:text-red-400">
-                  Human Resources Management System for Genesis Group
+                  IDE Module: Cyberphysical Systems
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                   Introduction
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
-                  Genesis Group is a Nigerian conglomorate in the Hospitality
-                  and Entertainment business.
+                  Built around the idea of playful nostalgia; The mission of my
+                  Cyperphysical System project revolves around combining the
+                  charm of traditional shadow puppetry with cutting-edge
+                  innovations.
                 </p>
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
-                  During my time working within the Innovation team at Genesis
-                  Group, we developed GenHRM: a Human Resources Management
-                  system to replace the outdated system that was currently in
-                  use.
+                  Utilising Hand-pose recognition technology, Machine Learning
+                  algorithms using Wekinator, Arduino nano hardware, and a
+                  symphony of motors, gears, and linkages, we wish to create a
+                  unique fusion that brings the art of shadow puppetry into the
+                  digital age.
                 </p>
               </div>
             </div>
@@ -68,45 +77,13 @@ const Overview = () => {
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <img
               className="w-[32rem] max-w-none rounded-xl sm:w-[48rem]"
-              src="/static/imgs/genHRM/login.png"
-              alt=""
-            />
-            <img
-              className="w-[32rem] max-w-none rounded-xl sm:w-[48rem] mt-8"
-              src="/static/imgs/genHRM/dashboard.png"
-              alt=""
+              src="/static/imgs/ide/arduinome3.jpg"
+              alt="thefirsttheatreimg"
             />
           </div>
-          <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 lg:max-w-lg">
-                <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Achievements
-                </h1>
-                <p className="text-gray-700 dark:text-gray-400">
-                  <span className="text-white">Cleaning of rogue data:</span>{" "}
-                  Due to mishandling over time, the data had become inconsistent
-                  and inaccurate. There were instances where former employees,
-                  who were no longer with the company, remained in the system.
-                  It was essential to clean up the data before proceeding with
-                  the development of the new system.
-                </p>
-                <p className="text-gray-700 dark:text-gray-400 my-4">
-                  <span className="text-white">User Experience:</span> The
-                  system had to be easy to navigate through for all users.
-                  Meaning we had to make the most important features easy to
-                  find.
-                </p>
-                <p className="text-gray-700 dark:text-gray-400 my-4">
-                  <span className="text-white">
-                    Scalability + Reusable components:
-                  </span>{" "}
-                  Moving forward it is likely that we would establish an
-                  ecosystem of in-house applications used by all staff within
-                  the company. It was important that we programmed with this in
-                  mind.
-                </p>
-
                 <div className="flex flex-wrap flex-row justify-between">
                   <div>
                     <h1 className="mt-8 mb-4 text-xl font-bold tracking-tight sm:text-xl">
@@ -116,8 +93,9 @@ const Overview = () => {
                       role="list"
                       className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
                     >
-                      <li>Frontend Developer</li>
-                      <li>UI Designer</li>
+                      <li>Electronics Engineer</li>
+                      <li>Arduino Programming</li>
+                      <li>Machine Learning</li>
                     </ul>
                   </div>
                   <div>
@@ -129,33 +107,30 @@ const Overview = () => {
                       className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
                     >
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <FaFigma className="mr-4" />
-                        Figma
+                        <img
+                          className="mr-4 w-[30px]"
+                          src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/87/Arduino_Logo.svg/2560px-Arduino_Logo.svg.png"
+                        />
+                        Arduino
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <FaReact className="mr-4" />
-                        TypeScript (React, Nextjs + Node)
+                        <img
+                          className="mr-4 w-[20px]"
+                          src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Processing_4.0b1_Icon.png"
+                        />
+                        Processing
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <FaGitAlt className="mr-4" />
-                        GitHub
+                        <FaCogs className="mr-4" />
+                        Wekinator
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <FaFileExcel className="mr-4" />
-                        Microsoft Excel
+                        <FaCogs className="mr-4" />
+                        Handpose OSC
                       </li>
                     </ul>
                   </div>
                 </div>
-
-                <a
-                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-red-500 hover:bg-red-500 transition-all duration mx-auto rounded-full"
-                  href="https://genhrm.com/"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Check out
-                </a>
               </div>
             </div>
           </div>
@@ -169,16 +144,16 @@ export default function Genesis() {
   return (
     <>
       <Head>
-        <title>Genesis</title>
+        <title>The First Theatre</title>
       </Head>
-      <div className="bg-genhrm bg-cover dark:text-white text-black">
+      <div className="bg-red-800 bg-cover dark:text-white text-black">
         <ArrowToTop />
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-row justify-center align-middle">
           <h1
             id="top"
             className="md:text-5xl text-3xl mt-[90px] mx-auto transition-all duration-300"
           >
-            GENHRM
+            The First Theatre
           </h1>
         </div>
         <Overview />

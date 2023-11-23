@@ -39,7 +39,7 @@ export default function Projects() {
                 subtitle="IDE Project"
                 message="Programmed using Arduino, Processing and Wekinator"
                 image={`./static/imgs/ide/thefirsttheatre.jpg`}
-                href="/not-found"
+                href="/projects/the-first-theatre"
               />
             </div>
           </div>
