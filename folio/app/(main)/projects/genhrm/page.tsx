@@ -91,7 +91,7 @@ const Overview = () => {
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 lg:max-w-lg">
                 <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Goals
+                  Achievements
                 </h1>
                 <p className="text-gray-700 dark:text-gray-400">
                   <span className="text-white">Cleaning of rogue data:</span>{" "}

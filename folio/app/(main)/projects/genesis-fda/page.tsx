@@ -56,7 +56,7 @@ const Overview = () => {
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
                   Genesis Restaurants wish to offer customers a Food Delivery
-                  application as a method to increment sales and generate
+                  application as a method to increase sales and generate
                   revenue.
                 </p>
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
