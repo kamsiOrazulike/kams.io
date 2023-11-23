@@ -93,16 +93,14 @@ export const ActionCall = () => {
   const [isHovered, setIsHovered] = useState(false);
 
   return (
-    <div className="bg-gray-800 w-full h-full flex flex-col lg:flex-row justify-center items-center tracking-wide py-16">
+    <div className="bg-gray-800 w-full h-full flex flex-col-reverse lg:flex-row justify-center items-center tracking-wide py-16">
       <div className="w-full lg:w-1/2 flex flex-col items-center justify-center px-14 py-12">
-        <div className="w-full mx-auto text-center flex flex-col items-center py-16 px-14">
-          <iframe
-            className="border my-4 md:mx-4 shadow-md"
-            width="400"
-            height="250"
-            src="https://www.figma.com/proto/IUecsg1rFqXbgknkNw6CDr/Genesis-QSR-Application?page-id=833%3A913&type=design&node-id=1060-12052&viewport=-454%2C511%2C0.43&t=ZA4ZmR41CSPDPxez-1&scaling=scale-down&starting-point-node-id=833%3A936&mode=design"
-          ></iframe>
-        </div>
+        <a href="/about">
+          <img
+            className="w-[300px] md:w-[500px] hover:cursor-pointer hover:scale-95 my-4 md:mx-4 shadow-lg rounded-lg transition-all duration-100 ease-in"
+            src="./static/imgs/ide/selfAudit.svg"
+          />
+        </a>
       </div>
       <div
         className={`w-full lg:w-auto mx-auto lg:mx-0 flex flex-col justify-evenly items-center uppercase ${

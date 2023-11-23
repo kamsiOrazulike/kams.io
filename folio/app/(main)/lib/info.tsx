@@ -1,7 +1,7 @@
 "use client";
 export const name = "Hi, I'm Kamsi";
 export const ann = '"kam-see"';
-export const role = "Product Designer";
+export const role = "Currently a Master's student at Imperial College London";
 
 export const skillList = () => {
   const contact = [
