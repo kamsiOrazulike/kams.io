@@ -1,10 +1,7 @@
 "use client";
+import ProjectCard from "./Cards";
 import React, { FC, useState } from "react";
-import { AiOutlineArrowDown } from "react-icons/ai";
 import { name, role, avatar, bio, ann } from "../lib/info";
-import { AiOutlineArrowRight } from "react-icons/ai";
-import { MdOutlineArrowLeft } from "react-icons/md";
-
 interface GraphicDesignSectionProps {
   imageSrc: string;
   header: string;
@@ -14,43 +11,33 @@ interface GraphicDesignSectionProps {
 
 export const Intro = () => {
   return (
-    <>
-      <div className="w-[90%] md:w-[90%] lg:w-[90%] mx-auto mt-4 pt-28 flex flex-col justify-center">
-        <h1 className="w-full md:text-6xl sm:text-5xl text-4xl font-bold tracking-wide md:py-2 ease-in-out duration-500">
+    <div className="flex md:flex-row flex-col justify-between align-middle items-start mt-32">
+      <div className="w-full md:w-2/5 px-12 flex flex-col">
+        <h1 className="md:text-6xl sm:text-5xl text-4xl font-semibold tracking-wide md:py-2 ease-in-out duration-500">
           {name}
         </h1>
-        <span className="text-blue-200 italic text-2xl">{ann}</span>
-        <p className="text-slate-400 md:text-md sm:text-md text-sm tracking-wide font-light my-1">
+        <span className="talic text-2xl">{ann}</span>
+        <p className="md:text-md sm:text-md text-sm tracking-wide font-light my-1">
           {role}
         </p>
         {avatar()}
-        <AiOutlineArrowDown className="mx-auto text-xl animate-bounce" />
       </div>
-    </>
-  );
-};
-
-export const ActionCall = () => {
-  const [isHovered, setIsHovered] = useState(false);
-
-  return (
-    <div className="bg-black w-full h-full flex flex-col lg:flex-row justify-center items-center tracking-wide py-16">
-      <div className="w-full lg:w-1/2 flex flex-col items-center justify-center px-14 py-12">
+      <div className="relative w-full flex flex-row md:block md:w-1/3 h-[200px] px-8 py-4">
         {/* Work Experience */}
-        <div className="mb-4">
+        <div className="text-left mb-4">
           <h2 className="text-gray-500 italic text-sm my-4">Work experience</h2>
           <div className="flex flex-row">
             <div className="mx-2">
               <img
                 src={"./static/imgs/logos/GenesisLogo.png"}
-                className="w-28 md:w-44 grayscale-[0.8] hover:grayscale-0 transition-all duration-150 ease-in"
+                className="w-14 md:w-44"
                 alt="Work experience 1"
               />
             </div>
             <div className="mx-2">
               <img
                 src={"./static/imgs/logos/RHPS.svg"}
-                className="w-20 md:w-22 grayscale-[0.8] hover:grayscale-0 transition-all duration-150 ease-in"
+                className="w-14 md:w-22"
                 alt="Work experience 1"
               />
             </div>
@@ -59,43 +46,62 @@ export const ActionCall = () => {
                 src={
                   "https://www.maritimelondon.com/wp-content/uploads/2017/04/Berenberg-Logo_UK_UZ-8pt-Standard_300dpi_rgb.png"
                 }
-                className="w-28 md:w-44 rounded-lg"
+                className="w-14 md:w-44 rounded-lg"
                 alt="Work experience 2"
               />
             </div>
           </div>
         </div>
         {/* Education */}
-        <div>
+        <div className="text-right md:text-left">
           <h2 className="text-gray-500 italic text-sm my-4">Education</h2>
           <div className="flex flex-row">
             <div className="mx-2">
               <img
                 src={"./static/imgs/logos/CranleighSchoolCrest.png"}
-                className="w-14 md:w-28"
+                className="w-12 md:w-28"
                 alt="Education 1"
               />
             </div>
             <div className="mx-4 flex flex-col">
               <img
                 src={"./static/imgs/logos/QueenMaryLogo.png"}
-                className="w-32 md:w-44"
+                className="w-20 md:w-44"
                 alt="Education 2"
               />
               <img
                 src={"./static/imgs/logos/ImperialCollegeLogo.png"}
-                className="w-32 md:w-44 mt-4"
+                className="w-20 md:w-44 mt-4"
                 alt="Education 2"
               />
             </div>
             <div className="mx-2">
               <img
                 src={"./static/imgs/logos/RCALogo.png"}
-                className="w-16 md:w-32 bg-white p-2 rounded-md"
+                className="w-12 md:w-32 bg-white p-2 rounded-md"
                 alt="Education 3"
               />
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export const ActionCall = () => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  return (
+    <div className="bg-gray-800 w-full h-full flex flex-col lg:flex-row justify-center items-center tracking-wide py-16">
+      <div className="w-full lg:w-1/2 flex flex-col items-center justify-center px-14 py-12">
+        <div className="w-full mx-auto text-center flex flex-col items-center py-16 px-14">
+          <iframe
+            className="border my-4 md:mx-4 shadow-md"
+            width="400"
+            height="250"
+            src="https://www.figma.com/proto/IUecsg1rFqXbgknkNw6CDr/Genesis-QSR-Application?page-id=833%3A913&type=design&node-id=1060-12052&viewport=-454%2C511%2C0.43&t=ZA4ZmR41CSPDPxez-1&scaling=scale-down&starting-point-node-id=833%3A936&mode=design"
+          ></iframe>
         </div>
       </div>
       <div
@@ -109,7 +115,7 @@ export const ActionCall = () => {
           href="/projects"
           className="cursor-pointer md:text-4xl sm:text-3xl text-3xl font-bold transition-all ease-in duration-200 text-white/60 hover:text-white"
         >
-          View my Projects
+          View all Projects
         </a>
       </div>
     </div>

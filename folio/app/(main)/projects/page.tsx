@@ -1,4 +1,3 @@
-import { AiOutlineArrowDown } from "react-icons/ai";
 import ProjectCard from "../components/Cards";
 
 export default function Projects() {
@@ -39,8 +38,8 @@ export default function Projects() {
                 title="The First Theatre"
                 subtitle="IDE Project"
                 message="Programmed using Arduino, Processing and Wekinator"
-                image={`./static/imgs/genHRM/login.png`}
-                href="#"
+                image={`./static/imgs/ide/thefirsttheatre.jpg`}
+                href="/not-found"
               />
             </div>
           </div>

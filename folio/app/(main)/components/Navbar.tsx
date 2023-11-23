@@ -14,7 +14,7 @@ export default function Navbar() {
       <nav className="fixed bg-transparent top-0 left-0 w-full md:flex-row md:flex-nowrap md:justify-between flex items-center p-4 z-40">
         <div className="mx-auto">
           <div
-            className={`bg-gray-700 text-white transition-all duration-150 font-light uppercase text-sm mx-auto rounded-full px-4 py-2 ${
+            className={`bg-[#1E293A]/80 border border-black shadow-md text-white transition-all duration-150 font-light uppercase text-sm mx-auto rounded-full px-4 py-2 ${
               isMenuOpen ? "hidden md:flex" : "md:flex hidden"
             }`}
           >

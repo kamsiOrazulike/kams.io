@@ -41,10 +41,10 @@ const Footer = () => {
         <footer className="fixed bg-transparent bottom-0 right-0 w-full md:flex-row md:flex-nowrap md:justify-start flex items-start p-4 z-40">
           <div>
             <div
-              className={`bg-gray-700/80 text-white transition-all duration-150 font-light text-xs mx-auto rounded-full px-4 py-2 `}
+              className={`bg-[#1E293A]/80 text-white border border-black shadow-md transition-all duration-150 font-light text-xs mx-auto rounded-full px-4 py-2 `}
             >
               <ul className="flex flex-row items-center">
-                <li className="px-2 my-2 mr-6 cursor-pointer hover:scale-105 transition-all duration-200">
+                <li className="px-2 my-2 mr-6 cursor-pointer transition-all duration-200">
                   Developed by Kamsi Orazulike
                 </li>
                 <li className="px-4 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
