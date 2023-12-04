@@ -90,7 +90,13 @@ export default function Navbar() {
                     <a href="/about">About Me</a>
                   </li>
                   <li className="cursor-pointer px-4 py-4 mx-2 mb-4 bg-transparent hover:scale-105 transition-all duration-200">
-                    <a href="/projects">Projects</a>
+                    <a href="/projects/inhandy">inHandy</a>
+                  </li>
+                  <li className="cursor-pointer px-4 py-4 mx-2 mb-4 bg-transparent hover:scale-105 transition-all duration-200">
+                    <a href="/projects/the-first-theatre">The First Theatre</a>
+                  </li>
+                  <li className="cursor-pointer px-4 py-4 mx-2 mb-4 bg-transparent hover:scale-105 transition-all duration-200">
+                    <a href="/projects/genhrm">GenHRM</a>
                   </li>
                 </ul>
               </div>
