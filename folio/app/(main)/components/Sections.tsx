@@ -11,7 +11,7 @@ interface GraphicDesignSectionProps {
 
 export const Intro = () => {
   return (
-    <div className="flex md:flex-row flex-col justify-between align-middle items-start mt-32">
+    <div className="flex md:flex-row flex-col justify-between align-middle items-start pt-32">
       <div className="w-full md:w-2/5 px-12 flex flex-col">
         <h1 className="md:text-6xl sm:text-5xl text-4xl font-semibold tracking-wide md:py-2 ease-in-out duration-500">
           {name}
@@ -23,38 +23,9 @@ export const Intro = () => {
         {avatar()}
       </div>
       <div className="relative w-full flex flex-row md:block md:w-1/3 h-[200px] px-8 py-4">
-        {/* Work Experience */}
-        <div className="text-left mb-4">
-          <h2 className="text-gray-500 italic text-sm my-4">Work experience</h2>
-          <div className="flex flex-row">
-            <div className="mx-2">
-              <img
-                src={"./static/imgs/logos/GenesisLogo.png"}
-                className="w-14 md:w-44"
-                alt="Work experience 1"
-              />
-            </div>
-            <div className="mx-2">
-              <img
-                src={"./static/imgs/logos/RHPS.svg"}
-                className="w-14 md:w-22"
-                alt="Work experience 1"
-              />
-            </div>
-            <div className="mx-2">
-              <img
-                src={
-                  "https://www.maritimelondon.com/wp-content/uploads/2017/04/Berenberg-Logo_UK_UZ-8pt-Standard_300dpi_rgb.png"
-                }
-                className="w-14 md:w-44 rounded-lg"
-                alt="Work experience 2"
-              />
-            </div>
-          </div>
-        </div>
         {/* Education */}
-        <div className="text-right md:text-left">
-          <h2 className="text-gray-500 italic text-sm my-4">Education</h2>
+        <div className="text-center md:text-left">
+          <h2 className="text-white italic text-sm my-4">Education</h2>
           <div className="flex flex-row">
             <div className="mx-2">
               <img
@@ -80,6 +51,35 @@ export const Intro = () => {
                 src={"./static/imgs/logos/RCALogo.png"}
                 className="w-12 md:w-32 bg-white p-2 rounded-md"
                 alt="Education 3"
+              />
+            </div>
+          </div>
+        </div>
+        {/* Work Experience */}
+        <div className="text-center mb-4">
+          <h2 className="text-white italic text-sm my-4">Work experience</h2>
+          <div className="flex flex-row">
+            <div className="mx-2">
+              <img
+                src={"./static/imgs/logos/GenesisLogo.png"}
+                className="w-14 md:w-44"
+                alt="Work experience 1"
+              />
+            </div>
+            <div className="mx-2">
+              <img
+                src={"./static/imgs/logos/RHPS.svg"}
+                className="w-14 md:w-22"
+                alt="Work experience 1"
+              />
+            </div>
+            <div className="mx-2">
+              <img
+                src={
+                  "https://www.maritimelondon.com/wp-content/uploads/2017/04/Berenberg-Logo_UK_UZ-8pt-Standard_300dpi_rgb.png"
+                }
+                className="w-14 md:w-44 rounded-lg"
+                alt="Work experience 2"
               />
             </div>
           </div>

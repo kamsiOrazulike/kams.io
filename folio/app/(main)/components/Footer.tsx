@@ -38,7 +38,7 @@ const Footer = () => {
   return (
     <>
       {showFooter && (
-        <footer className="fixed bg-transparent bottom-0 right-0 w-full md:flex-row md:flex-nowrap md:justify-start flex items-start p-4 z-40">
+        <footer className="fixed bg-transparent bottom-0 right-100 w-full md:flex-row md:flex-nowrap md:justify-start flex items-start p-4 z-40">
           <div>
             <div
               className={`bg-[#1E293A]/80 text-white border border-black shadow-md transition-all duration-150 font-light text-xs mx-auto rounded-full px-4 py-2 `}

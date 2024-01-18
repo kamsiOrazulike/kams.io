@@ -80,8 +80,8 @@ export default function Navbar() {
             )}
           </button>
           {isMenuOpen && (
-            <div className="absolute right-0 top-16 bg-black/50 h-screen w-full">
-              <div className="w-full absolute bg-gray-900 text-gray-200 shadow-lg py-2 px-4">
+            <div className="absolute right-0 top-16 bg-black h-screen w-full">
+              <div className="w-full absolute bg-black text-gray-200 shadow-lg py-2 px-4">
                 <ul className="flex flex-col items-center justify-center">
                   <li className="cursor-pointer px-4 py-4 mx-2 mb-4 bg-transparent hover:scale-105 transition-all duration-200">
                     <a href="/">Home</a>
