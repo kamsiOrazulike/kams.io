@@ -110,10 +110,9 @@ const Overview = () => {
                     "...Master of one or two!"
                   </span>{" "}
                   <br />
-                  Purely because I lost the need for training wheels as a
-                  software developer due to my{" "}
-                  <span className="text-white">2 plus</span> years experience as
-                  a professional in the industry.
+                  Learning and applying different skills where I need them is my
+                  true work. Although I am still in the process of finding out
+                  the type of designer I want to be.
                 </p>
 
                 <div className="flex flex-wrap flex-row justify-between">

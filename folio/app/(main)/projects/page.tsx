@@ -4,22 +4,22 @@ export default function Projects() {
   const projects = [
     {
       title: "inHandy",
-      subtitle: "UX/UI Design project",
+      subtitle: "DICE Project",
       message: "Your brief introduction to BSL",
       image: "./static/imgs/inHandyMockup.png",
       href: "/projects/inhandy",
     },
     {
       title: "Genesis FDA",
-      subtitle: "UX/UI Design project",
-      message: "Genesis Restaurants food delivery application",
+      subtitle: "@ Genesis group",
+      message: "A food delivery application",
       image: "./static/imgs/GenesisMockup.png",
       href: "/projects/genesis-fda",
     },
     {
       title: "GenHRM",
-      subtitle: "Dev project",
-      message: "Genesis Group Human Resources Management Portal/System",
+      subtitle: "@ Genesis group",
+      message: "A Human Resources Management Portal/System",
       image: "./static/imgs/genHRM/login.png",
       href: "/projects/genhrm",
     },
@@ -33,39 +33,38 @@ export default function Projects() {
   ];
 
   return (
-    <>
-      <div className="relative bg-svg-3 bg-fixed bg-gray-900 text-white h-full">
-        <div className="pt-20 pb-12">
-          <div className="w-full mt-12 text-center mx-auto flex flex-col justify-center">
-            <h1 className="w-full md:text-6xl sm:text-5xl text-4xl font-bold tracking-wide md:py-2 ease-in-out duration-500">
-              All Projects
-            </h1>
-            <span className="text-blue-200 italic text-md">Featured</span>
-          </div>
-          <div className="w-full mx-auto text-center flex flex-col items-center py-16 px-14">
-            <div className="max-w-5xl w-full">
-              <ul className="space-y-8">
-                {projects.map((project, index) => (
-                  <li key={index}>
+    <div className="relative bg-svg-3 bg-fixed bg-black text-white h-full">
+      <div className="pt-20 pb-12">
+        <div className="w-full mx-auto flex flex-col items-center py-16 px-14">
+          <div className="max-w-5xl w-full">
+            <ul className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
+              {projects.map((project, index) => (
+                <li
+                  key={index}
+                  className="flex items-start bg-transparent hover:bg-white text-white hover:text-black px-2 py-4 transition-all duration-150"
+                >
+                  <img
+                    className="mr-4 w-20 h-24 object-cover bg-white/30"
+                    src={project.image}
+                    alt={project.title}
+                  />
+                  <div>
                     <a href={project.href} className="no-underline">
                       <h2 className="text-2xl font-bold mb-2">
                         {project.title}
                       </h2>
-                      <p className="text-lg font-light">{project.subtitle}</p>
-                      <p className="text-gray-500 mt-2">{project.message}</p>
-                      <img
-                        className="mt-4"
-                        src={project.image}
-                        alt={project.title}
-                      />
+                      <p className="text-md font-light">{project.subtitle}</p>
+                      <p className="text-gray-500 text-sm mt-2">
+                        {project.message}
+                      </p>
                     </a>
-                  </li>
-                ))}
-              </ul>
-            </div>
+                  </div>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
