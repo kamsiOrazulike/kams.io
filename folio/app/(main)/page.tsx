@@ -1,8 +1,6 @@
 "use client";
 import React from "react";
-import { Intro, ActionCall } from "./components/Sections";
-import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-import ArrowToTop from "./components/ArrowToTop";
+import { Intro } from "./components/Sections";
 
 export default function Hero() {
   return (

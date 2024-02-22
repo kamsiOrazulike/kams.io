@@ -1,7 +1,6 @@
 "use client";
-import ProjectCard from "./Cards";
 import React, { FC, useState } from "react";
-import { name, role, avatar, bio, ann } from "../lib/info";
+import { name, role, avatar, ann } from "../lib/info";
 interface GraphicDesignSectionProps {
   imageSrc: string;
   header: string;
