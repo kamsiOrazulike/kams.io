@@ -65,16 +65,11 @@ const Overview = () => {
                   <br /> BEng Design Innovation and Creative Engineering <br />
                 </p>
                 <p className="mt-6 text-md leading-8 text-gray-200">
-                  My key strengths, including self-motivation and adaptability
-                  (with a touch of humility ;) ), drive my current pursuit of my
-                  Masters in Innovation Design Engineering at Imperial College
-                  London. I am focused on building upon the foundation
+                  I am currently focused on building upon the foundation
                   established during my Bachelor's degree at Queen Mary
                   University of London, where I graduated with First-Class
-                  honors. <br /> My academic journey underscores my passion for
-                  design and innovation, and can be shown through my
-                  achievements in modules such as IDE Fundamentals and
-                  Transdisciplinary practices.
+                  honors. My academic journey underscores my passion for design
+                  regardless of form.
                 </p>
               </div>
             </div>
@@ -107,12 +102,13 @@ const Overview = () => {
                 </p>
                 <p className="text-gray-700 dark:text-gray-400 mt-4">
                   <span className="text-green-400">
-                    "...Master of one or two!"
+                    "...master of two or three"
                   </span>{" "}
                   <br />
                   Learning and applying different skills where I need them is my
-                  true work. Although I am still in the process of finding out
-                  the type of designer I want to be.
+                  true work. There is not one avenue for Design or innovation
+                  and my goal remains to explore different ways to express
+                  creativity.
                 </p>
 
                 <div className="flex flex-wrap flex-row justify-between">
@@ -195,10 +191,16 @@ const Overview = () => {
                 </div>
 
                 <a
-                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-green-500 hover:bg-green-500 hover:text-black transition-all duration mx-auto rounded-full"
+                  className="text-sm py-2 mt-8 mb-2 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
                   href="/projects"
                 >
                   Check out some of my projects here!
+                </a>
+                <a
+                  className="text-sm py-2 mb-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  href="https://www.instagram.com/k0.design/"
+                >
+                  Check out my art
                 </a>
               </div>
             </div>
