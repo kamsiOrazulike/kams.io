@@ -10,6 +10,13 @@ export default function Projects() {
       href: "/projects/inhandy",
     },
     {
+      title: "The First Theatre",
+      subtitle: "IDE Project",
+      message: "Programmed using Arduino, Processing and Wekinator",
+      image: "./static/imgs/ide/thefirsttheatre.jpg",
+      href: "/projects/the-first-theatre",
+    },
+    {
       title: "Genesis FDA",
       subtitle: "@ Genesis group",
       message: "A food delivery application",
@@ -23,13 +30,6 @@ export default function Projects() {
       image: "./static/imgs/genHRM/login.png",
       href: "/projects/genhrm",
     },
-    {
-      title: "The First Theatre",
-      subtitle: "IDE Project",
-      message: "Programmed using Arduino, Processing and Wekinator",
-      image: "./static/imgs/ide/thefirsttheatre.jpg",
-      href: "/projects/the-first-theatre",
-    },
   ];
 
   return (
@@ -41,7 +41,7 @@ export default function Projects() {
               {projects.map((project, index) => (
                 <li
                   key={index}
-                  className="flex items-start bg-transparent hover:bg-white text-white hover:text-black px-2 py-4 transition-all duration-150"
+                  className="flex items-start bg-transparent hover:bg-gray-200 text-white hover:text-black px-2 py-4 transition-all duration-150"
                 >
                   <img
                     className="mr-4 w-20 h-24 object-cover bg-white/30"
