@@ -1,6 +1,6 @@
 "use client";
 import Head from "next/head";
-import { AiOutlineCheck } from "react-icons/ai";
+import { AiOutlineCheck, AiOutlineMail } from "react-icons/ai";
 import { FaFigma, FaCss3, FaReact, FaCircle, FaCheck } from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
 import ArrowToTop from "../components/ArrowToTop";
@@ -50,26 +50,21 @@ const Overview = () => {
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                   A passion for design
                 </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-400">
+                <p className="mt-6 text-lg leading-8 text-gray-400">
                   <span className="text-sm text-green-400">
                     <FaCircle className="inline-block text-[8px] text-green-400 animate-pulse mr-2" />
-                    Imperial College London x Royal College of Art
+                    Imperial College London | Royal College of Art
                   </span>
                   <br /> MSc/MA Innovation Design Engineering <br />
                 </p>
-                <p className="mt-3 text-xl leading-8 text-gray-400">
+                <p className="mt-3 text-lg leading-8 text-gray-400">
                   <span className="text-sm text-green-400">
                     <FaCheck className="inline-block text-[8px] text-green-400 mr-2" />
                     Queen Mary University of London
                   </span>
-                  <br /> BEng Design Innovation and Creative Engineering <br />
-                </p>
-                <p className="mt-6 text-md leading-8 text-gray-200">
-                  I am currently focused on building upon the foundation
-                  established during my Bachelor's degree at Queen Mary
-                  University of London, where I graduated with First-Class
-                  honors. My academic journey underscores my passion for design
-                  regardless of form.
+                  <br /> BEng Design Innovation and Creative Engineering
+                  <sup className="text-xs"> (First class)</sup>
+                  <br />
                 </p>
               </div>
             </div>
@@ -90,7 +85,7 @@ const Overview = () => {
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 lg:max-w-lg">
                 <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-                  What did you say about Multidisciplinary?
+                  Outcome
                 </h1>
                 <p className="text-gray-700 dark:text-gray-400">
                   <span className="text-green-400">
@@ -98,7 +93,7 @@ const Overview = () => {
                   </span>
                   <br /> The result of studying Innovation Design Engineering
                   for both my Bachelors and Masters gave me the opportunity to
-                  develop the skills I now still use today.
+                  develop different skills that I still make use of today.
                 </p>
                 <p className="text-gray-700 dark:text-gray-400 mt-4">
                   <span className="text-green-400">
@@ -106,9 +101,7 @@ const Overview = () => {
                   </span>{" "}
                   <br />
                   Learning and applying different skills where I need them is my
-                  true work. There is not one avenue for Design or innovation
-                  and my goal remains to explore different ways to express
-                  creativity.
+                  true work.
                 </p>
 
                 <div className="flex flex-wrap flex-row justify-between">
@@ -122,9 +115,9 @@ const Overview = () => {
                     >
                       <li>UX/UI Designer</li>
                       <li>Graphic Designer</li>
-                      <li>Web & Fullstack Developer</li>
+                      <li>Character Illustrator</li>
                       <li>Product Design</li>
-                      <li>Product Management</li>
+                      <li>Software Developer</li>
                     </ul>
                   </div>
                   <div>
@@ -138,6 +131,10 @@ const Overview = () => {
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaFigma className="mr-4" />
                         Figma
+                      </li>
+                      <li className="m-4 flex flex-row align-middle justify-start items-center">
+                        <DiIllustrator className="mr-4 text-orange-700" />
+                        Adobe Illustrator
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaReact className="mr-4 text-blue-400" />
@@ -168,10 +165,7 @@ const Overview = () => {
                         />
                         Blender
                       </li>
-                      <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <DiIllustrator className="mr-4 text-orange-700" />
-                        Adobe Illustrator
-                      </li>
+
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <img
                           className="mr-4 w-[20px]"
@@ -189,18 +183,11 @@ const Overview = () => {
                     </ul>
                   </div>
                 </div>
-
                 <a
-                  className="text-sm py-2 mt-8 mb-2 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
-                  href="/projects"
+                  className="text-sm py-2 mt-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  href="mailto:kamsi_orazulike@icloud.com"
                 >
-                  Check out some of my projects here!
-                </a>
-                <a
-                  className="text-sm py-2 mb-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
-                  href="https://www.instagram.com/k0.design/"
-                >
-                  Check out my art
+                  <AiOutlineMail /> &nbsp;Get in touch
                 </a>
               </div>
             </div>
@@ -224,7 +211,7 @@ export default function Genesis() {
             id="top"
             className="md:text-5xl text-3xl mt-[90px] mx-auto transition-all duration-300"
           >
-            Where do I even begin?
+            About
           </h1>
         </div>
         <Overview />
