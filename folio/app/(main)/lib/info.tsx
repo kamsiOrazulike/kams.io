@@ -1,7 +1,8 @@
 "use client";
 export const name = "I'm Kamsi";
 export const ann = '"kam-see"';
-export const role = "IDE program - Imperial College London | Royal College of Art";
+export const role = "MA/MSc Inovation Design Engineering";
+export const place = "Imperial College London | Royal College of Art";
 
 export const skillList = () => {
   const contact = [

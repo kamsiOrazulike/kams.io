@@ -1,6 +1,6 @@
 "use client";
 import React, { FC, useState } from "react";
-import { name, role, avatar, ann } from "../lib/info";
+import { name, role, avatar, ann, place } from "../lib/info";
 interface GraphicDesignSectionProps {
   imageSrc: string;
   header: string;
@@ -18,6 +18,9 @@ export const Intro = () => {
         <span className="talic text-2xl">{ann}</span>
         <p className="md:text-md sm:text-md text-sm tracking-wide font-light my-1">
           {role}
+        </p>
+        <p className="md:text-md sm:text-md text-sm tracking-wide font-light my-1">
+          {place}
         </p>
         {avatar()}
       </div>
