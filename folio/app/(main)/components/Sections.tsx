@@ -58,7 +58,7 @@ export const Intro = () => {
           </div>
         </div>
         {/* Work Experience */}
-        <div className="text-center mb-4">
+        <div className="text-center md:text-left mb-4">
           <h2 className="text-white italic text-sm my-4">Work experience</h2>
           <div className="flex flex-row">
             <div className="mx-2">
