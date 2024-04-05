@@ -58,7 +58,7 @@ export default function Projects() {
                   </div>
                   <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
                     <img
-                      className="w-full h-auto object-cover"
+                      className="w-full h-auto object-cover bg-gray-700"
                       src={project.image}
                       alt={project.title}
                     />
