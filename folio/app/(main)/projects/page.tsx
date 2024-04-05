@@ -30,6 +30,13 @@ export default function Projects() {
       image: "./static/imgs/genHRM/login.png",
       href: "/projects/genhrm",
     },
+    {
+      title: "GOAL",
+      subtitle: "@ Genesis group",
+      message:
+        "A competitive platform fostering collaboration within fast-food outlets and encouraging competition between them",
+      href: "/projects/goal-fe",
+    },
   ];
 
   return (
