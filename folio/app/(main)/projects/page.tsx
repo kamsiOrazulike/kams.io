@@ -10,7 +10,7 @@ export default function Projects() {
       message:
         "Your brief introduction to BSL. An Education app designed to focus on the utilisation of engaging visuals as well as gamification to improve the learning experience.",
       image:
-        "https://res.cloudinary.com/dolduzhix/image/upload/v1712362992/Portfolio%20images/UXUI/inHandyMockup_f792hs.jpg",
+        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363004/Portfolio%20images/UXUI/inHandyMockup_a9tly6.png",
       href: "/projects/inhandy",
     },
     {
@@ -28,7 +28,7 @@ export default function Projects() {
       message:
         "Different projects developed during my time at Genesis Group. Including UX/UI design for a food delivery application",
       image:
-        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363011/Portfolio%20images/UXUI/GenesisMockup_bfzmu8.jpg",
+        "https://res.cloudinary.com/dolduzhix/image/upload/v1712362998/Portfolio%20images/UXUI/GenesisMockup_cuy2vz.png",
       href: "/projects/genesis",
     },
     {
