@@ -58,13 +58,21 @@ export default function Projects() {
                     <p className="text-gray-500 text-md mt-2 mb-8 md:mr-4">
                       {project.message}
                     </p>
-
-                    <a
-                      href={project.href}
-                      className="no-underline mt-4 bg-white text-black px-4 py-2 rounded-md hover:bg-black border border-white hover:border hover:text-white transition-colors duration-300"
-                    >
-                      See More
-                    </a>
+                    {project.href !== "#" ? (
+                      <a
+                        href={project.href}
+                        className="no-underline mt-4 bg-white text-black px-4 py-2 rounded-md hover:bg-black border border-white hover:border hover:text-white transition-colors duration-300"
+                      >
+                        See More
+                      </a>
+                    ) : (
+                      <button
+                        disabled
+                        className="no-underline mt-4 bg-gray-300 text-black px-4 py-2 rounded-md border border-white transition-colors duration-300 cursor-not-allowed"
+                      >
+                        Coming soon
+                      </button>
+                    )}
                   </div>
                   <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
                     <CldImage
