@@ -34,7 +34,8 @@ export default function Projects() {
     {
       title: "The Afrikan Store",
       subtitle: "Product Design | 2023",
-      message: "Product design work done for The Afrikan Store.",
+      message:
+        "Product design work done for The Afrikan Store. A food and snack delivery store based in London, United Kingdom",
       image:
         "https://res.cloudinary.com/dolduzhix/image/upload/v1712343005/Portfolio%20images/TheAfrikanStore/Front_face_h22jsb.png",
       href: "#",
