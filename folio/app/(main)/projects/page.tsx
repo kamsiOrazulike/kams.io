@@ -1,30 +1,43 @@
+"use client";
 import React from "react";
+import { CldImage } from "next-cloudinary";
 
 export default function Projects() {
   const projects = [
     {
       title: "inHandy",
-      subtitle: "DICE Project",
+      subtitle: "DICE Project | 2021",
       message:
         "Your brief introduction to BSL. An Education app designed to focus on the utilisation of engaging visuals as well as gamification to improve the learning experience.",
-      image: "./static/imgs/inHandyMockup.png",
+      image:
+        "https://res.cloudinary.com/dolduzhix/image/upload/v1712362992/Portfolio%20images/UXUI/inHandyMockup_f792hs.jpg",
       href: "/projects/inhandy",
     },
     {
       title: "The First Theatre",
-      subtitle: "IDE Project",
+      subtitle: "IDE Project | 2023",
       message:
         "Built around the idea of playful nostalgia; our group aimed to combine the charm of traditional shadow puppetry with cutting-edge innovations. Utilising Hand-pose recognition technology, Machine Learning...",
-      image: "./static/imgs/ide/thefirsttheatre.jpg",
+      image:
+        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363317/Portfolio%20images/IDE/thefirsttheatre_tgy4xc.jpg",
       href: "/projects/the-first-theatre",
     },
     {
-      title: "Products",
-      subtitle: "@ Genesis group",
+      title: "Genesis Group",
+      subtitle: "Product Design | 2023",
       message:
         "Different projects developed during my time at Genesis Group. Including UX/UI design for a food delivery application",
-      image: "./static/imgs/GenesisMockup.png",
+      image:
+        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363011/Portfolio%20images/UXUI/GenesisMockup_bfzmu8.jpg",
       href: "/projects/genesis",
+    },
+    {
+      title: "The Afrikan Store",
+      subtitle: "Product Design | 2023",
+      message: "Product design work done for The Afrikan Store.",
+      image:
+        "https://res.cloudinary.com/dolduzhix/image/upload/v1712343005/Portfolio%20images/TheAfrikanStore/Front_face_h22jsb.png",
+      href: "#",
     },
   ];
 
@@ -38,17 +51,14 @@ export default function Projects() {
                 key={index}
                 className="bg-transparent w-full mb-8 md:mb-0"
               >
-                <div className="flex flex-wrap items-center justify-between py-6 px-8">
+                <div className="flex flex-wrap items-center justify-between py-6 px-8 cursor-default">
                   <div className="w-full text-justify md:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 md:mb-0">
-                    <a href={project.href} className="no-underline">
-                      <h2 className="text-2xl font-bold mb-2">
-                        {project.title}
-                      </h2>
-                      <p className="text-md font-light">{project.subtitle}</p>
-                      <p className="text-gray-500 text-md mt-2 mb-8 md:mr-4">
-                        {project.message}
-                      </p>
-                    </a>
+                    <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
+                    <p className="text-md font-light">{project.subtitle}</p>
+                    <p className="text-gray-500 text-md mt-2 mb-8 md:mr-4">
+                      {project.message}
+                    </p>
+
                     <a
                       href={project.href}
                       className="no-underline mt-4 bg-white text-black px-4 py-2 rounded-md hover:bg-black border border-white hover:border hover:text-white transition-colors duration-300"
@@ -57,8 +67,11 @@ export default function Projects() {
                     </a>
                   </div>
                   <div className="w-full md:w-1/2 lg:w-1/2 xl:w-1/2">
-                    <img
-                      className="w-full h-auto object-cover bg-gray-700"
+                    <CldImage
+                      width="550"
+                      height="500"
+                      crop="fill"
+                      preserveTransformations
                       src={project.image}
                       alt={project.title}
                     />

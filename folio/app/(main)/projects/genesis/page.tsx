@@ -12,6 +12,7 @@ import {
 } from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
 import ArrowToTop from "../../components/ArrowToTop";
+import { CldImage } from "next-cloudinary";
 
 const GenesisFoodDeliveryApp = () => {
   return (
@@ -41,10 +42,14 @@ const GenesisFoodDeliveryApp = () => {
             </div>
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <img
-              className="w-[32rem] max-w-none rounded-xl sm:w-[48rem]"
-              src="/static/imgs/GenesisMockup.png"
-              alt=""
+            <CldImage
+              width="1050"
+              height="1000"
+              preserveTransformations
+              src={
+                "https://res.cloudinary.com/dolduzhix/image/upload/v1712362998/Portfolio%20images/UXUI/GenesisMockup_cuy2vz.png"
+              }
+              alt={"Genesis Prototype"}
             />
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -158,31 +163,36 @@ const GenHRM = () => {
                   Human Resources Management System for Genesis Group
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Introduction
+                  GenHRM
                 </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
-                  Genesis Group is a Nigerian conglomorate in the Hospitality
-                  and Entertainment business.
-                </p>
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
                   During my time working within the Innovation team at Genesis
                   Group, we developed GenHRM: a Human Resources Management
-                  system to replace the outdated system that was currently in
-                  use.
+                  system to replace the outdated system that was being used.
                 </p>
               </div>
             </div>
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <img
-              className="w-[32rem] max-w-none rounded-xl sm:w-[48rem]"
-              src="/static/imgs/genHRM/login.png"
-              alt=""
+            <CldImage
+              width="1000"
+              height="900"
+              className="rounded-md mb-2"
+              preserveTransformations
+              src={
+                "https://res.cloudinary.com/dolduzhix/image/upload/v1712363830/Portfolio%20images/Genesis/login_h027ji.png"
+              }
+              alt={"GenHRM Prototype"}
             />
-            <img
-              className="w-[32rem] max-w-none rounded-xl sm:w-[48rem] mt-8"
-              src="/static/imgs/genHRM/dashboard.png"
-              alt=""
+            <CldImage
+              width="1000"
+              height="900"
+              className="rounded-md"
+              preserveTransformations
+              src={
+                "https://res.cloudinary.com/dolduzhix/image/upload/v1712363823/Portfolio%20images/Genesis/annualLeave2_sgybtb.png"
+              }
+              alt={"GenHRM Ann_leave"}
             />
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -286,12 +296,9 @@ const GenesisGOAL = () => {
                   food outlets
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Introduction
+                  GOAL - Genesis Outlet Achievers League
                 </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
-                  Genesis Group is a Nigerian conglomorate in the Hospitality
-                  and Entertainment business.
-                </p>
+
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
                   During my time working within the Innovation team at Genesis
                   Group, I designed GOAL. A product focused on encouraging
@@ -302,10 +309,15 @@ const GenesisGOAL = () => {
             </div>
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <img
-              className="w-[32rem] max-w-none rounded-xl sm:w-[48rem]"
-              src="/static/imgs/goalfe.png"
-              alt=""
+            <CldImage
+              width="1000"
+              height="900"
+              className="rounded-md"
+              preserveTransformations
+              src={
+                "https://res.cloudinary.com/dolduzhix/image/upload/v1712368066/Portfolio%20images/Genesis/goalfe_fgazms.png"
+              }
+              alt={"GenHRM Prototype"}
             />
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -414,7 +426,9 @@ export default function Genesis() {
           </h1>
           <p className="text-sm text-white/70 ">
             A range of products I developed during my time working at Genesis
-            group, Nigeria.
+            group, Nigeria <br />
+            Genesis Group is a Nigerian conglomorate in the Hospitality and
+            Entertainment business.
           </p>
         </div>
         <GenesisFoodDeliveryApp />

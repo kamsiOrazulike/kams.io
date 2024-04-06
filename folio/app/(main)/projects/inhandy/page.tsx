@@ -1,5 +1,6 @@
 "use client";
 import Head from "next/head";
+import { CldImage } from "next-cloudinary";
 import {
   AiFillDollarCircle,
   AiFillSetting,
@@ -90,10 +91,14 @@ const Overview = () => {
             </div>
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <img
-              className="w-[32rem] max-w-none rounded-xl sm:w-[48rem]"
-              src="/static/imgs/inHandyMockup.png"
-              alt=""
+            <CldImage
+              width="1050"
+              height="1000"
+              preserveTransformations
+              src={
+                "https://res.cloudinary.com/dolduzhix/image/upload/v1712363004/Portfolio%20images/UXUI/inHandyMockup_a9tly6.png"
+              }
+              alt={"InHandy Prototype"}
             />
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
@@ -270,10 +275,14 @@ const Introduction = () => {
                     rel="noreferrer"
                   >
                     Source &nbsp;{" "}
-                    <img
-                      src="/static/imgs/inHandy/NHSLogo.png"
-                      className="relative h-auto w-6"
-                      alt="nhslogo"
+                    <CldImage
+                      width="24"
+                      height="10"
+                      preserveTransformations
+                      src={
+                        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363220/Portfolio%20images/inHandy/NHSLogo_d1ai6g.png"
+                      }
+                      alt={"nhs-logo"}
                     />
                   </a>
                   <a
@@ -290,10 +299,16 @@ const Introduction = () => {
           <div className="lg:col-span-2 lg:col-start-2 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <img
-                  className="w-[22rem] max-w-none rounded-xl sm:w-[28rem] object-fit p-2 my-2"
-                  src={"/static/imgs/inHandy/inHandyPhoneMock.png"}
-                  alt=""
+                <CldImage
+                  width="650"
+                  height="200"
+                  className="mb-4"
+                  crop="fill"
+                  preserveTransformations
+                  src={
+                    "https://res.cloudinary.com/dolduzhix/image/upload/v1712363192/Portfolio%20images/inHandy/inHandyPhoneMock_hawfox.png"
+                  }
+                  alt={"3d mockup"}
                 />
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                   Why inHandy?
@@ -395,20 +410,35 @@ const Design = () => {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1">
-                  <img
-                    className="w-[22rem] max-w-none hover:scale-110 transition-all duration-150 rounded-xl sm:w-[28rem] object-fit bg-white p-2"
-                    src={"/static/imgs/inHandy/Project_Plan.jpg"}
-                    alt=""
+                  <CldImage
+                    width="700"
+                    height="400"
+                    className="rounded-md mb-2"
+                    preserveTransformations
+                    src={
+                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363117/Portfolio%20images/inHandy/Project_Plan_bqkldr.jpg"
+                    }
+                    alt={"Project plan"}
                   />
-                  <img
-                    className="w-[22rem] max-w-none rounded-xl sm:w-[28rem] object-fit bg-gray-500 p-2 my-2"
-                    src={"/static/imgs/inHandy/handDesign.png"}
-                    alt=""
+                  <CldImage
+                    width="700"
+                    height="700"
+                    className="rounded-md mb-2 bg-gray-300"
+                    preserveTransformations
+                    src={
+                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363186/Portfolio%20images/inHandy/handDesign_izb0qm.png"
+                    }
+                    alt={"Hand design"}
                   />
-                  <img
-                    className="w-[22rem] max-w-none rounded-xl sm:w-[28rem] object-fit p-2 my-2"
-                    src={"/static/imgs/inHandy/characterInspiration.jpg"}
-                    alt=""
+                  <CldImage
+                    width="700"
+                    height="700"
+                    className="rounded-md mb-2"
+                    preserveTransformations
+                    src={
+                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363098/Portfolio%20images/inHandy/characterInspiration_wb7gzs.jpg"
+                    }
+                    alt={"Character inspiration"}
                   />
                 </div>
               </div>
@@ -590,10 +620,15 @@ const Analysis = () => {
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                   Language + Movies <FaFilm className="text-gray-400" />
                 </h1>
-                <img
-                  className="w-[22rem] max-w-none rounded-xl sm:w-[28rem] object-fit p-2 my-2"
-                  src={"/static/imgs/inHandy/screenshotnetflix.jpg"}
-                  alt="moviescreenshot"
+                <CldImage
+                  width="700"
+                  height="700"
+                  className="rounded-md my-2"
+                  preserveTransformations
+                  src={
+                    "https://res.cloudinary.com/dolduzhix/image/upload/v1712363123/Portfolio%20images/inHandy/screenshotnetflix_w0zggg.jpg"
+                  }
+                  alt={"Netflix Screenshot"}
                 />
                 <p className="mt-6 text-small italic leading-8 text-gray-400">
                   Another example of how the use of a visual stimulus improves

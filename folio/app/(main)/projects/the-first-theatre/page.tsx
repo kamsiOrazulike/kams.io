@@ -9,6 +9,7 @@ import {
   FaInstagram,
 } from "react-icons/fa";
 import ArrowToTop from "../../components/ArrowToTop";
+import { CldImage } from "next-cloudinary";
 
 const Overview = () => {
   return (
@@ -41,11 +42,17 @@ const Overview = () => {
             </div>
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <img
-              className="w-[32rem] max-w-none rounded-xl sm:w-[48rem]"
-              src="/static/imgs/ide/arduinome3.jpg"
-              alt="thefirsttheatreimg"
-            />
+            <div className="rounded-md">
+            <CldImage
+              width="1040"
+              height="1000"
+              className="rounded-md w-[56rem]"
+              preserveTransformations
+              src={
+                "https://res.cloudinary.com/dolduzhix/image/upload/v1712363336/Portfolio%20images/IDE/arduinome3_rdp3py.jpg"
+              }
+              alt={"Meet the team"}
+            /></div>
           </div>
           <div className="text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
