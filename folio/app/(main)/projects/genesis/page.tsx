@@ -100,7 +100,6 @@ const GenesisFoodDeliveryApp = () => {
                       role="list"
                       className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
                     >
-                      <li>UX Writer</li>
                       <li>UI Designer</li>
                       <li>Graphic Designer</li>
                       <li>User Researcher</li>
@@ -120,11 +119,7 @@ const GenesisFoodDeliveryApp = () => {
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaReact className="mr-4" />
-                        React/Native
-                      </li>
-                      <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <FaJsSquare className="mr-4" />
-                        JavaScript
+                        React Native
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <DiIllustrator className="mr-4" />
@@ -234,8 +229,9 @@ const GenHRM = () => {
                       role="list"
                       className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
                     >
-                      <li>Frontend Developer</li>
                       <li>UI Designer</li>
+                      <li>Product Developer</li>
+                      <li>Frontend Developer</li>
                     </ul>
                   </div>
                   <div>
@@ -252,7 +248,11 @@ const GenHRM = () => {
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaReact className="mr-4" />
-                        TypeScript (React, Nextjs + Node)
+                        TypeScript
+                      </li>
+                      <li className="m-4 flex flex-row align-middle justify-start items-center">
+                        <FaReact className="mr-4" />
+                        React + Nextjs
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaGitAlt className="mr-4" />
@@ -319,6 +319,16 @@ const GenesisGOAL = () => {
               }
               alt={"GenHRM Prototype"}
             />
+            <CldImage
+              width="1000"
+              height="900"
+              className="rounded-md"
+              preserveTransformations
+              src={
+                "https://res.cloudinary.com/dolduzhix/image/upload/v1712529888/Portfolio%20images/Genesis/GOALCode_xavnzy.png"
+              }
+              alt={"GenHRM Prototype"}
+            />
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
@@ -359,9 +369,7 @@ const GenesisGOAL = () => {
                       role="list"
                       className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
                     >
-                      <li>Frontend Developer</li>
-                      <li>Product Designer</li>
-                      <li>UI Designer</li>
+                      <li>Fullstack Developer</li>
                     </ul>
                   </div>
                   <div>
@@ -373,20 +381,16 @@ const GenesisGOAL = () => {
                       className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
                     >
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <FaFigma className="mr-4" />
-                        Figma
+                        <FaReact className="mr-4" />
+                        TypeScript
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaReact className="mr-4" />
-                        React (TypeScript, Nextjs + Node)
+                        React + Nextjs
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaGitAlt className="mr-4" />
                         GitHub
-                      </li>
-                      <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <FaFileExcel className="mr-4" />
-                        Microsoft Excel
                       </li>
                     </ul>
                   </div>

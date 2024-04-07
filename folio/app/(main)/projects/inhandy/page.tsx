@@ -507,7 +507,7 @@ const Design = () => {
   );
 };
 
-const Analysis = () => {
+const Method = () => {
   return (
     <>
       <div className="relative isolate overflow-hidden bg-black px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-0">
@@ -610,6 +610,45 @@ const Analysis = () => {
                   the language is key to developing a valuable learning
                   experience.
                 </p>
+
+                <h1 className="mt-8 text-3xl font-bold tracking-tight sm:text-4xl">
+                  Gamification
+                </h1>
+                <p className="mt-6 text-small italic leading-8 text-gray-400">
+                  Adopting certain game elements when it comes to e-learning
+                  allows the user to learn effectively. Game elements that
+                  provide this encouraging feedback and the way they are
+                  rendered ultimately play a part in boosting the learning
+                  experience.
+                </p>
+                <p className="mt-6 text-small leading-8 text-gray-400">
+                  It's important in any learning context/situation to provide
+                  feedback. How this is done can vary from specifically or a
+                  combination of:
+                </p>
+                <ul className="my-12 text-sm shadow-xl p-2 text-gray-300">
+                  <li className="m-4 flex flex-row align-middle justify-start items-center">
+                    <AiOutlineCheck className="mx-4 text-green-400" />
+                    Levelling up
+                  </li>
+                  <li className="m-4 flex flex-row align-middle justify-start items-center">
+                    <AiOutlineCheck className="mx-4 text-green-400" />
+                    Gathering of points
+                  </li>
+                  <li className="m-4 flex flex-row align-middle justify-start items-center">
+                    <AiOutlineCheck className="mx-4 text-green-400" /> Unlocking
+                    of new features
+                  </li>
+                </ul>
+                <p className="mt-6 text-small leading-8 text-gray-400">
+                  Game-like elements are very important to incorporate in the
+                  product design as it would be a powerful way to connect the
+                  user to the learning experience. The process of learning Sign
+                  Language does not have to be limited to watching a
+                  professional repeat signs on a screen, it can be made
+                  enjoyable and more interactive in order to maintain the user
+                  interest.
+                </p>
               </div>
             </div>
           </div>
@@ -691,6 +730,15 @@ const Analysis = () => {
                   informing the user of exactly how much work they are doing and
                   can act as either a source of motivation or discouragement.
                 </p>
+
+                <a
+                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  href="mailto:kamsi_orazulike@icloud.com?subject=inHandy Project report enquiry"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Enquire for full report
+                </a>
               </div>
             </div>
           </div>
@@ -719,7 +767,7 @@ export default function InHandy() {
         <Overview />
         <Introduction />
         <Design />
-        <Analysis />
+        <Method />
       </div>
     </>
   );

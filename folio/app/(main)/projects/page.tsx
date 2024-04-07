@@ -37,7 +37,7 @@ export default function Projects() {
       message:
         "Product design work done for The Afrikan Store. A food and snack delivery store based in London, United Kingdom",
       image:
-        "https://res.cloudinary.com/dolduzhix/image/upload/v1712343005/Portfolio%20images/TheAfrikanStore/Front_face_h22jsb.png",
+        "https://res.cloudinary.com/dolduzhix/image/upload/v1712531132/Portfolio%20images/TheAfrikanStore/Hamper_render_gjhvhn.jpg",
       href: "#",
     },
   ];
@@ -52,7 +52,7 @@ export default function Projects() {
                 key={index}
                 className="bg-transparent w-full mb-8 md:mb-0"
               >
-                <div className="flex flex-wrap items-center justify-between py-6 px-8 cursor-default">
+                <div className="flex flex-col-reverse md:flex-row md:flex-wrap items-center justify-between py-6 px-8 cursor-default">
                   <div className="w-full text-justify md:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 md:mb-0">
                     <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
                     <p className="text-md font-light">{project.subtitle}</p>
