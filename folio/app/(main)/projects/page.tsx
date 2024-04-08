@@ -8,7 +8,7 @@ export default function Projects() {
       title: "inHandy",
       subtitle: "DICE Project | 2021",
       message:
-        "Your brief introduction to BSL. An Education app designed to focus on the utilisation of engaging visuals as well as gamification to improve the learning experience.",
+        "Your brief introduction to BSL. An Education app designed to focus on the utilisation of engaging visuals as well as...",
       image:
         "https://res.cloudinary.com/dolduzhix/image/upload/v1712363004/Portfolio%20images/UXUI/inHandyMockup_a9tly6.png",
       href: "/projects/inhandy",
@@ -17,7 +17,7 @@ export default function Projects() {
       title: "The First Theatre",
       subtitle: "IDE Project | 2023",
       message:
-        "Built around the idea of playful nostalgia; our group aimed to combine the charm of traditional shadow puppetry with cutting-edge innovations. Utilising Hand-pose recognition technology, Machine Learning...",
+        "Built around the idea of playful nostalgia; our group aimed to combine the charm of traditional shadow puppetry...",
       image:
         "https://res.cloudinary.com/dolduzhix/image/upload/v1712363317/Portfolio%20images/IDE/thefirsttheatre_tgy4xc.jpg",
       href: "/projects/the-first-theatre",
@@ -69,7 +69,7 @@ export default function Projects() {
                     ) : (
                       <button
                         disabled
-                        className="no-underline mt-4 bg-gray-300 text-black px-4 py-2 rounded-md border border-white transition-colors duration-300 cursor-not-allowed"
+                        className="no-underline bg-gray-300 text-black px-4 py-2 rounded-md border border-white transition-colors duration-300 cursor-not-allowed"
                       >
                         Coming soon
                       </button>
