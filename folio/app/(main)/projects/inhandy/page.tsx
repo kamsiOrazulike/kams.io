@@ -173,6 +173,14 @@ const Overview = () => {
                 >
                   Check out Figma prototype
                 </a>
+                <a
+                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  href="https://drive.google.com/file/d/1If5L01Zu4dGQBaXA7m5G2lE_ShdEz8sE/view"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  View full report
+                </a>
               </div>
             </div>
           </div>
@@ -730,15 +738,6 @@ const Method = () => {
                   informing the user of exactly how much work they are doing and
                   can act as either a source of motivation or discouragement.
                 </p>
-
-                <a
-                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
-                  href="mailto:kamsi_orazulike@icloud.com?subject=inHandy Project report enquiry"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Enquire for full report
-                </a>
               </div>
             </div>
           </div>
@@ -765,9 +764,9 @@ export default function InHandy() {
           </h1>
         </div>
         <Overview />
-        <Introduction />
+        {/* <Introduction />
         <Design />
-        <Method />
+        <Method /> */}
       </div>
     </>
   );

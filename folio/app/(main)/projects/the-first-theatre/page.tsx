@@ -43,16 +43,17 @@ const Overview = () => {
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <div className="rounded-md">
-            <CldImage
-              width="1040"
-              height="1000"
-              className="rounded-md w-[56rem]"
-              preserveTransformations
-              src={
-                "https://res.cloudinary.com/dolduzhix/image/upload/v1712363336/Portfolio%20images/IDE/arduinome3_rdp3py.jpg"
-              }
-              alt={"Meet the team"}
-            /></div>
+              <CldImage
+                width="1040"
+                height="1000"
+                className="rounded-md w-[56rem]"
+                preserveTransformations
+                src={
+                  "https://res.cloudinary.com/dolduzhix/image/upload/v1712363336/Portfolio%20images/IDE/arduinome3_rdp3py.jpg"
+                }
+                alt={"Meet the team"}
+              />
+            </div>
           </div>
           <div className="text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
@@ -106,11 +107,11 @@ const Overview = () => {
                 </div>
                 <a
                   className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
-                  href=" https://www.instagram.com/p/C3LcPI6Mrbt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
+                  href="https://drive.google.com/file/d/1IK4dLqSMh1khLxkzpLCPW2blz3Ci3qxG/view"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Check out post &nbsp; <FaInstagram />
+                  View full report
                 </a>
               </div>
             </div>
