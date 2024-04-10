@@ -45,7 +45,7 @@ export const avatar = () => {
     <img
       src="./static/imgs/Me.png"
       alt={name}
-      className="w-[300px] h-[300px] mx-auto my-4 object-cover border border-white hover:scale-105 transition-all duration-500 rounded-full"
+      className="w-[400px] h-[320px] md:h-[400px] mx-auto my-4 object-cover border border-white hover:scale-105 transition-all duration-500 rounded-full"
     />
   );
 };
