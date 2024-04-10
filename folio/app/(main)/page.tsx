@@ -19,7 +19,7 @@ export default function Hero() {
               {role}
             </p>
             <p className="md:text-md sm:text-md text-sm tracking-wide font-light my-1">
-              {place}
+              {/* {place} */}
             </p>
             {avatar()}
           </div>
