@@ -6,7 +6,7 @@ export default function Projects() {
   const projects = [
     {
       title: "inHandy",
-      subtitle: "DICE Project | 2021",
+      subtitle: "UX/UI Design",
       message:
         "Your brief introduction to BSL. An Education app designed to focus on the utilisation of engaging visuals as well as...",
       image:
@@ -14,17 +14,8 @@ export default function Projects() {
       href: "/projects/inhandy",
     },
     {
-      title: "The First Theatre",
-      subtitle: "IDE Project | 2023",
-      message:
-        "Built around the idea of playful nostalgia; our group aimed to combine the charm of traditional shadow puppetry...",
-      image:
-        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363317/Portfolio%20images/IDE/thefirsttheatre_tgy4xc.jpg",
-      href: "/projects/the-first-theatre",
-    },
-    {
       title: "Genesis Group",
-      subtitle: "Product Design | 2023",
+      subtitle: "UX/UI Design | Frontend Developer",
       message:
         "Different projects developed during my time at Genesis Group. Including UX/UI design for a food delivery application",
       image:
@@ -32,8 +23,18 @@ export default function Projects() {
       href: "/projects/genesis",
     },
     {
+      title: "The First Theatre",
+      subtitle: "Processing | Arduino",
+      message:
+        "Built around the idea of playful nostalgia; our group aimed to combine the charm of traditional shadow puppetry...",
+      image:
+        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363317/Portfolio%20images/IDE/thefirsttheatre_tgy4xc.jpg",
+      href: "/projects/the-first-theatre",
+    },
+
+    {
       title: "The Afrikan Store",
-      subtitle: "Product Design | 2023",
+      subtitle: "Product Design | Branding",
       message:
         "Graphic design and Branding work done for The Afrikan Store. A food and snack delivery store based in London, United Kingdom",
       image:

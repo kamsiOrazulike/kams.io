@@ -161,9 +161,9 @@ const GenHRM = () => {
                   GenHRM
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
-                  During my time working within the Innovation team at Genesis
-                  Group, we developed GenHRM: a Human Resources Management
-                  system to replace the outdated system that was being used.
+                  During my time working at Genesis Group, we developed GenHRM:
+                  a Human Resources Management system to replace the outdated
+                  system that was being used.
                 </p>
               </div>
             </div>
@@ -300,10 +300,10 @@ const GenesisGOAL = () => {
                 </h1>
 
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
-                  During my time working within the Innovation team at Genesis
-                  Group, I designed GOAL. A product focused on encouraging
-                  healthy competition between fast food outlets to improve
-                  overall business performance.
+                  During my time working at Genesis Group, I developed GOAL. A
+                  product focused on encouraging healthy competition between
+                  each of their fast food outlets to improve overall business
+                  performance.
                 </p>
               </div>
             </div>
