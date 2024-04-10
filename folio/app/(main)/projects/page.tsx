@@ -15,7 +15,7 @@ export default function Projects() {
     },
     {
       title: "Genesis Group",
-      subtitle: "UX/UI Design | Frontend Developer",
+      subtitle: "UX/UI Design | Full Stack Developer",
       message:
         "Different projects developed during my time at Genesis Group. Including UX/UI design for a food delivery application",
       image:

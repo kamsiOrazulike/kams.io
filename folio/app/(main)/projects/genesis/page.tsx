@@ -23,10 +23,10 @@ const GenesisFoodDeliveryApp = () => {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <p className="text-base font-semibold leading-7 text-red-600 dark:text-red-400">
-                  Food Delivery App for Genesis Restaurants
+                  UX/UI Design Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Introduction
+                  Food Delivery App for Genesis Restaurants
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
                   Genesis Restaurants wish to offer customers a Food Delivery
@@ -155,15 +155,14 @@ const GenHRM = () => {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <p className="text-base font-semibold leading-7 text-red-600 dark:text-red-400">
-                  Human Resources Management System for Genesis Group
+                  Full Stack Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                  GenHRM
+                  Human Resources Management System for Genesis Group
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
-                  During my time working at Genesis Group, we developed GenHRM:
-                  a Human Resources Management system to replace the outdated
-                  system that was being used.
+                  GenHRM is a Human Resources Management system I designed to
+                  replace the outdated system that was being used.
                 </p>
               </div>
             </div>
@@ -205,14 +204,16 @@ const GenHRM = () => {
                   the development of the new system.
                 </p>
                 <p className="text-gray-700 dark:text-gray-400 my-4">
-                  <span className="text-white">User Experience:</span> The
-                  system had to be easy to navigate through for all users.
+                  <span className="text-white">
+                    An improved User Experience:
+                  </span>{" "}
+                  The system had to be easy to navigate through for all users.
                   Meaning we had to make the most important features easy to
                   find.
                 </p>
                 <p className="text-gray-700 dark:text-gray-400 my-4">
                   <span className="text-white">
-                    Scalability + Reusable components:
+                    Project Scalability + Reusable components:
                   </span>{" "}
                   Moving forward it is likely that we would establish an
                   ecosystem of in-house applications used by all staff within
@@ -229,9 +230,8 @@ const GenHRM = () => {
                       role="list"
                       className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
                     >
-                      <li>UI Designer</li>
-                      <li>Product Developer</li>
-                      <li>Frontend Developer</li>
+                      <li>Scrum Master</li>
+                      <li>Full stack Developer</li>
                     </ul>
                   </div>
                   <div>
@@ -292,18 +292,16 @@ const GenesisGOAL = () => {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <p className="text-base font-semibold leading-7 text-red-600 dark:text-red-400">
-                  Fostering collaboration & encouraging competition within fast
-                  food outlets
+                  Full Stack Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                  GOAL - Genesis Outlet Achievers League
+                  Encouraging competition between fast food outlets
                 </h1>
 
                 <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
-                  During my time working at Genesis Group, I developed GOAL. A
-                  product focused on encouraging healthy competition between
-                  each of their fast food outlets to improve overall business
-                  performance.
+                  GOAL is a product focused on encouraging healthy competition
+                  between each of the fast food outlets run by parent company
+                  Genesis Group to improve overall business performance.
                 </p>
               </div>
             </div>
@@ -334,7 +332,7 @@ const GenesisGOAL = () => {
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 lg:max-w-lg">
                 {/* <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Achievements
+                  How it works
                 </h1>
                 <p className="text-gray-700 dark:text-gray-400">
                   <span className="text-white">Cleaning of rogue data:</span>{" "}
