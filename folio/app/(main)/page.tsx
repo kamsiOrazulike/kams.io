@@ -3,11 +3,13 @@ import React from "react";
 import { name, role, avatar, ann, place } from "./lib/info";
 import Projects from "./projects/page";
 import { CldImage } from "next-cloudinary";
+import ArrowToTop from "./components/ArrowToTop";
 
 export default function Hero() {
   return (
     <div className="text-white w-full h-screen bg-audit bg-cover text-center">
-      <div className="bg-black/90 w-full">
+      <div id="top" className="bg-black/90 w-full">
+        <ArrowToTop />
         {/* Intro */}
         <div className="flex md:flex-row flex-col justify-between align-middle items-start pt-32">
           <div className="w-full md:w-2/5 px-12 flex flex-col">

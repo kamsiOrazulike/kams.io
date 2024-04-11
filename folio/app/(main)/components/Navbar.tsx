@@ -3,7 +3,7 @@ import { AiOutlineHome, AiOutlineMail } from "react-icons/ai";
 
 export default function Navbar() {
   return (
-    <nav className="fixed bg-transparent top-0 left-0 w-full flex justify-between items-center p-4 z-40">
+    <nav className="absolute bg-transparent top-0 left-0 w-full flex justify-between items-center p-4 z-40">
       <div>
         <a
           href="/"
