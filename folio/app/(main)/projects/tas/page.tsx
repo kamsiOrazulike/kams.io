@@ -12,7 +12,6 @@ import { MdOutlineVideogameAsset } from "react-icons/md";
 import { FaBrain, FaFigma, FaFilm, FaPinterestP } from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
 import { BiPencil } from "react-icons/bi";
-import ArrowToTop from "../../components/ArrowToTop";
 
 const Overview = () => {
   return (
@@ -206,7 +205,6 @@ export default function TASBrand() {
         <title>The Afrikan Store</title>
       </Head>
       <div className="bg-green-700 dark:text-white text-black">
-        <ArrowToTop />
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-row justify-center align-middle">
           <h1
             id="top"

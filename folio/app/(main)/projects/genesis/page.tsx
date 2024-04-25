@@ -11,7 +11,6 @@ import {
   FaGitAlt,
 } from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
-import ArrowToTop from "../../components/ArrowToTop";
 import { CldImage } from "next-cloudinary";
 
 const GenesisFoodDeliveryApp = () => {
@@ -418,7 +417,6 @@ export default function Genesis() {
         <title>Genesis</title>
       </Head>
       <div className="bg-red-700 dark:text-white text-black">
-        <ArrowToTop />
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-col justify-center align-middle">
           <h1
             id="top"

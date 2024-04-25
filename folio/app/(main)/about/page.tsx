@@ -3,7 +3,6 @@ import Head from "next/head";
 import { AiOutlineCheck, AiOutlineMail } from "react-icons/ai";
 import { FaFigma, FaCss3, FaReact, FaCircle, FaCheck } from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
-import ArrowToTop from "../components/ArrowToTop";
 
 const Overview = () => {
   return (
@@ -205,7 +204,6 @@ export default function Genesis() {
         <title>About me</title>
       </Head>
       <div className="bg-gradient-to-b from-green-800 to-black bg-4 text-white">
-        <ArrowToTop />
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-row justify-center align-middle">
           <h1
             id="top"

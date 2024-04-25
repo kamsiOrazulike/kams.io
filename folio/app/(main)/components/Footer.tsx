@@ -1,26 +1,20 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import {
+  AiFillGithub,
+  AiFillInstagram,
+  AiFillLinkedin,
+  AiOutlineArrowUp,
+  AiOutlineBehance,
+} from "react-icons/ai";
+import { Link as LinkScroll } from "react-scroll";
 
 const Footer = () => {
   const [showFooter, setShowFooter] = useState(false);
 
   const handleScroll = () => {
-    const windowHeight = window.innerHeight;
-    const body = document.body;
-    const html = document.documentElement;
-    const documentHeight = Math.max(
-      body.scrollHeight,
-      body.offsetHeight,
-      html.clientHeight,
-      html.scrollHeight,
-      html.offsetHeight
-    );
-
     const scrollY = window.scrollY;
-    const scrollPosition = windowHeight + scrollY;
-
-    if (scrollPosition >= documentHeight) {
+    if (scrollY > 200) {
       setShowFooter(true);
     } else {
       setShowFooter(false);
@@ -38,10 +32,21 @@ const Footer = () => {
   return (
     <>
       {showFooter && (
-        <footer className="fixed bg-transparent bottom-0 justify-center right-100 w-full md:flex-row md:flex-nowrap md:justify-start flex items-start p-4 z-40">
+        <footer className="fixed bg-transparent bottom-0 justify-between align-middle right-100 w-full md:flex-row md:flex-nowrap md:justify-center flex items-start p-4 z-40">
+          <LinkScroll
+            to="top"
+            spy={true}
+            smooth={true}
+            offset={-500}
+            duration={500}
+            className="to-top relative bg-white border border-black rounded-full cursor-pointer p-2 text-black font-light text-xl transition-all duration-150"
+          >
+            <AiOutlineArrowUp />
+          </LinkScroll>
+
           <div>
             <div
-              className={`bg-white text-black border border-black shadow-md transition-all duration-150 font-light text-xs mx-auto px-4 py-2 `}
+              className={`bg-white text-black border border-black shadow-md transition-all duration-150 font-light text-xs px-4 py-2 `}
             >
               <ul className="flex flex-row items-center">
                 <li className="px-2 my-2 mr-6 cursor-pointer transition-all duration-200">
@@ -54,6 +59,15 @@ const Footer = () => {
                     className="text-xl"
                   >
                     <AiFillLinkedin className="text-black hover:text-blue-500 transition-all duration-150" />
+                  </a>
+                </li>
+                <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
+                  <a
+                    href="http://be.net/kamsi_orazulike"
+                    target="_blank"
+                    className="text-xl"
+                  >
+                    <AiOutlineBehance className="text-black hover:text-blue-500 transition-all duration-150" />
                   </a>
                 </li>
                 <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">

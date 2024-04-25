@@ -8,7 +8,6 @@ import {
   FaCogs,
   FaInstagram,
 } from "react-icons/fa";
-import ArrowToTop from "../../components/ArrowToTop";
 import { CldImage } from "next-cloudinary";
 
 const Overview = () => {
@@ -129,7 +128,6 @@ export default function Genesis() {
         <title>The First Theatre</title>
       </Head>
       <div className="bg-red-800 bg-cover dark:text-white text-black">
-        <ArrowToTop />
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-row justify-center align-middle">
           <h1
             id="top"

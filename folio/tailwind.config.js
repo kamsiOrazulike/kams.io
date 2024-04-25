@@ -14,8 +14,8 @@ module.exports = {
         "svg-3": "url('/static/svg/bg-img-3.svg')",
         "inhandy-img":
           "url('https://acutrans.com/wp-content/uploads/2020/08/ASL.png')",
-        "audit":
-          "url('/static/imgs/selfAudit.svg')",
+        "audit": "url('/static/imgs/selfAudit.svg')",
+        "birdseye": "url('/static/imgs/birdseye.png')",
         "genhrm": "url('/static/imgs/genHRM/login.png')",
         "404bg":
           "url(https://i.pinimg.com/originals/a5/d5/60/a5d56021b749bd3da560a014e3e433af.jpg)",

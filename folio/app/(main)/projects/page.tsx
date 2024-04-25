@@ -15,7 +15,7 @@ export default function Projects() {
     },
     {
       title: "Genesis Group",
-      subtitle: "UX/UI Design | Full Stack Developer",
+      subtitle: "UX/UI Design | Full Stack",
       message:
         "Different projects developed during my time at Genesis Group. Including UX/UI design for a food delivery application",
       image:
@@ -31,21 +31,11 @@ export default function Projects() {
         "https://res.cloudinary.com/dolduzhix/image/upload/v1712363317/Portfolio%20images/IDE/thefirsttheatre_tgy4xc.jpg",
       href: "/projects/the-first-theatre",
     },
-
-    {
-      title: "The Afrikan Store",
-      subtitle: "Product Design | Branding",
-      message:
-        "Graphic design and Branding work done for The Afrikan Store. A food and snack delivery store based in London, United Kingdom",
-      image:
-        "https://res.cloudinary.com/dolduzhix/image/upload/v1712531132/Portfolio%20images/TheAfrikanStore/Hamper_render_gjhvhn.jpg",
-      href: "#",
-    },
   ];
 
   return (
-    <div className="bg-audit bg-cover text-white">
-      <div className="pt-20 pb-18 bg-black/90">
+    <div className="bg-gray-300 text-black">
+      <div className="pt-14 pb-18">
         <div className="w-full mx-auto py-16 px-14">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
             {projects.map((project, index) => (
@@ -54,7 +44,7 @@ export default function Projects() {
                 className="bg-transparent w-full mb-8 md:mb-0"
               >
                 <div className="flex flex-col-reverse md:flex-row md:flex-wrap items-center justify-between py-6 px-8 cursor-default">
-                  <div className="w-full text-justify md:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 md:mb-0">
+                  <div className="w-full text-left md:w-1/2 lg:w-1/2 xl:w-1/2 mb-4 md:mb-0">
                     <h2 className="text-2xl font-bold mb-2">{project.title}</h2>
                     <p className="text-md font-light">{project.subtitle}</p>
                     <p className="text-gray-500 text-md mt-2 mb-8 md:mr-4">
@@ -63,7 +53,7 @@ export default function Projects() {
                     {project.href !== "#" ? (
                       <a
                         href={project.href}
-                        className="no-underline mt-4 bg-white text-black px-4 py-2 rounded-md hover:bg-black border border-white hover:border hover:text-white transition-colors duration-300"
+                        className="no-underline mt-4 bg-black text-white px-4 py-2 rounded-md hover:bg-transparent border border-black hover:border hover:text-black transition-colors duration-300"
                       >
                         See More
                       </a>
