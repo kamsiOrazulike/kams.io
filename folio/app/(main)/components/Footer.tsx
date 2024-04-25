@@ -32,64 +32,61 @@ const Footer = () => {
   return (
     <>
       {showFooter && (
-        <footer className="fixed bg-transparent bottom-0 justify-between align-middle right-100 w-full md:flex-row md:flex-nowrap md:justify-center flex items-start p-4 z-40">
-          <LinkScroll
-            to="top"
-            spy={true}
-            smooth={true}
-            offset={-500}
-            duration={500}
-            className="to-top relative bg-white border border-black rounded-full cursor-pointer p-2 text-black font-light text-xl transition-all duration-150"
-          >
-            <AiOutlineArrowUp />
-          </LinkScroll>
-
+        <footer className="fixed bg-transparent bottom-0 justify-between right-100 w-full md:justify-center flex flex-row items-center p-4 z-40">
+          {/* Footer info */}
           <div>
-            <div
-              className={`bg-white text-black border border-black shadow-md transition-all duration-150 font-light text-xs px-4 py-2 `}
+            <LinkScroll
+              to="top"
+              spy={true}
+              smooth={true}
+              offset={-500}
+              duration={500}
+              className="to-top relative bg-white border border-black cursor-pointer p-2 m-2 text-black font-light text-lg transition-all duration-150"
             >
-              <ul className="flex flex-row items-center">
-                <li className="px-2 my-2 mr-6 cursor-pointer transition-all duration-200">
-                  Developed by Kamsi Orazulike
-                </li>
-                <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
-                  <a
-                    href="https://www.linkedin.com/in/kamsiyonnaorazulike?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
-                    target="_blank"
-                    className="text-xl"
-                  >
-                    <AiFillLinkedin className="text-black hover:text-blue-500 transition-all duration-150" />
-                  </a>
-                </li>
-                <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
-                  <a
-                    href="http://be.net/kamsi_orazulike"
-                    target="_blank"
-                    className="text-xl"
-                  >
-                    <AiOutlineBehance className="text-black hover:text-blue-500 transition-all duration-150" />
-                  </a>
-                </li>
-                <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
-                  <a
-                    href="https://github.com/kamsiOrazulike"
-                    target="_blank"
-                    className="text-xl"
-                  >
-                    <AiFillGithub className="text-black hover:text-green-500 transition-all duration-150" />
-                  </a>
-                </li>
-                <li className="my-2 cursor-pointer hover:scale-105 transition-all duration-200">
-                  <a
-                    href="https://www.instagram.com/k0.design/"
-                    target="_blank"
-                    className="text-xl"
-                  >
-                    <AiFillInstagram className="text-black hover:text-indigo-700 transition-all duration-150" />
-                  </a>
-                </li>
-              </ul>
-            </div>
+              <AiOutlineArrowUp />
+            </LinkScroll>
+          </div>
+          <div
+            className={`bg-white mx-auto text-black border border-black shadow-md transition-all duration-150 font-light text-xs px-4 py-2 `}
+          >
+            <ul className="flex flex-row items-center">
+              <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
+                <a
+                  href="https://www.linkedin.com/in/kamsiyonnaorazulike?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+                  target="_blank"
+                  className="text-xl"
+                >
+                  <AiFillLinkedin className="text-black hover:text-blue-500 transition-all duration-150" />
+                </a>
+              </li>
+              <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
+                <a
+                  href="http://be.net/kamsi_orazulike"
+                  target="_blank"
+                  className="text-xl"
+                >
+                  <AiOutlineBehance className="text-black hover:text-blue-500 transition-all duration-150" />
+                </a>
+              </li>
+              <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
+                <a
+                  href="https://github.com/kamsiOrazulike"
+                  target="_blank"
+                  className="text-xl"
+                >
+                  <AiFillGithub className="text-black hover:text-green-500 transition-all duration-150" />
+                </a>
+              </li>
+              <li className="my-2 cursor-pointer hover:scale-105 transition-all duration-200">
+                <a
+                  href="https://www.instagram.com/k0.design/"
+                  target="_blank"
+                  className="text-xl"
+                >
+                  <AiFillInstagram className="text-black hover:text-indigo-700 transition-all duration-150" />
+                </a>
+              </li>
+            </ul>
           </div>
         </footer>
       )}
