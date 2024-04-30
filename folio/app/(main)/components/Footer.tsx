@@ -56,7 +56,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-xl"
                 >
-                  <AiFillLinkedin className="text-black hover:text-blue-500 transition-all duration-150" />
+                  <AiFillLinkedin className="w-8 text-2xl text-black hover:text-blue-500 transition-all duration-150" />
                 </a>
               </li>
               <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
@@ -65,7 +65,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-xl"
                 >
-                  <AiOutlineBehance className="text-black hover:text-blue-500 transition-all duration-150" />
+                  <AiOutlineBehance className="w-8 text-2xl text-black hover:text-blue-500 transition-all duration-150" />
                 </a>
               </li>
               <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
@@ -74,7 +74,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-xl"
                 >
-                  <AiFillGithub className="text-black hover:text-green-500 transition-all duration-150" />
+                  <AiFillGithub className="w-8 text-2xl text-black hover:text-green-500 transition-all duration-150" />
                 </a>
               </li>
               <li className="my-2 cursor-pointer hover:scale-105 transition-all duration-200">
@@ -83,7 +83,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-xl"
                 >
-                  <AiFillInstagram className="text-black hover:text-indigo-700 transition-all duration-150" />
+                  <AiFillInstagram className="w-8 text-2xl text-black hover:text-indigo-700 transition-all duration-150" />
                 </a>
               </li>
             </ul>
