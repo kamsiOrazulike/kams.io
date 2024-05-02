@@ -1,71 +1,20 @@
-.animation,
-.animation-layer {
-  height: 1000px;
+.text-size {
+  font-size: 14vw; /* Adjust the value as needed */
 }
 
-.animation {
-  display: block;
-  position: relative;
-  z-index: 10;
-}
-
-.animation-layer {
-  background-position: bottom center;
-  background-size: auto 1040px;
-  background-repeat: repeat-x;
-  width: 100%;
-  position: absolute;
-}
-.animation-layer.parallax {
-  position: fixed;
-}
-
-#background1 {
-  background-image: url("/static/svg/bg-img-1.svg");
-}
-#background2 {
-  background-image: url("/static/svg/bg-img-2.svg");
-}
-#background3 {
-  background-image: url("/static/svg/bg-img-3.svg");
-}
-#background4 {
-  background-image: url("/static/svg/bg-img-4.svg");
-}
-#background5 {
-  background-image: url("/static/svg/bg-img-5.svg");
-}
-
-.to-top {
-  position: fixed;
-  z-index: 9999999;
-  bottom: 2%;
-  right: 2%;
-  transition-duration: 0.4s;
-
-  @media screen and (max-width: 768px) {
-    bottom: 2%;
-    right: 2%;
+/* Media query for adjusting font size for smaller screens */
+@media screen and (max-width: 768px) {
+  .text-size {
+    font-size: 14vw; /* Adjust the value as needed */
   }
 }
 
-.statgroup {
-  width: 70%;
-  margin: 3rem 0;
-  padding: 0 3rem;
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+@font-face {
+  font-family: "Woes";
+  src: local("Woes"), url("../../fonts/Woes.ttf") format("opentype");
+  font-weight: normal;
+}
 
-  @media screen and (max-width: 800px) {
-    width: 80%;
-  }
-
-  h2 {
-    @media screen and (max-width: 800px) {
-      font-size: 3rem;
-    }
-  }
+.text-woes {
+  font-family: "Woes";
 }

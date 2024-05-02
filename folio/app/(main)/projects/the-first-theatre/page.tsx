@@ -66,7 +66,7 @@ const Overview = () => {
                       role="list"
                       className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
                     >
-                      <li>Electronics Engineer</li>
+                      <li>Electronics</li>
                       <li>Arduino Programming</li>
                       <li>Machine Learning</li>
                     </ul>

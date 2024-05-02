@@ -9,7 +9,9 @@ import {
   FaReact,
   FaFileExcel,
   FaGitAlt,
+  FaNodeJs,
 } from "react-icons/fa";
+import { SiMiro, SiTailwindcss } from "react-icons/si";
 import { DiIllustrator } from "react-icons/di";
 import { CldImage } from "next-cloudinary";
 
@@ -22,17 +24,17 @@ const GenesisFoodDeliveryApp = () => {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <p className="text-base font-semibold leading-7 text-red-600 dark:text-red-400">
-                  UX/UI Design Project
+                  UI Design Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Food Delivery App for Genesis Restaurants
+                  Food Delivery Mobile App
                 </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
+                <p className="mt-6 text-xl leading-8 text-gray-200 font-thin">
                   Genesis Restaurants wish to offer customers a Food Delivery
-                  application as a method to increase sales and generate
-                  revenue.
+                  application as a method to increase sales and generate revenue
+                  for the business.
                 </p>
-                <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
+                <p className="mt-6 text-xl leading-8 text-gray-200 font-thin">
                   The company has a website for orders, but wants to expand to
                   e-commerce for more order options and building customer
                   loyalty to the brand.
@@ -57,27 +59,23 @@ const GenesisFoodDeliveryApp = () => {
                 <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
                   Goal
                 </h1>
-                <p className="text-gray-700 dark:text-gray-400">
-                  The user experience should be designed to keep customers
-                  entertained and engaged with the brand. This should also
-                  influence the features in the product's user interface.
+                <p className="text-gray-200 font-thin">
+                  The application should be designed to keep customers engaged
+                  with the brand. This focus should influence the features that
+                  go into the product's UI Design.
                 </p>
-                <p className="text-gray-700 dark:text-gray-400 my-4">
+                <p className="text-gray-200 font-thin my-4">
                   Some of the ways in which this can be done is through the
                   implementation of:
                 </p>
-                <ul className="my-12 text-sm shadow-xl p-2 dark:text-gray-300">
+                <ul className="my-12 text-sm shadow-xl p-2">
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
                     <AiOutlineCheck className="mx-4 text-red-600 dark:text-red-400" />
                     Loyalty programs and rewards
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-red-600 dark:text-red-400" />
-                    Personalisation
-                  </li>
-                  <li className="m-4 flex flex-row align-middle justify-start items-center">
                     <AiOutlineCheck className="mx-4 text-red-600 dark:text-red-400" />{" "}
-                    A streamlined ordering process
+                    A streamlined ordering process with limited clicks
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
                     <AiOutlineCheck className="mx-4 text-red-600 dark:text-red-400" />
@@ -101,7 +99,7 @@ const GenesisFoodDeliveryApp = () => {
                     >
                       <li>UI Designer</li>
                       <li>Graphic Designer</li>
-                      <li>User Researcher</li>
+                      <li>Prototyping</li>
                     </ul>
                   </div>
                   <div>
@@ -117,8 +115,8 @@ const GenesisFoodDeliveryApp = () => {
                         Figma
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <FaReact className="mr-4" />
-                        React Native
+                        <SiMiro className="mr-4" />
+                        Miro
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <DiIllustrator className="mr-4" />
@@ -157,9 +155,9 @@ const GenHRM = () => {
                   Full Stack Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Human Resources Management System for Genesis Group
+                  Human Resources Management System
                 </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
+                <p className="mt-6 text-xl leading-8 text-gray-200 font-thin">
                   GenHRM is a Human Resources Management system I designed to
                   replace the outdated system that was being used.
                 </p>
@@ -194,7 +192,7 @@ const GenHRM = () => {
                 <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
                   Achievements
                 </h1>
-                <p className="text-gray-700 dark:text-gray-400">
+                <p className="text-gray-200 font-thin">
                   <span className="text-white">Cleaning of rogue data:</span>{" "}
                   Due to mishandling over time, the data had become inconsistent
                   and inaccurate. There were instances where former employees,
@@ -202,7 +200,7 @@ const GenHRM = () => {
                   It was essential to clean up the data before proceeding with
                   the development of the new system.
                 </p>
-                <p className="text-gray-700 dark:text-gray-400 my-4">
+                <p className="text-gray-200 font-thin my-4">
                   <span className="text-white">
                     An improved User Experience:
                   </span>{" "}
@@ -210,7 +208,7 @@ const GenHRM = () => {
                   Meaning we had to make the most important features easy to
                   find.
                 </p>
-                <p className="text-gray-700 dark:text-gray-400 my-4">
+                <p className="text-gray-200 font-thin my-4">
                   <span className="text-white">
                     Project Scalability + Reusable components:
                   </span>{" "}
@@ -242,16 +240,16 @@ const GenHRM = () => {
                       className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
                     >
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <FaFigma className="mr-4" />
-                        Figma
+                        <FaNodeJs className="mr-4" />
+                        NodeJS
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaReact className="mr-4" />
-                        TypeScript
+                        React (NextJS)
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <FaReact className="mr-4" />
-                        React + Nextjs
+                        <SiTailwindcss className="mr-4" />
+                        Tailwind CSS
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaGitAlt className="mr-4" />
@@ -259,19 +257,27 @@ const GenHRM = () => {
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaFileExcel className="mr-4" />
-                        Microsoft Excel
+                        Excel
                       </li>
                     </ul>
                   </div>
                 </div>
 
                 <a
-                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  className="text-sm py-2 mt-8 mb-2 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
                   href="https://genhrm.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
                   Check out web application (Login required)
+                </a>
+                <a
+                  className="text-sm py-2 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  href="https://github.com/uppercase-hussein/GenHRM-FE"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Check out github repo
                 </a>
               </div>
             </div>
@@ -294,13 +300,19 @@ const GenesisGOAL = () => {
                   Full Stack Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Encouraging competition between fast food outlets
+                  The GOAL platform
                 </h1>
 
-                <p className="mt-6 text-xl leading-8 text-gray-700 dark:text-gray-400">
-                  GOAL is a product focused on encouraging healthy competition
-                  between each of the fast food outlets run by parent company
-                  Genesis Group to improve overall business performance.
+                <p className="mt-6 text-xl leading-8 text-gray-200 font-thin">
+                  After conducting initial surveys targeted at employees within
+                  the company I developed and implemented the Genesis GOAL
+                  platform. A product developed based on insights gathered
+                  durinng the analysis of responses to an employee experience
+                  and satisfaction survey I created. <br />
+                  <br /> The GOAL platform is a Single Page Application aimed at
+                  bolstering business performance by getting each restaurant
+                  outlet to be a part of a league where employees can gain
+                  bonuses based on the average monthly sales.
                 </p>
               </div>
             </div>
@@ -314,7 +326,7 @@ const GenesisGOAL = () => {
               src={
                 "https://res.cloudinary.com/dolduzhix/image/upload/v1712368066/Portfolio%20images/Genesis/goalfe_fgazms.png"
               }
-              alt={"GenHRM Prototype"}
+              alt={"GOAL"}
             />
             <CldImage
               width="1000"
@@ -324,38 +336,44 @@ const GenesisGOAL = () => {
               src={
                 "https://res.cloudinary.com/dolduzhix/image/upload/v1712529888/Portfolio%20images/Genesis/GOALCode_xavnzy.png"
               }
-              alt={"GenHRM Prototype"}
+              alt={"GOAL"}
             />
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 lg:max-w-lg">
-                {/* <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
+                <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
                   How it works
                 </h1>
-                <p className="text-gray-700 dark:text-gray-400">
-                  <span className="text-white">Cleaning of rogue data:</span>{" "}
-                  Due to mishandling over time, the data had become inconsistent
-                  and inaccurate. There were instances where former employees,
-                  who were no longer with the company, remained in the system.
-                  It was essential to clean up the data before proceeding with
-                  the development of the new system.
-                </p>
-                <p className="text-gray-700 dark:text-gray-400 my-4">
-                  <span className="text-white">User Experience:</span> The
-                  system had to be easy to navigate through for all users.
-                  Meaning we had to make the most important features easy to
-                  find.
-                </p>
-                <p className="text-gray-700 dark:text-gray-400 my-4">
-                  <span className="text-white">
-                    Scalability + Reusable components:
+                <p className="text-gray-200 font-thin">
+                  <span className="text-white font-bold">
+                    Uploading of monthly sales:
                   </span>{" "}
-                  Moving forward it is likely that we would establish an
-                  ecosystem of in-house applications used by all staff within
-                  the company. It was important that we programmed with this in
-                  mind.
-                </p> */}
+                  At the end of each calendar month, the regional manager
+                  receives a sales report from each of the restaurant outlets.
+                  These reports have to be uploaded to the platform by the
+                  regional manager matching each one to its corresponding
+                  outlet. In the application this is uploaded to a server
+                  endpoint using a POST request with Axios. If the request is
+                  successful, the data is stored on the server and now be used.
+                </p>
+                <p className="text-gray-200 font-thin my-4">
+                  <span className="text-white font-bold">
+                    Point conversion:
+                  </span>{" "}
+                  Within the code is a function that takes in a 'sales' figure
+                  and divides it by a constant value we called a
+                  'salesToPointMargin'. We use this to establish the points for
+                  each team (Restaurant outlet).
+                </p>
+                <p className="text-gray-200 font-thin my-4">
+                  <span className="text-white font-bold">
+                    Accessibility and Bonuses:
+                  </span>{" "}
+                  The GOAL platform is available to view by both staff and
+                  frontline employees. Each new season there will be rewards for
+                  the top 3 restaurant outlets in their respective divisions.
+                </p>
 
                 <div className="flex flex-wrap flex-row justify-between">
                   <div>
@@ -432,8 +450,8 @@ export default function Genesis() {
           </p>
         </div>
         <GenesisFoodDeliveryApp />
-        <GenHRM />
         <GenesisGOAL />
+        <GenHRM />
       </div>
     </>
   );

@@ -1,13 +1,12 @@
 import "../globals.css";
 import "../../public/static/css/all.css";
 import "../../public/static/css/cube.scss";
-import { Inter, Poppins } from "next/font/google";
+import { Roboto } from "next/font/google";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
-// const inter = Inter({ subsets: ["latin"] });
-const poppins = Poppins({
-  weight: ["100", "200", "400", "800"],
+const roboto = Roboto({
+  weight: ["100", "300", "500", "400", "700", "900"],
   subsets: ["latin"],
 });
 
@@ -23,7 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={poppins.className}>
+      <body className={roboto.className}>
         <Navbar />
         {children}
         <Footer />

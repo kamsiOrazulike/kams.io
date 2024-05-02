@@ -13,144 +13,89 @@ import {
   FaPython,
   FaReact,
 } from "react-icons/fa";
+import {
+  AiFillLinkedin,
+  AiOutlineBehance,
+  AiFillGithub,
+  AiFillInstagram,
+  AiOutlineArrowRight,
+} from "react-icons/ai";
+import { SocialMediaItem, GetInTouchProps } from "./interface/types";
+
+const getInTouch = ({ contactIcons }: GetInTouchProps) => {
+  return (
+    <div className="w-[10em] flex flex-col justify-center py-4">
+      <ul className="flex flex-col items-end">
+        {contactIcons.map((item, index) => (
+          <li
+            key={index}
+            className="my-2 cursor-pointer hover:scale-105 transition-all duration-200"
+          >
+            <a href={item.link} target="_blank" className="text-xl">
+              {item.icon}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  );
+};
 
 export default function Hero() {
+  const socialMediaItems = [
+    {
+      link: "https://www.linkedin.com/in/kamsiyonnaorazulike?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+      icon: (
+        <AiFillLinkedin className="w-8 text-2xl text-white hover:text-blue-500 transition-all duration-150" />
+      ),
+    },
+    {
+      link: "http://be.net/kamsi_orazulike",
+      icon: (
+        <AiOutlineBehance className="w-8 text-2xl text-white hover:text-blue-500 transition-all duration-150" />
+      ),
+    },
+    {
+      link: "https://github.com/kamsiOrazulike",
+      icon: (
+        <AiFillGithub className="w-8 text-2xl text-white hover:text-green-500 transition-all duration-150" />
+      ),
+    },
+    {
+      link: "https://www.instagram.com/k0.design/",
+      icon: (
+        <AiFillInstagram className="w-8 text-2xl text-white hover:text-indigo-700 transition-all duration-150" />
+      ),
+    },
+  ];
   return (
-    <div className="h-full">
-      <div className="text-white w-full bg-birdseye bg-cover bg-bottom text-center">
-        <div id="top" className="w-full bg-black/70">
-          {/* Intro */}
-          <div className="flex md:flex-row flex-col justify-between align-middle items-start pt-24 pb-12">
-            <div className="w-full md:w-2/5 px-12 flex flex-col">
-              <h1 className="md:text-6xl sm:text-5xl text-4xl font-semibold tracking-wide md:py-2 ease-in-out duration-500">
-                {name}
-              </h1>
-              <p className="md:text-md sm:text-md text-sm tracking-wide font-light mb-2">
-                {role}
+    <div className="">
+      <div className="text-white w-full h-screen bg-slate-950">
+        <div id="top">
+          <div className="absolute left-5 top-12">
+            <div className="w-[10em] flex flex-col justify-center py-4">
+              <p className="text-woes text-sm p-0 m-0 font-thin ease-in-out duration-500 mb-4">
+                If you're reading this you've gotten access to my portfolio link
               </p>
-              {avatar()}
-            </div>
-            <div className="relative w-full md:w-1/3 flex flex-col px-8 py-4">
-              <div className="cube-container">
-                <div className="frontendcube cube1">
-                  <div className="box face1">
-                    <FaHtml5 color="#F06529" />
-                  </div>
-                  <div className="box face2">
-                    <FaCss3 color="#28A4D9" />
-                  </div>
-                  <div className="box face3" />
-                  <div className="box face4" />
-                  <div className="box face5">
-                    <FaReact color="#5ED4F4" />
-                  </div>
-                  <div className="box face6">
-                    <FaFigma color="#FFFFFF" />
-                  </div>
-                </div>
-                <div className="backendcube cube2">
-                  <div className="box face1">
-                    <FaPython color="#646464" />
-                  </div>
-                  <div className="box face2">
-                    <FaNodeJs color="#68A063" />
-                  </div>
-                  <div className="box face3" />
-                  <div className="box face4" />
-                  <div className="box face5">
-                    <FaGitAlt color="#EC4D28" />
-                  </div>
-                  <div className="box face6">
-                    <FaJsSquare color="#EFD81D" />
-                  </div>
-                </div>
-              </div>
+              <p className="text-woes text-sm p-0 m-0 font-thin ease-in-out duration-500 mb-4">
+                While you have caught me in the process of an update, I promise
+                I'm coding as fast as I can!
+              </p>
+              <p className="text-woes text-sm p-0 m-0 font-thin ease-in-out duration-500">
+                Feel free to check out the right <AiOutlineArrowRight className="inline-block"/>
+              </p>
             </div>
           </div>
-          <Projects />
+          <div className="absolute right-5 top-12">
+            {getInTouch({ contactIcons: socialMediaItems })}
+          </div>
+          <div className="absolute leading-none bottom-0">
+            <h1 className="text-size p-0 m-0 text-center font-thin ease-in-out duration-500">
+              {name}
+            </h1>
+          </div>
         </div>
       </div>
     </div>
   );
-}
-
-{
-  /* Education */
-}
-//  <div className="text-center md:text-left">
-//  <h2 className="text-white italic text-sm my-4">Education</h2>
-//  <div className="flex flex-row">
-//    <div className="mx-2">
-//      <img
-//        src={"./static/imgs/logos/CranleighSchoolCrest.png"}
-//        className="w-12 md:w-28"
-//        alt="Education 1"
-//      />
-//    </div>
-//    <div className="mx-4 flex flex-col">
-//      <img
-//        src={"./static/imgs/logos/QueenMaryLogo.png"}
-//        className="w-20 md:w-44"
-//        alt="Education 2"
-//      />
-//      <img
-//        src={"./static/imgs/logos/ImperialCollegeLogo.png"}
-//        className="w-20 md:w-44 mt-4"
-//        alt="Education 2"
-//      />
-//    </div>
-//    <div className="mx-2">
-//      <img
-//        src={"./static/imgs/logos/RCALogo.png"}
-//        className="w-12 md:w-32 bg-white p-2 rounded-md"
-//        alt="Education 3"
-//      />
-//    </div>
-//  </div>
-// </div>
-{
-  /* Work Experience */
-}
-{
-  /* <div className="text-center md:text-left mb-4">
- <h2 className="text-white italic text-sm my-4">
-   Work experience
- </h2>
- <div className="flex flex-row">
-   <div className="mx-2">
-     <img
-       src={"./static/imgs/logos/GenesisLogo.png"}
-       className="w-14 md:w-44"
-       alt="Work experience 1"
-     />
-   </div>
-   <div className="mx-2">
-     <img
-       src={"./static/imgs/logos/RHPS.svg"}
-       className="w-14 md:w-22"
-       alt="Work experience 2"
-     />
-   </div>
-   <div className="mx-2">
-     <img
-       src={
-         "https://www.maritimelondon.com/wp-content/uploads/2017/04/Berenberg-Logo_UK_UZ-8pt-Standard_300dpi_rgb.png"
-       }
-       className="w-14 md:w-44 rounded-lg"
-       alt="Work experience 3"
-     />
-   </div>
- </div>
- <div className="flex flex-row">
-   <div className="mx-2">
-     <img
-       src={
-         "https://www.fashionworkie.com/sites/default/files/new-logos/afrikan_store_the_01.png"
-       }
-       className="w-20 md:w-24 rounded-md"
-       alt="Work experience 4"
-     />
-   </div>
- </div>
-</div> */
 }

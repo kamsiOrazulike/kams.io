@@ -1,5 +1,5 @@
 "use client";
-export const name = "I'm Kamsi 👋";
+export const name = "Kamsi Orazulike";
 export const ann = '"kam-see"';
 export const role = "Product Designer | Full stack Developer";
 export const place = "Imperial College London | Royal College of Art";
@@ -45,7 +45,7 @@ export const avatar = () => {
     <img
       src="./static/imgs/Me.png"
       alt={name}
-      className="w-[400px] mx-auto my-4 object-cover border border-white rounded-full"
+      className="w-[300px] my-4 object-cover border border-white rounded-full"
     />
   );
 };
