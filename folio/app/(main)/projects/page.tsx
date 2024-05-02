@@ -24,7 +24,7 @@ export default function Projects() {
     },
     {
       title: "The First Theatre",
-      subtitle: "Processing | Arduino",
+      subtitle: "Machine Learning | Arduino",
       message:
         "Built around the idea of playful nostalgia; our group aimed to combine the charm of traditional shadow puppetry...",
       image:
