@@ -75,10 +75,9 @@ export default function Hero() {
           <div className="absolute left-6 top-12">
             <div className="w-2/5 flex flex-col justify-center py-4">
               <p className="w-auto text-sm p-0 m-0 font-light italic ease-in-out duration-500 mb-4">
-                Hey! I am a Product designer with a passion for all things
-                digital. I'm currently pursuing a joint MSc/MA in Innovation Design
-                Engineering at Imperial College London & Royal College of Art so
-                I am more available to work with clients!
+                Hey, I am a Product designer with a passion for all things
+                digital currently pursuing a joint masters in Innovation Design
+                Engineering at Imperial College London & Royal College of Art.
               </p>
             </div>
           </div>
