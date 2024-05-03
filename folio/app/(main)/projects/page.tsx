@@ -6,16 +6,16 @@ export default function Projects() {
   const projects = [
     {
       title: "@ Genesis Group",
-      subtitle: "Product Design (Digital)",
+      subtitle: "UI Design | Full-stack Dev",
       message:
-        "Check out different software projects I worked on during my time at Genesis Group. Including a food delivery mobile application",
+        "Check out different software projects I worked on during my time at Genesis Group. Including UX/UI design for food delivery mobile application, A Human Resources Management Portal and more",
       image:
         "https://res.cloudinary.com/dolduzhix/image/upload/v1712362998/Portfolio%20images/UXUI/GenesisMockup_cuy2vz.png",
       href: "/projects/genesis",
     },
     {
       title: "inHandy",
-      subtitle: "Product Design (Digital)",
+      subtitle: "UX/UI Design",
       message:
         "inHandy is my final year project submission/pitch for a sustainable digital product aimed at teaching BSL in an engaging and stimulating manner",
       image:
@@ -24,7 +24,7 @@ export default function Projects() {
     },
     {
       title: "The First Theatre",
-      subtitle: "Product Design",
+      subtitle: "Human-Computer Interaction | Product Design",
       message:
         "For my Cyberphyscial systems module at Imperial College London, our group decided to combine the power of arduino programming with Machine Learning in order to create a unique Human-Computer interaction inspired by shadow puppetry",
       image:
@@ -44,6 +44,13 @@ export default function Projects() {
 
   return (
     <div className="bg-[#2c2b27] text-white pt-12 pb-24 px-6">
+      <div>
+        <div className="flex flex-col align-middle">
+        <h1 className="text-7xl font-thin mb-2">Projects</h1>
+        {/* <p className="text-md font-thin">Genesis group, The African Store</p> */}
+        </div>
+      </div>
+
       {projects.map((project, index) => (
         <div
           key={index}
@@ -57,7 +64,7 @@ export default function Projects() {
               <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                 {project.title}
               </h1>
-              <p className="mt-6 mb-8 text-xl leading-8 font-thin">
+              <p className="mt-6 mb-8 text-lg leading-6 font-thin">
                 {project.message}
               </p>
               {project.href !== "#" ? (

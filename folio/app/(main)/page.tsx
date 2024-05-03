@@ -46,25 +46,25 @@ export default function Hero() {
     {
       link: "https://www.linkedin.com/in/kamsiyonnaorazulike?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       icon: (
-        <AiFillLinkedin className="w-8 text-2xl text-white hover:text-blue-500 transition-all duration-150" />
+        <AiFillLinkedin className="w-8 text-2xl text-white/50 hover:text-white transition-all duration-150" />
       ),
     },
     {
       link: "http://be.net/kamsi_orazulike",
       icon: (
-        <AiOutlineBehance className="w-8 text-2xl text-white hover:text-blue-400 transition-all duration-150" />
+        <AiOutlineBehance className="w-8 text-2xl text-white/50 hover:text-white transition-all duration-150" />
       ),
     },
     {
       link: "https://github.com/kamsiOrazulike",
       icon: (
-        <AiFillGithub className="w-8 text-2xl text-white hover:text-green-300 transition-all duration-150" />
+        <AiFillGithub className="w-8 text-2xl text-white/50 hover:text-white transition-all duration-150" />
       ),
     },
     {
       link: "https://www.instagram.com/k0.design/",
       icon: (
-        <AiFillInstagram className="w-8 text-2xl text-white hover:text-indigo-400 transition-all duration-150" />
+        <AiFillInstagram className="w-8 text-2xl text-white/50 hover:text-white transition-all duration-150" />
       ),
     },
   ];
@@ -72,18 +72,13 @@ export default function Hero() {
     <div className="">
       <div className="text-white w-full h-screen bg-[#46443d]">
         <div id="top">
-          <div className="absolute left-5 top-12">
-            <div className="w-[10em] flex flex-col justify-center py-4">
-              <p className="text-woes text-sm p-0 m-0 font-thin ease-in-out duration-500 mb-4">
-                If you're reading this you've gotten access to my portfolio link
-              </p>
-              <p className="text-woes text-sm p-0 m-0 font-thin ease-in-out duration-500 mb-4">
-                While you have caught me in the process of an update, I promise
-                I'm coding as fast as I can!
-              </p>
-              <p className="text-woes text-sm p-0 m-0 font-thin ease-in-out duration-500">
-                Feel free to check out the right{" "}
-                <AiOutlineArrowRight className="inline-block" />
+          <div className="absolute left-6 top-12">
+            <div className="w-2/5 flex flex-col justify-center py-4">
+              <p className="w-auto text-sm p-0 m-0 font-light italic ease-in-out duration-500 mb-4">
+                Hey! I am a Product designer with a passion for all things
+                digital. I'm currently pursuing a joint MSc/MA in Innovation Design
+                Engineering at Imperial College London & Royal College of Art so
+                I am more available to work with clients!
               </p>
             </div>
           </div>
