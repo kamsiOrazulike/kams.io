@@ -18,3 +18,16 @@
 .text-woes {
   font-family: "Woes";
 }
+
+.to-top {
+  position: fixed;
+  z-index: 9999999;
+  bottom: 2%;
+  left: 2%;
+  transition-duration: 0.4s;
+
+  @media screen and (max-width: 768px) {
+    bottom: 2%;
+    left: 2%;
+  }
+}

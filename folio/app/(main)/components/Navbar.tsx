@@ -11,7 +11,7 @@ export default function Navbar() {
         <div key={index}>
           <a
             href={option.link}
-            className="text-gray-500 hover:text-white font-light text-[1rem] transition-colors duration-300 flex items-center"
+            className="text-gray-400 hover:text-white font-light text-[1rem] transition-colors duration-300 flex items-center"
           >
             <span className="inline-block ml-2">{option.title}</span>
           </a>
@@ -19,7 +19,7 @@ export default function Navbar() {
       ))}
       <a
         href="mailto:kamsi_orazulike@icloud.com"
-        className="border-b border-b-gray-500 hover:border-b-white text-gray-500 hover:text-white font-light text-[1rem] transition-colors duration-300 flex items-center"
+        className="border-b border-b-gray-400 hover:border-b-white text-gray-400 hover:text-white font-light text-[1rem] transition-colors duration-300 flex items-center"
       >
         <span className="inline-block">Get in touch</span>
       </a>

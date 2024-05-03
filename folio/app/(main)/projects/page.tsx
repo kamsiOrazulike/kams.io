@@ -34,7 +34,8 @@ export default function Projects() {
     {
       title: "@ The Afrikan Store",
       subtitle: "Product | Brand Design",
-      message: "A summary of Product design projects completed for The Afrikan Store.",
+      message:
+        "A summary of Product design projects completed for The Afrikan Store.",
       image:
         "https://res.cloudinary.com/dolduzhix/image/upload/v1712343005/Portfolio%20images/TheAfrikanStore/Front_face_h22jsb.png",
       href: "#",
@@ -42,52 +43,48 @@ export default function Projects() {
   ];
 
   return (
-    <div className="bg-black text-white pt-12">
+    <div className="bg-[#2c2b27] text-white pt-12 pb-24 px-6">
       {projects.map((project, index) => (
         <div
           key={index}
-          className="relative text-left isolate overflow-hidden px-6 sm:py-18 lg:overflow-visible lg:px-0"
+          className="flex flex-col-reverse md:flex-row items-center px-6 sm:py-18 lg:px-0 pb-12"
         >
-          <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-            <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
-              <div className="lg:pr-4">
-                <div className="lg:max-w-lg">
-                  <p className="text-base font-thin leading-7 text-white uppercase">
-                    {project.subtitle}
-                  </p>
-                  <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                    {project.title}
-                  </h1>
-                  <p className="mt-6 mb-8 text-xl leading-8 font-thin">
-                    {project.message}
-                  </p>
-                  {project.href !== "#" ? (
-                    <a
-                      href={project.href}
-                      className="no-underline font-normal mt-4 bg-white text-black px-4 py-2 rounded-md hover:bg-transparent border border-white hover:border hover:text-white transition-colors duration-300"
-                    >
-                      See More
-                    </a>
-                  ) : (
-                    <button
-                      disabled
-                      className="no-underline font-normal bg-gray-300 text-black px-4 py-2 rounded-md border border-white transition-colors duration-300 cursor-wait"
-                    >
-                      Coming soon
-                    </button>
-                  )}
-                </div>
-              </div>
+          <div className="md:w-1/2 md:pr-12">
+            <div className="md:max-w-lg">
+              <p className="text-base font-thin leading-7 text-white uppercase">
+                {project.subtitle}
+              </p>
+              <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+                {project.title}
+              </h1>
+              <p className="mt-6 mb-8 text-xl leading-8 font-thin">
+                {project.message}
+              </p>
+              {project.href !== "#" ? (
+                <a
+                  href={project.href}
+                  className="no-underline font-normal mt-4 bg-white text-black px-4 py-2 rounded-md hover:bg-transparent border border-white hover:border hover:text-white transition-colors duration-300"
+                >
+                  See More
+                </a>
+              ) : (
+                <button
+                  disabled
+                  className="no-underline font-normal bg-gray-300 text-black px-4 py-2 rounded-md border border-white transition-colors duration-300 cursor-wait"
+                >
+                  Coming soon
+                </button>
+              )}
             </div>
-            <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-              <CldImage
-                width="1050"
-                height="1000"
-                preserveTransformations
-                src={project.image}
-                alt={project.title}
-              />
-            </div>
+          </div>
+          <div className="md:w-1/2 md:pl-12">
+            <CldImage
+              width="1050"
+              height="1000"
+              preserveTransformations
+              src={project.image}
+              alt={project.title}
+            />
           </div>
         </div>
       ))}

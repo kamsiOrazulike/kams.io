@@ -52,25 +52,25 @@ export default function Hero() {
     {
       link: "http://be.net/kamsi_orazulike",
       icon: (
-        <AiOutlineBehance className="w-8 text-2xl text-white hover:text-blue-500 transition-all duration-150" />
+        <AiOutlineBehance className="w-8 text-2xl text-white hover:text-blue-400 transition-all duration-150" />
       ),
     },
     {
       link: "https://github.com/kamsiOrazulike",
       icon: (
-        <AiFillGithub className="w-8 text-2xl text-white hover:text-green-500 transition-all duration-150" />
+        <AiFillGithub className="w-8 text-2xl text-white hover:text-green-300 transition-all duration-150" />
       ),
     },
     {
       link: "https://www.instagram.com/k0.design/",
       icon: (
-        <AiFillInstagram className="w-8 text-2xl text-white hover:text-indigo-700 transition-all duration-150" />
+        <AiFillInstagram className="w-8 text-2xl text-white hover:text-indigo-400 transition-all duration-150" />
       ),
     },
   ];
   return (
     <div className="">
-      <div className="text-white w-full h-screen bg-slate-950">
+      <div className="text-white w-full h-screen bg-[#46443d]">
         <div id="top">
           <div className="absolute left-5 top-12">
             <div className="w-[10em] flex flex-col justify-center py-4">
@@ -82,7 +82,8 @@ export default function Hero() {
                 I'm coding as fast as I can!
               </p>
               <p className="text-woes text-sm p-0 m-0 font-thin ease-in-out duration-500">
-                Feel free to check out the right <AiOutlineArrowRight className="inline-block"/>
+                Feel free to check out the right{" "}
+                <AiOutlineArrowRight className="inline-block" />
               </p>
             </div>
           </div>
@@ -96,6 +97,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      <Projects />
     </div>
   );
 }
