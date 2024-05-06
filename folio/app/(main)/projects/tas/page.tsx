@@ -9,7 +9,14 @@ import {
   AiOutlineMobile,
 } from "react-icons/ai";
 import { MdOutlineVideogameAsset } from "react-icons/md";
-import { FaBrain, FaFigma, FaFilm, FaPinterestP } from "react-icons/fa";
+import {
+  FaBlender,
+  FaBlenderPhone,
+  FaBrain,
+  FaFigma,
+  FaFilm,
+  FaPinterestP,
+} from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
 import { BiPencil } from "react-icons/bi";
 
@@ -56,35 +63,17 @@ const Overview = () => {
           <div className="text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-semibold leading-7 text-indigo-600">
-                  inHandy: Your British Sign Language Learning tool
+                <p className="text-base font-semibold leading-7 text-green-600">
+                  Food snack eCommerce store, London
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Overview
+                  The Afrikan Store
                 </h1>
                 <p className="mt-6 text-xl leading-8 text-gray-400">
-                  Sign Language is a valuable tool for communicating with the
-                  deaf or hard-of-hearing, and learning it can bring a host of
-                  benefits.
-                </p>
-                <ul className="my-12 text-sm shadow-xl p-2 text-gray-300">
-                  <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" />
-                    Improving spatial awareness
-                  </li>
-                  <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" />
-                    Enhance cognitive function
-                  </li>
-                  <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" /> Bridge
-                    the communication gaps
-                  </li>
-                </ul>
-                <p>
-                  Whether you're interested in learning Sign Language as a
-                  personal hobby or as a professional skill, its benefits are
-                  clear.
+                  Delivered right to your door. The Afrikan Store is a company
+                  on a mission to make ethnic food more accessible throughout
+                  the United Kingdom and Northern Ireland. Specifically African
+                  and Caribbean traditional snacks.
                 </p>
               </div>
             </div>
@@ -97,7 +86,7 @@ const Overview = () => {
               src={
                 "https://res.cloudinary.com/dolduzhix/image/upload/v1712770337/Portfolio%20images/TheAfrikanStore/Screenshot_2024-04-10_at_18.21.22_c8bnro.png"
               }
-              alt={"InHandy Prototype"}
+              alt={"Prototype design"}
             />
             <CldImage
               width="1050"
@@ -106,34 +95,29 @@ const Overview = () => {
               src={
                 "https://res.cloudinary.com/dolduzhix/image/upload/v1712770338/Portfolio%20images/TheAfrikanStore/Screenshot_2024-04-10_at_18.21.33_g72j1y.png"
               }
-              alt={"InHandy Prototype"}
+              alt={"Prototype design II"}
             />
           </div>
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="max-w-xl text-base leading-7 lg:max-w-lg">
                 <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Goal
+                  Objectives
                 </h1>
                 <p className="text-gray-400">
-                  The aim of this project is to combine two important concepts
-                  when it comes to learning:
+                  The client needed package designs for their new line of
+                  products including:
                 </p>
                 <ul className="my-12 text-sm shadow-xl p-2 text-gray-300">
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <MdOutlineVideogameAsset className="mx-4 text-indigo-600" />{" "}
-                    Gamification
+                    <AiOutlineCheck className="mx-4 text-green-400" />Large
+                    snack box packaging (As seen on the right)
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiFillVideoCamera className="mx-4 text-indigo-600" />{" "}
-                    Contextual/Applied learning
+                    <AiOutlineCheck className="mx-4 text-green-400" />
+                    Snack labels, sleeves and stickers for smaller packaging
                   </li>
                 </ul>
-                <p>
-                  Providing a more engaging learning experience of the language
-                  is paramount for users. As well the options to pursue their
-                  learning further as well as how to do so.
-                </p>
 
                 <div className="flex flex-wrap flex-row justify-between">
                   <div>
@@ -141,11 +125,9 @@ const Overview = () => {
                       Roles
                     </h1>
                     <ul role="list" className="mt-8 space-y-8 text-gray-300">
-                      <li>User Researcher</li>
-                      <li>Product Designer</li>
-                      <li>Product Analyst</li>
-                      <li>Graphic Designer</li>
-                      <li>Character Illustrator</li>
+                      <li>Product Design</li>
+                      <li>Graphic Design</li>
+                      <li>3D Modelling</li>
                     </ul>
                   </div>
                   <div>
@@ -166,8 +148,8 @@ const Overview = () => {
                         Adobe Illustrator
                       </li>
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
-                        <BiPencil className="mr-4" />
-                        Procreate for iPad
+                        <FaBlenderPhone className="mr-4" />
+                        Blender
                       </li>
                     </ul>
                   </div>
@@ -175,19 +157,11 @@ const Overview = () => {
 
                 <a
                   className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
-                  href="https://www.figma.com/proto/iLR6o7KWBJGeLR4lMQquv5/inHandy-Mobile?page-id=0%3A1&type=design&node-id=0-56&viewport=361%2C129%2C0.25&t=pDBIU2iiDAulv4Xr-1&scaling=scale-down&starting-point-node-id=0%3A72&show-proto-sidebar=1&mode=design"
+                  href="https://theafrikanstore.com/"
                   target="_blank"
                   rel="noreferrer"
                 >
-                  Check out Figma prototype
-                </a>
-                <a
-                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
-                  href="https://drive.google.com/file/d/1If5L01Zu4dGQBaXA7m5G2lE_ShdEz8sE/view"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  View full report
+                  Check out client website
                 </a>
               </div>
             </div>

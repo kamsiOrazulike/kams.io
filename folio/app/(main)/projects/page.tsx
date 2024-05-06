@@ -38,7 +38,7 @@ export default function Projects() {
         "A summary of Product design projects completed for The Afrikan Store.",
       image:
         "https://res.cloudinary.com/dolduzhix/image/upload/v1712343005/Portfolio%20images/TheAfrikanStore/Front_face_h22jsb.png",
-      href: "#",
+      href: "/projects/tas",
     },
   ];
 
