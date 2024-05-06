@@ -22,8 +22,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={roboto.className}>
         {children}
-        <Analytics />
-        <SpeedInsights />
+        {/* <Analytics /> */}
+        {/* <SpeedInsights /> */}
       </body>
     </html>
   );
