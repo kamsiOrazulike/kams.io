@@ -65,14 +65,14 @@ export default function Projects() {
                 <p className="text-xs md:text-base font-light leading-7 text-white uppercase">
                   {project.subtitle}
                 </p>
-                <p className="text-xs md:text-base font-thin leading-7 text-white uppercase">
+                <p className="text-xs md:text-base font-light leading-7 text-white uppercase">
                   {project.date}
                 </p>
               </div>
               <h1 className="mt-2 text-2xl font-bold tracking-tight sm:text-4xl">
                 {project.title}
               </h1>
-              <p className="mt-6 mb-8 text-sm md:text-md leading-6 font-thin">
+              <p className="mt-6 mb-8 text-sm md:text-md leading-6 font-light">
                 {project.message}
               </p>
               {project.href !== "#" ? (

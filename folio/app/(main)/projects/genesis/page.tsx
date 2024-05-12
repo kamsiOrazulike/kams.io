@@ -23,7 +23,7 @@ const GenesisFoodDeliveryApp = () => {
           <div className="text-gray-900 dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-semibold leading-7 text-red-600 dark:text-red-400">
+                <p className="text-base font-light leading-7 text-red-600 dark:text-red-400">
                   UI Design Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -127,7 +127,7 @@ const GenesisFoodDeliveryApp = () => {
                 </div>
 
                 <a
-                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  className="text-sm py-2 mt-8 mb-2 flex flex-row justify-center items-center border border-off-green hover:bg-off-green hover:text-off-white transition-all duration mx-auto"
                   href="https://www.figma.com/proto/IUecsg1rFqXbgknkNw6CDr/Genesis-QSR-Application?page-id=833%3A913&type=design&node-id=1060-12052&viewport=311%2C393%2C0.11&t=fTXaRcM4l2FCpmj7-1&scaling=scale-down&starting-point-node-id=833%3A936&mode=design"
                   target="_blank"
                   rel="noreferrer"
@@ -151,7 +151,7 @@ const GenHRM = () => {
           <div className="text-gray-900 dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-semibold leading-7 text-red-600 dark:text-red-400">
+                <p className="text-base font-light leading-7 text-red-600 dark:text-red-400">
                   Full Stack Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -193,7 +193,9 @@ const GenHRM = () => {
                   Achievements
                 </h1>
                 <p className="text-gray-200 font-thin">
-                  <span className="text-off-green">Cleaning of rogue data:</span>{" "}
+                  <span className="text-off-green">
+                    Cleaning of rogue data:
+                  </span>{" "}
                   Due to mishandling over time, the data had become inconsistent
                   and inaccurate. There were instances where former employees,
                   who were no longer with the company, remained in the system.
@@ -264,7 +266,7 @@ const GenHRM = () => {
                 </div>
 
                 <a
-                  className="text-sm py-2 mt-8 mb-2 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  className="text-sm py-2 mt-8 mb-2 flex flex-row justify-center items-center border border-off-green hover:bg-off-green hover:text-off-white transition-all duration mx-auto"
                   href="https://genhrm.com/"
                   target="_blank"
                   rel="noreferrer"
@@ -272,7 +274,7 @@ const GenHRM = () => {
                   Check out web application (Login required)
                 </a>
                 <a
-                  className="text-sm py-2 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  className="text-sm py-2 mb-2 flex flex-row justify-center items-center border border-off-green hover:bg-off-green hover:text-off-white transition-all duration mx-auto"
                   href="https://github.com/uppercase-hussein/GenHRM-FE"
                   target="_blank"
                   rel="noreferrer"
@@ -296,7 +298,7 @@ const GenesisGOAL = () => {
           <div className="text-gray-900 dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-semibold leading-7 text-red-600 dark:text-red-400">
+                <p className="text-base font-light leading-7 text-red-600 dark:text-red-400">
                   Full Stack Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -412,7 +414,7 @@ const GenesisGOAL = () => {
                 </div>
 
                 <a
-                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  className="text-sm py-2 mt-8 mb-2 flex flex-row justify-center items-center border border-off-green hover:bg-off-green hover:text-off-white transition-all duration mx-auto"
                   href="https://goal2023.netlify.app/"
                   target="_blank"
                   rel="noreferrer"
