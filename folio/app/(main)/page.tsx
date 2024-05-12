@@ -1,8 +1,7 @@
 "use client";
 import React from "react";
-import { name, role, avatar, ann, place } from "./lib/info";
+import { name } from "./lib/info";
 import Projects from "./projects/page";
-import { CldImage } from "next-cloudinary";
 import {
   FaCss3,
   FaFigma,
@@ -20,7 +19,7 @@ import {
   AiFillInstagram,
   AiOutlineArrowRight,
 } from "react-icons/ai";
-import { SocialMediaItem, GetInTouchProps } from "./interface/types";
+import { GetInTouchProps } from "./interface/types";
 
 const getInTouch = ({ contactIcons }: GetInTouchProps) => {
   return (
@@ -44,7 +43,7 @@ const getInTouch = ({ contactIcons }: GetInTouchProps) => {
 export default function Hero() {
   const socialMediaItems = [
     {
-      link: "",
+      link: "https://cal-plus.vercel.app/",
       icon: (
         <p className="font-thin text-sm border-b border-b-off-green text-off-green transition-all ease-in duration-150 hover:scale-105">
           Cal+
@@ -100,6 +99,42 @@ export default function Hero() {
             {getInTouch({ contactIcons: socialMediaItems })}
           </div>
           <div className="absolute leading-none bottom-0">
+          <div className="relative">
+              <div className="cube-container">
+                <div className="frontendcube cube1">
+                  <div className="box face1">
+                    <FaHtml5 color="#F06529" />
+                  </div>
+                  <div className="box face2">
+                    <FaCss3 color="#28A4D9" />
+                  </div>
+                  <div className="box face3" />
+                  <div className="box face4" />
+                  <div className="box face5">
+                    <FaReact color="#5ED4F4" />
+                  </div>
+                  <div className="box face6">
+                    <FaFigma color="#FFFFFF" />
+                  </div>
+                </div>
+                <div className="backendcube cube2">
+                  <div className="box face1">
+                    <FaPython color="#646464" />
+                  </div>
+                  <div className="box face2">
+                    <FaNodeJs color="#68A063" />
+                  </div>
+                  <div className="box face3" />
+                  <div className="box face4" />
+                  <div className="box face5">
+                    <FaGitAlt color="#EC4D28" />
+                  </div>
+                  <div className="box face6">
+                    <FaJsSquare color="#EFD81D" />
+                  </div>
+                </div>
+              </div>
+            </div>
             <h1 className="text-size p-0 m-0 text-center font-thin ease-in-out duration-500">
               {name}
             </h1>

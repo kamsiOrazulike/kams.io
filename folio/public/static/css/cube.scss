@@ -1,37 +1,39 @@
-$width: 150px;
-$height: 150px;
-$color-inline: #00000092;
-$color-outline: #7f7f7f80;
+$width: 100px;
+$widthmobile: 70px;
+$height: 100px;
+$heightmobile: 70px;
+$color-inline: #2e2d2830;
+$color-outline: #fffcf5;
 
 @mixin flex {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
   align-items: center;
   @content;
 }
 
 .cube-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
   perspective: 1000px;
   position: relative;
   text-align: center;
   z-index: 99;
-  @include flex;
 
   @media screen and (max-width: 768px) {
     position: inherit;
     margin: 0px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    justify-content: center;
   }
 
   .header {
     position: relative;
     color: #5f4333;
-  }
-
-  .backendcube {
-    margin: 500px;
   }
 
   .frontendcube {
@@ -72,30 +74,53 @@ $color-outline: #7f7f7f80;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 80px;
+      font-size: 50px;
       font-weight: 500;
       @include flex;
 
+      &.face1,
+      &.face2,
+      &.face3,
+      &.face4,
+      &.face5,
+      &.face6 {
+        width: 100%;
+        height: 100%;
+        // backface-visibility: hidden;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background: $color-inline;
+        border: 1px solid $color-outline;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 500;
+        @include flex;
+      }
+
       &.face1 {
-        transform: translateZ(75px);
+        transform: translateZ($height / 2);
       }
       &.face2 {
-        transform: translateZ(-75px) rotateY(180deg);
+        transform: translateZ(-($height / 2)) rotateY(180deg);
       }
       &.face3 {
-        transform: rotateX(-90deg) translateY(-75px);
+        transform: rotateX(-90deg) translateY(-($height / 2));
         transform-origin: top center;
       }
       &.face4 {
-        transform: rotateX(90deg) translateY(75px);
+        transform: rotateX(90deg) translateY($height / 2);
         transform-origin: bottom center;
       }
       &.face5 {
-        transform: rotateY(270deg) translateX(-75px);
+        transform: rotateY(270deg) translateX(-($height / 2));
         transform-origin: center left;
       }
       &.face6 {
-        transform: rotateY(-270deg) translateX(75px);
+        transform: rotateY(-270deg) translateX($height / 2);
         transform-origin: top right;
       }
     }
@@ -108,17 +133,17 @@ $color-outline: #7f7f7f80;
     height: $height;
 
     @media screen and (max-width: 800px) {
-      display: none;
+      margin: 2rem;
     }
 
     &.cube1 {
       animation: horizontal-spin 7s infinite linear;
-      margin: 4rem;
+      margin: 2rem;
     }
     &.cube2 {
       animation: horizontal-spin 7s infinite linear;
       animation-direction: reverse;
-      margin: 4rem;
+      margin: 2rem;
     }
 
     .box {
@@ -135,30 +160,52 @@ $color-outline: #7f7f7f80;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      font-size: 80px;
+      font-size: 50px;
       font-weight: 500;
       @include flex;
 
+      &.face1,
+      &.face2,
+      &.face3,
+      &.face4,
+      &.face5,
+      &.face6 {
+        width: 100%;
+        height: 100%;
+        // backface-visibility: hidden;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        background: $color-inline;
+        border: 1px solid $color-outline;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        @include flex;
+      }
+
       &.face1 {
-        transform: translateZ(75px);
+        transform: translateZ($height / 2);
       }
       &.face2 {
-        transform: translateZ(-75px) rotateY(180deg);
+        transform: translateZ(-($height / 2)) rotateY(180deg);
       }
       &.face3 {
-        transform: rotateX(-90deg) translateY(-75px);
+        transform: rotateX(-90deg) translateY(-($height / 2));
         transform-origin: top center;
       }
       &.face4 {
-        transform: rotateX(90deg) translateY(75px);
+        transform: rotateX(90deg) translateY($height / 2);
         transform-origin: bottom center;
       }
       &.face5 {
-        transform: rotateY(270deg) translateX(-75px);
+        transform: rotateY(270deg) translateX(-($height / 2));
         transform-origin: center left;
       }
       &.face6 {
-        transform: rotateY(-270deg) translateX(75px);
+        transform: rotateY(-270deg) translateX($height / 2);
         transform-origin: top right;
       }
     }
