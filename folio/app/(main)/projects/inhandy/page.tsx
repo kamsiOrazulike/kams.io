@@ -16,68 +16,33 @@ import { BiPencil } from "react-icons/bi";
 const Overview = () => {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-black px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
-        <div className="absolute inset-0 -z-10 overflow-hidden">
-          <svg
-            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="e813992c-7d03-4cc4-a2bd-151760b470a0"
-                width="200"
-                height="200"
-                x="50%"
-                y="-1"
-                patternUnits="userSpaceOnUse"
-              >
-                <path d="M100 200V.5M.5 .5H200" fill="none" />
-              </pattern>
-            </defs>
-            <svg
-              x="50%"
-              y="-1"
-              className="overflow-visible fill-gray-300 dark:fill-black"
-            >
-              <path
-                d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-                stroke-width="0"
-              />
-            </svg>
-            <rect
-              width="100%"
-              height="100%"
-              stroke-width="0"
-              fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
-            />
-          </svg>
-        </div>
+      <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-          <div className="text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="text-off-green lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-semibold leading-7 text-indigo-600">
+                <p className="text-base font-light leading-7 text-off-green">
                   inHandy: Your British Sign Language Learning tool
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                   Overview
                 </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-400">
+                <p className="mt-6 text-xl leading-8 text-off-green">
                   Sign Language is a valuable tool for communicating with the
                   deaf or hard-of-hearing, and learning it can bring a host of
                   benefits.
                 </p>
-                <ul className="my-12 text-sm shadow-xl p-2 text-gray-300">
+                <ul className="my-12 text-sm shadow-xl p-2 text-off-green">
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" />
+                    <AiOutlineCheck className="mx-4 text-off-green" />
                     Improving spatial awareness
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" />
+                    <AiOutlineCheck className="mx-4 text-off-green" />
                     Enhance cognitive function
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" /> Bridge
+                    <AiOutlineCheck className="mx-4 text-off-green" /> Bridge
                     the communication gaps
                   </li>
                 </ul>
@@ -106,17 +71,17 @@ const Overview = () => {
                 <h1 className="mt-6 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
                   Goal
                 </h1>
-                <p className="text-gray-400">
+                <p className="text-off-green">
                   The aim of this project is to combine two important concepts
                   when it comes to learning:
                 </p>
-                <ul className="my-12 text-sm shadow-xl p-2 text-gray-300">
+                <ul className="my-12 text-sm shadow-xl p-2 text-off-green">
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <MdOutlineVideogameAsset className="mx-4 text-indigo-600" />{" "}
+                    <MdOutlineVideogameAsset className="mx-4 text-off-green" />{" "}
                     Gamification
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiFillVideoCamera className="mx-4 text-indigo-600" />{" "}
+                    <AiFillVideoCamera className="mx-4 text-off-green" />{" "}
                     Contextual/Applied learning
                   </li>
                 </ul>
@@ -131,7 +96,7 @@ const Overview = () => {
                     <h1 className="mt-8 mb-4 text-xl font-bold tracking-tight sm:text-xl">
                       Roles
                     </h1>
-                    <ul role="list" className="mt-8 space-y-8 text-gray-300">
+                    <ul role="list" className="mt-8 space-y-8 text-off-green">
                       <li>User Researcher</li>
                       <li>Product Designer</li>
                       <li>Product Analyst</li>
@@ -143,7 +108,7 @@ const Overview = () => {
                     <h1 className="mt-8 mb-4 text-xl font-bold tracking-tight sm:text-xl">
                       Tools
                     </h1>
-                    <ul role="list" className="mt-8 space-y-8 text-gray-300">
+                    <ul role="list" className="mt-8 space-y-8 text-off-green">
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaPinterestP className="mr-4" />
                         Pinterest
@@ -165,7 +130,7 @@ const Overview = () => {
                 </div>
 
                 <a
-                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  className="text-sm py-2 mt-8 mb-2 flex flex-row justify-center items-center border border-off-green hover:bg-off-green hover:text-off-white transition-all duration mx-auto"
                   href="https://www.figma.com/proto/iLR6o7KWBJGeLR4lMQquv5/inHandy-Mobile?page-id=0%3A1&type=design&node-id=0-56&viewport=361%2C129%2C0.25&t=pDBIU2iiDAulv4Xr-1&scaling=scale-down&starting-point-node-id=0%3A72&show-proto-sidebar=1&mode=design"
                   target="_blank"
                   rel="noreferrer"
@@ -173,7 +138,7 @@ const Overview = () => {
                   Check out Figma prototype
                 </a>
                 <a
-                  className="text-sm py-2 my-8 flex flex-row justify-center items-center border border-white hover:bg-white hover:text-black transition-all duration mx-auto"
+                  className="text-sm py-2 flex flex-row justify-center items-center border border-off-green hover:bg-off-green hover:text-off-white transition-all duration mx-auto"
                   href="https://drive.google.com/file/d/1If5L01Zu4dGQBaXA7m5G2lE_ShdEz8sE/view"
                   target="_blank"
                   rel="noreferrer"
@@ -192,53 +157,18 @@ const Overview = () => {
 const Introduction = () => {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-black px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-0">
-        <div className="absolute inset-0 -z-10 overflow-hidden">
-          <svg
-            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="e813992c-7d03-4cc4-a2bd-151760b470a0"
-                width="200"
-                height="200"
-                x="50%"
-                y="-1"
-                patternUnits="userSpaceOnUse"
-              >
-                <path d="M100 200V.5M.5 .5H200" fill="none" />
-              </pattern>
-            </defs>
-            <svg
-              x="50%"
-              y="-1"
-              className="overflow-visible fill-gray-300 dark:fill-black"
-            >
-              <path
-                d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-                stroke-width="0"
-              />
-            </svg>
-            <rect
-              width="100%"
-              height="100%"
-              stroke-width="0"
-              fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
-            />
-          </svg>
-        </div>
+      <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:items-start lg:gap-y-10">
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-semibold leading-7 text-indigo-600">
+                <p className="text-base font-light leading-7 text-off-green">
                   inHandy
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                   The Story
                 </h1>
-                <p className="mt-6 text-small italic leading-8 text-gray-400">
+                <p className="mt-6 text-small italic leading-8 text-off-green">
                   Having a cousin that was born and grew up deaf and without
                   proper treatment is something I’m reminded of every time I
                   come home. The issue of accessibility and/or awareness of
@@ -248,23 +178,23 @@ const Introduction = () => {
                   him and I prompted me to ask the question, “Why wasn’t aid
                   possible as he was growing up?”
                 </p>
-                <ul className="my-12 text-sm shadow-xl p-2 text-gray-300">
+                <ul className="my-12 text-sm shadow-xl p-2 text-off-green">
                   Some of the most popular methods for treating hearing
                   impairment involve:
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" />
+                    <AiOutlineCheck className="mx-4 text-off-green" />
                     Earwax treatment
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" />
+                    <AiOutlineCheck className="mx-4 text-off-green" />
                     Assistive Listening Devices (ALD’s)
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" />{" "}
+                    <AiOutlineCheck className="mx-4 text-off-green" />{" "}
                     Purchasing hearing aids or hearing implants
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" /> Sign
+                    <AiOutlineCheck className="mx-4 text-off-green" /> Sign
                     Language and Lip reading
                   </li>
                 </ul>
@@ -320,23 +250,25 @@ const Introduction = () => {
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                   Why inHandy?
                 </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-400">
+                <p className="mt-6 text-xl leading-8 text-off-green">
                   I decided which solution to focus on by process of
                   elimination. My process depending mainly on two factors:
                 </p>
-                <ul className="my-12 text-sm shadow-xl p-2 text-gray-300">
+                <ul className="my-12 text-sm shadow-xl p-2 text-off-green">
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
                     <AiOutlineMobile className="mx-4 text-blue-400" />
                     Accessibility
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiFillDollarCircle className="mx-4 text-green-400" />
+                    <AiFillDollarCircle className="mx-4 text-off-green" />
                     Cost
                   </li>
                 </ul>
-                <p className="text-small italic leading-8 text-gray-400 mb-2">
+                <p className="text-small italic leading-8 text-off-green mb-2">
                   This left{" "}
-                  <span className="text-white">Sign Language/Lip reading</span>{" "}
+                  <span className="text-off-green">
+                    Sign Language/Lip reading
+                  </span>{" "}
                   most favourable amongst the list. Not only is it the cheapest
                   option, but the process of learning can be done anywhere.
                   Learning Sign language is also especially helpful in
@@ -346,7 +278,7 @@ const Introduction = () => {
                   learning about the d/Deaf community.
                 </p>
 
-                <p className="text-small italic leading-8 text-gray-400 mb-2">
+                <p className="text-small italic leading-8 text-off-green mb-2">
                   This is important because not only does it act as a bridge for
                   the communication gaps between deaf and hearing, it raises
                   awareness of the communities as well. Which is necessary in
@@ -355,7 +287,7 @@ const Introduction = () => {
                   community.
                 </p>
 
-                <p className="text-small italic leading-8 text-gray-400">
+                <p className="text-small italic leading-8 text-off-green">
                   Sign Language is also very beneficial for the development of
                   communication with children as they grow older. One of the
                   benefits of children learning sign language is that it gives
@@ -376,42 +308,7 @@ const Introduction = () => {
 const Design = () => {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-black px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-0">
-        <div className="absolute inset-0 -z-10 overflow-hidden">
-          <svg
-            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="e813992c-7d03-4cc4-a2bd-151760b470a0"
-                width="200"
-                height="200"
-                x="50%"
-                y="-1"
-                patternUnits="userSpaceOnUse"
-              >
-                <path d="M100 200V.5M.5 .5H200" fill="none" />
-              </pattern>
-            </defs>
-            <svg
-              x="50%"
-              y="-1"
-              className="overflow-visible fill-gray-300 dark:fill-black"
-            >
-              <path
-                d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-                stroke-width="0"
-              />
-            </svg>
-            <rect
-              width="100%"
-              height="100%"
-              stroke-width="0"
-              fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
-            />
-          </svg>
-        </div>
+      <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:items-start lg:gap-y-10">
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
@@ -430,7 +327,7 @@ const Design = () => {
                   <CldImage
                     width="700"
                     height="700"
-                    className="rounded-md mb-2 bg-gray-300"
+                    className="rounded-md mb-2"
                     preserveTransformations
                     src={
                       "https://res.cloudinary.com/dolduzhix/image/upload/v1712363186/Portfolio%20images/inHandy/handDesign_izb0qm.png"
@@ -455,7 +352,7 @@ const Design = () => {
           <div className="lg:col-span-2 lg:col-start-2 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-semibold leading-7 text-indigo-600">
+                <p className="text-base font-light leading-7 text-off-green">
                   Ideation process
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -464,11 +361,11 @@ const Design = () => {
                     <FaBrain className="text-red-200" />
                   </span>
                 </h1>
-                <p className="mt-6 text-xl leading-8 text-gray-400">
+                <p className="mt-6 text-xl leading-8 text-off-green">
                   In my analysis of existing applications/methods of learning
                   BSL, most existing applications lacked in:
                 </p>
-                <ul className="my-12 text-sm shadow-xl p-2 text-gray-300">
+                <ul className="my-12 text-sm shadow-xl p-2 text-off-green">
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
                     <FaBrain className="mx-4 text-red-200" />
                     Interactivity - To maintain User interest whilst learning
@@ -484,24 +381,24 @@ const Design = () => {
                     period.
                   </li>
                 </ul>
-                <p className="text-small italic leading-8 text-gray-400 mb-2">
-                  <span className="text-white">Organisation</span> and{" "}
-                  <span className="text-white">presentation</span> of this
+                <p className="text-small italic leading-8 text-off-green mb-2">
+                  <span className="text-off-green">Organisation</span> and{" "}
+                  <span className="text-off-green">presentation</span> of this
                   information is important Studies have shown that students in a
                   classroom regardless of age benefit from a more engaging and
                   'fun' learning experience. Fun in learning allows an
                   individual to develop a love for learning, having a knock on
                   effect on their motivation levels.
                 </p>
-                <p className="text-small italic leading-8 text-gray-400 mb-2">
+                <p className="text-small italic leading-8 text-off-green mb-2">
                   Growth Engineering mentions an example where the company
                   Volkswagen, as part of their Fun theory', turned a staircase
                   into a giant functioning piano keyboard. A recorded 66% more
                   people chose the piano stairs over the normal one. This study
                   is a prime example of how{" "}
-                  <span className="text-white">fun</span>,{" "}
-                  <span className="text-white">engaging</span> and{" "}
-                  <span className="text-white">interactive </span>
+                  <span className="text-off-green">fun</span>,{" "}
+                  <span className="text-off-green">engaging</span> and{" "}
+                  <span className="text-off-green">interactive </span>
                   technologies can transform the way people behave in situations
                   that would normally be seen as tiring.
                 </p>
@@ -517,58 +414,23 @@ const Design = () => {
 const Method = () => {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-black px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-0">
-        <div className="absolute inset-0 -z-10 overflow-hidden">
-          <svg
-            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
-            aria-hidden="true"
-          >
-            <defs>
-              <pattern
-                id="e813992c-7d03-4cc4-a2bd-151760b470a0"
-                width="200"
-                height="200"
-                x="50%"
-                y="-1"
-                patternUnits="userSpaceOnUse"
-              >
-                <path d="M100 200V.5M.5 .5H200" fill="none" />
-              </pattern>
-            </defs>
-            <svg
-              x="50%"
-              y="-1"
-              className="overflow-visible fill-gray-300 dark:fill-black"
-            >
-              <path
-                d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z"
-                stroke-width="0"
-              />
-            </svg>
-            <rect
-              width="100%"
-              height="100%"
-              stroke-width="0"
-              fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)"
-            />
-          </svg>
-        </div>
+      <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:items-start lg:gap-y-10">
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-semibold leading-7 text-indigo-600">
+                <p className="text-base font-light leading-7 text-off-green">
                   Method I
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                   Contextual Learning
                 </h1>
-                <p className="mt-6 text-small italic leading-8 text-gray-400">
+                <p className="mt-6 text-small italic leading-8 text-off-green">
                   Imagine Learning Sign Language through the use of imagery and
                   videos. Demonstrating the language being used in real world
                   scenarios.
                 </p>
-                <p className="mt-6 text-small italic leading-8 text-gray-400">
+                <p className="mt-6 text-small italic leading-8 text-off-green">
                   It is a common misconception that memory techniques only work
                   when it comes to learning vocabulary. Studies have shown that
                   once a memory technique formula is created and understood, one
@@ -591,26 +453,26 @@ const Method = () => {
                   Source - Tofugu
                 </a>
 
-                <p className="mt-6 text-small leading-8 text-gray-400">
+                <p className="mt-6 text-small leading-8 text-off-green">
                   When learning and memorising the Japanese writing styles
                   Hiragana and Katakana. A popular method used to teach these
                   writing styles is known as{" "}
-                  <span className="text-white">Visual Mnemonics</span>.
+                  <span className="text-off-green">Visual Mnemonics</span>.
                 </p>
-                <p className="mt-6 text-small leading-8 text-gray-400">
+                <p className="mt-6 text-small leading-8 text-off-green">
                   This memory technique involves choosing a word or term that
                   you want to memorise and associating that word with an object
                   or character that you imagine sounds like the word you want to
                   memorise. Visual Mnemonics associate words with visual clues
                   and make them easier to memorise or learn.
                 </p>
-                <p className="mt-6 text-small leading-8 text-gray-400">
+                <p className="mt-6 text-small leading-8 text-off-green">
                   The use of Visual Mnemonics in teaching highlights the
                   importance of developing a visually stimulating learning
                   experience for the user in order for them to retain what they
                   have learnt as well as hold their interest.
                 </p>
-                <p className="mt-6 text-small leading-8 text-gray-400">
+                <p className="mt-6 text-small leading-8 text-off-green">
                   When it comes to learning Sign Language it is important to
                   consider the way in which the elements are designed. Designing
                   to simplify the process of making reasonable connections in
@@ -621,33 +483,33 @@ const Method = () => {
                 <h1 className="mt-8 text-3xl font-bold tracking-tight sm:text-4xl">
                   Gamification
                 </h1>
-                <p className="mt-6 text-small italic leading-8 text-gray-400">
+                <p className="mt-6 text-small italic leading-8 text-off-green">
                   Adopting certain game elements when it comes to e-learning
                   allows the user to learn effectively. Game elements that
                   provide this encouraging feedback and the way they are
                   rendered ultimately play a part in boosting the learning
                   experience.
                 </p>
-                <p className="mt-6 text-small leading-8 text-gray-400">
+                <p className="mt-6 text-small leading-8 text-off-green">
                   It's important in any learning context/situation to provide
                   feedback. How this is done can vary from specifically or a
                   combination of:
                 </p>
-                <ul className="my-12 text-sm shadow-xl p-2 text-gray-300">
+                <ul className="my-12 text-sm shadow-xl p-2 text-off-green">
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" />
+                    <AiOutlineCheck className="mx-4 text-off-green" />
                     Levelling up
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" />
+                    <AiOutlineCheck className="mx-4 text-off-green" />
                     Gathering of points
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-green-400" /> Unlocking
+                    <AiOutlineCheck className="mx-4 text-off-green" /> Unlocking
                     of new features
                   </li>
                 </ul>
-                <p className="mt-6 text-small leading-8 text-gray-400">
+                <p className="mt-6 text-small leading-8 text-off-green">
                   Game-like elements are very important to incorporate in the
                   product design as it would be a powerful way to connect the
                   user to the learning experience. The process of learning Sign
@@ -664,7 +526,7 @@ const Method = () => {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Language + Movies <FaFilm className="text-gray-400" />
+                  Language + Movies <FaFilm className="text-off-green" />
                 </h1>
                 <CldImage
                   width="700"
@@ -676,11 +538,11 @@ const Method = () => {
                   }
                   alt={"Netflix Screenshot"}
                 />
-                <p className="mt-6 text-small italic leading-8 text-gray-400">
+                <p className="mt-6 text-small italic leading-8 text-off-green">
                   Another example of how the use of a visual stimulus improves
                   the User learning experience is in foreign movies.
                 </p>
-                <p className="mt-6 text-small leading-8 text-gray-400">
+                <p className="mt-6 text-small leading-8 text-off-green">
                   Watching a foreign movie with subtitles is known as a good way
                   to pick up certain words or phrases in that foreign language.
                   Examples include the screenshot above taken from the TV series
@@ -690,7 +552,7 @@ const Method = () => {
                   trying to learn French and French individuals trying to learn
                   English.
                 </p>
-                <p className="mt-6 text-small leading-8 text-gray-400">
+                <p className="mt-6 text-small leading-8 text-off-green">
                   Studies demonstrate that one of the main benefits of films in
                   a foreign language is the fact that it provides the most
                   authentic example of the language being used in a real-world
@@ -700,7 +562,7 @@ const Method = () => {
                   engaging manner.
                 </p>
 
-                <p className="mt-8 text-base font-semibold leading-7 text-indigo-600">
+                <p className="mt-8 text-base font-light leading-7 text-off-green">
                   Inspiration: Language learning application
                 </p>
                 <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
@@ -712,12 +574,12 @@ const Method = () => {
                   alt="duolingologo"
                 />
 
-                <p className="mt-6 text-small leading-8 text-gray-400">
+                <p className="mt-6 text-small leading-8 text-off-green">
                   The popular language learning application,
-                  <span className="text-white"> Duolingo</span> is the perfect
-                  example of how teaching using game-design and game principles
-                  is an effective way for a user to learn an entirely new
-                  language.
+                  <span className="text-off-green"> Duolingo</span> is the
+                  perfect example of how teaching using game-design and game
+                  principles is an effective way for a user to learn an entirely
+                  new language.
                 </p>
                 <img
                   src={
@@ -725,17 +587,18 @@ const Method = () => {
                   }
                   className="w-30 mt-2 rounded-lg"
                 />
-                <p className="mt-6 text-small leading-8 text-gray-400">
+                <p className="mt-6 text-small leading-8 text-off-green">
                   The screenshot on above displays the formatting of a test like
                   question providing graphics that are also visually
                   stimulating. This keeps any user active and engaged throughout
                   the learning experience.
                 </p>
-                <p className="mt-6 text-small leading-8 text-gray-400">
-                  <b className="text-white">Feedback</b> on the User progress
-                  can also be noticed at the top. This is incredibly helpful in
-                  informing the user of exactly how much work they are doing and
-                  can act as either a source of motivation or discouragement.
+                <p className="mt-6 text-small leading-8 text-off-green">
+                  <b className="text-off-green">Feedback</b> on the User
+                  progress can also be noticed at the top. This is incredibly
+                  helpful in informing the user of exactly how much work they
+                  are doing and can act as either a source of motivation or
+                  discouragement.
                 </p>
               </div>
             </div>
@@ -752,7 +615,7 @@ export default function InHandy() {
       <Head>
         <title>InHandy</title>
       </Head>
-      <div className="bg-indigo-700 dark:text-white text-black">
+      <div className="bg-off-white-2 text-off-green">
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-row justify-center align-middle">
           <h1
             id="top"
@@ -762,9 +625,9 @@ export default function InHandy() {
           </h1>
         </div>
         <Overview />
-        {/* <Introduction />
+        <Introduction />
         <Design />
-        <Method /> */}
+        <Method />
       </div>
     </>
   );

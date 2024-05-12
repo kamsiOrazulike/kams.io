@@ -1,6 +1,7 @@
 export interface SocialMediaItem {
   link: string;
-  icon: React.ReactNode;
+  text?: string; 
+  icon?: React.ReactNode;
 }
 
 export interface GetInTouchProps {

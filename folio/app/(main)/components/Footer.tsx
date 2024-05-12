@@ -41,13 +41,13 @@ const Footer = () => {
               smooth={true}
               offset={-500}
               duration={500}
-              className="to-top relative bg-white border border-black cursor-pointer p-2 m-2 text-black font-light text-lg transition-all duration-150"
+              className="to-top relative border border-off-green bg-off-white cursor-pointer p-2 hover:scale-105 m-2 text-off-green font-light text-lg transition-all duration-150"
             >
               <AiOutlineArrowUp />
             </LinkScroll>
           </div>
           <div
-            className={`bg-white mx-auto text-black border border-black shadow-md transition-all duration-150 font-light text-xs px-4 py-2 `}
+            className={`mx-auto text-off-green bg-off-white border border-off-green shadow-md transition-all duration-150 font-light text-xs px-4 py-2 `}
           >
             <ul className="flex flex-row items-center">
               <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
@@ -56,7 +56,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-xl"
                 >
-                  <AiFillLinkedin className="w-8 text-2xl text-black hover:text-blue-500 transition-all duration-150" />
+                  <AiFillLinkedin className="w-8 text-2xl text-off-green hover:text-blue-500 transition-all duration-150" />
                 </a>
               </li>
               <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
@@ -65,7 +65,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-xl"
                 >
-                  <AiOutlineBehance className="w-8 text-2xl text-black hover:text-blue-500 transition-all duration-150" />
+                  <AiOutlineBehance className="w-8 text-2xl text-off-green hover:text-blue-500 transition-all duration-150" />
                 </a>
               </li>
               <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
@@ -74,7 +74,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-xl"
                 >
-                  <AiFillGithub className="w-8 text-2xl text-black hover:text-green-500 transition-all duration-150" />
+                  <AiFillGithub className="w-8 text-2xl text-off-green hover:text-green-500 transition-all duration-150" />
                 </a>
               </li>
               <li className="my-2 cursor-pointer hover:scale-105 transition-all duration-200">
@@ -83,7 +83,7 @@ const Footer = () => {
                   target="_blank"
                   className="text-xl"
                 >
-                  <AiFillInstagram className="w-8 text-2xl text-black hover:text-indigo-700 transition-all duration-150" />
+                  <AiFillInstagram className="w-8 text-2xl text-off-green hover:text-indigo-700 transition-all duration-150" />
                 </a>
               </li>
             </ul>

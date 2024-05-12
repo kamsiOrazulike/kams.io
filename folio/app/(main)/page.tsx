@@ -44,44 +44,59 @@ const getInTouch = ({ contactIcons }: GetInTouchProps) => {
 export default function Hero() {
   const socialMediaItems = [
     {
+      link: "",
+      icon: (
+        <p className="font-thin text-sm border-b border-b-off-green text-off-green transition-all ease-in duration-150 hover:scale-105">
+          Cal+
+        </p>
+      ),
+    },
+    {
       link: "https://www.linkedin.com/in/kamsiyonnaorazulike?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       icon: (
-        <AiFillLinkedin className="w-8 text-2xl text-white/50 hover:text-white transition-all duration-150" />
+        <AiFillLinkedin className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
       ),
     },
     {
       link: "http://be.net/kamsi_orazulike",
       icon: (
-        <AiOutlineBehance className="w-8 text-2xl text-white/50 hover:text-white transition-all duration-150" />
+        <AiOutlineBehance className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
       ),
     },
     {
-      link: "https://github.com/kamsiOrazulike",
+      link: "https://github.com/kamsiOrazulike/kams.io",
       icon: (
-        <AiFillGithub className="w-8 text-2xl text-white/50 hover:text-white transition-all duration-150" />
+        <AiFillGithub className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
       ),
     },
     {
       link: "https://www.instagram.com/k0.design/",
       icon: (
-        <AiFillInstagram className="w-8 text-2xl text-white/50 hover:text-white transition-all duration-150" />
+        <AiFillInstagram className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
       ),
     },
   ];
   return (
     <div className="">
-      <div className="text-white w-full h-screen bg-[#46443d]">
+      <div className="text-off-green w-full h-screen bg-off-white">
         <div id="top">
           <div className="absolute left-6 top-12">
             <div className="w-2/5 flex flex-col justify-center py-4">
               <p className="w-auto text-sm p-0 m-0 font-light italic ease-in-out duration-500 mb-4">
-                Hey, I am a Product designer with a passion for all things
-                digital currently pursuing a joint masters in Innovation Design
-                Engineering at Imperial College London & Royal College of Art.
+                Hey! I am a Product designer with a passion for web development
+                & UX/UI Design. Currently pursuing an MSc/MA in
+                <a
+                  href="https://www.imperial.ac.uk/study/courses/postgraduate-taught/innovation-design-engineering/"
+                  className="border-b border-b-off-green"
+                >
+                  {" "}
+                  Innovation Design Engineering
+                </a>
+                .
               </p>
             </div>
           </div>
-          <div className="absolute right-5 top-12">
+          <div className="absolute right-5 top-8">
             {getInTouch({ contactIcons: socialMediaItems })}
           </div>
           <div className="absolute leading-none bottom-0">

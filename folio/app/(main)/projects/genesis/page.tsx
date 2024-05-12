@@ -18,7 +18,7 @@ import { CldImage } from "next-cloudinary";
 const GenesisFoodDeliveryApp = () => {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-black px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
+      <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
           <div className="text-gray-900 dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
@@ -146,7 +146,7 @@ const GenesisFoodDeliveryApp = () => {
 const GenHRM = () => {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-black px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
+      <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
           <div className="text-gray-900 dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
@@ -193,7 +193,7 @@ const GenHRM = () => {
                   Achievements
                 </h1>
                 <p className="text-gray-200 font-thin">
-                  <span className="text-white">Cleaning of rogue data:</span>{" "}
+                  <span className="text-off-green">Cleaning of rogue data:</span>{" "}
                   Due to mishandling over time, the data had become inconsistent
                   and inaccurate. There were instances where former employees,
                   who were no longer with the company, remained in the system.
@@ -201,7 +201,7 @@ const GenHRM = () => {
                   the development of the new system.
                 </p>
                 <p className="text-gray-200 font-thin my-4">
-                  <span className="text-white">
+                  <span className="text-off-green">
                     An improved User Experience:
                   </span>{" "}
                   The system had to be easy to navigate through for all users.
@@ -209,7 +209,7 @@ const GenHRM = () => {
                   find.
                 </p>
                 <p className="text-gray-200 font-thin my-4">
-                  <span className="text-white">
+                  <span className="text-off-green">
                     Project Scalability + Reusable components:
                   </span>{" "}
                   Moving forward it is likely that we would establish an
@@ -291,7 +291,7 @@ const GenHRM = () => {
 const GenesisGOAL = () => {
   return (
     <>
-      <div className="relative isolate overflow-hidden bg-black px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
+      <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
           <div className="text-gray-900 dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
@@ -321,7 +321,7 @@ const GenesisGOAL = () => {
             <CldImage
               width="1000"
               height="900"
-              className="rounded-md"
+              className="rounded-md mb-4"
               preserveTransformations
               src={
                 "https://res.cloudinary.com/dolduzhix/image/upload/v1712368066/Portfolio%20images/Genesis/goalfe_fgazms.png"
@@ -346,7 +346,7 @@ const GenesisGOAL = () => {
                   How it works
                 </h1>
                 <p className="text-gray-200 font-thin">
-                  <span className="text-white font-bold">
+                  <span className="text-off-green font-bold">
                     Uploading of monthly sales:
                   </span>{" "}
                   At the end of each calendar month, the regional manager
@@ -358,7 +358,7 @@ const GenesisGOAL = () => {
                   successful, the data is stored on the server and now be used.
                 </p>
                 <p className="text-gray-200 font-thin my-4">
-                  <span className="text-white font-bold">
+                  <span className="text-off-green font-bold">
                     Point conversion:
                   </span>{" "}
                   Within the code is a function that takes in a 'sales' figure
@@ -367,7 +367,7 @@ const GenesisGOAL = () => {
                   each team (Restaurant outlet).
                 </p>
                 <p className="text-gray-200 font-thin my-4">
-                  <span className="text-white font-bold">
+                  <span className="text-off-green font-bold">
                     Accessibility and Bonuses:
                   </span>{" "}
                   The GOAL platform is available to view by both staff and
@@ -434,15 +434,9 @@ export default function Genesis() {
       <Head>
         <title>Genesis</title>
       </Head>
-      <div className="bg-red-700 dark:text-white text-black">
+      <div className="bg-off-white-2 text-off-green">
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-col justify-center align-middle">
-          <h1
-            id="top"
-            className="md:text-5xl text-3xl mt-[90px] mx-auto transition-all duration-300"
-          >
-            Products
-          </h1>
-          <p className="text-sm text-white/70 ">
+          <p id="top" className="mt-16 text-md text-off-green/70 font-light">
             A range of products I developed during my time working at Genesis
             group, Nigeria <br />
             Genesis Group is a Nigerian conglomorate in the Hospitality and
