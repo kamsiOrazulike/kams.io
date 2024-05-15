@@ -438,12 +438,12 @@ export default function Genesis() {
       </Head>
       <div className="bg-off-white-2 text-off-green">
         <div className="max-w-[900px] w-full h-[100%] mx-auto text-center flex flex-col justify-center align-middle">
-          <p id="top" className="mt-16 text-md text-off-green/70 font-light">
-            A range of products I developed during my time working at Genesis
-            group, Nigeria <br />
-            Genesis Group is a Nigerian conglomorate in the Hospitality and
-            Entertainment business.
-          </p>
+          <h1
+            id="top"
+            className="md:text-5xl text-3xl mt-[90px] mx-auto transition-all duration-300"
+          >
+            Genesis Group Projects
+          </h1>
         </div>
         <GenesisFoodDeliveryApp />
         <GenesisGOAL />

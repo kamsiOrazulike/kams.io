@@ -7,9 +7,18 @@ import {
   AiFillVideoCamera,
   AiOutlineCheck,
   AiOutlineMobile,
+  AiOutlineWarning,
 } from "react-icons/ai";
 import { MdOutlineVideogameAsset } from "react-icons/md";
-import { FaBrain, FaFigma, FaFilm, FaPinterestP } from "react-icons/fa";
+import {
+  FaAppStore,
+  FaBrain,
+  FaFigma,
+  FaFilm,
+  FaPinterestP,
+  FaSearch,
+  FaYoutube,
+} from "react-icons/fa";
 import { DiIllustrator } from "react-icons/di";
 import { BiPencil } from "react-icons/bi";
 
@@ -22,7 +31,7 @@ const Overview = () => {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <p className="text-base font-light leading-7 text-off-green">
-                  inHandy: Your British Sign Language Learning tool
+                  inHandy: An interactive introduction to British Sign Language!
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
                   Overview
@@ -305,6 +314,165 @@ const Introduction = () => {
   );
 };
 
+const Analysis = () => {
+  return (
+    <>
+      <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-12">
+        <div className="mx-auto flex flex-col items-center gap-y-16 lg:flex-row lg:mx-0 lg:items-start lg:gap-x-8 lg:gap-y-10">
+          <div className="lg:w-1/2 lg:pr-8">
+            <div className="lg:max-w-lg">
+              <p className="text-base font-light leading-7 text-off-green">
+                'State of the art'
+              </p>
+              <h1 className="flex flex-row mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+                Analysis
+                <span>
+                  <FaSearch className="text-off-green mx-2" />
+                </span>
+              </h1>
+              <p className="mt-6 text-xl leading-8 text-off-green">
+                Conducting general searches led me to find some existing methods
+                for learning BSL including:
+              </p>
+              <ul className="my-12 text-md p-2 text-off-green">
+                <li className="m-4 flex flex-row align-middle justify-start items-center">
+                  <FaYoutube className="mx-4 text-off-green" />
+                  Youtube tutorials | Channel: Commanding Hands
+                </li>
+                <li className="m-4 flex flex-row align-middle justify-start items-center">
+                  <FaAppStore className="mx-4 text-off-green" />
+                  Existing BSL Applications | BSL by Saeed Bashir (2016)
+                </li>
+              </ul>
+              {/* Commanding hands */}
+              <div className="mb-8 flex flex-col items-center">
+                <h1 className="m-4 text-xl font-light flex flex-row">
+                  Youtube tutorials | Channel: Commanding Hands
+                </h1>
+                <img
+                  className="w-[15rem] lg:hidden rounded-md"
+                  src={
+                    "https://i.ytimg.com/vi/o29QtzBuSp4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB_Gs5xEYh3wzJbqYSu4UpoLWIKJA"
+                  }
+                  alt={"Commanding Hands"}
+                />
+                {/* Pros */}
+                <div className="p-4 my-12 text-md shadow-xl text-off-green">
+                  <h3 className="text-off-green font-light mb-2 text-md">
+                    Pros
+                  </h3>
+                  <ul>
+                    <li className="m-4 flex flex-row align-middle justify-start items-center">
+                      <AiOutlineCheck className="mr-4 text-off-green" />
+                      Wide range of videos that are accessible on YouTube.
+                    </li>
+                    <li className="m-4 flex flex-row align-middle justify-start items-center">
+                      <AiOutlineCheck className="mr-4 text-off-green" />
+                      Free subscription to professional channels.
+                    </li>
+                  </ul>
+                </div>
+                {/* Cons */}
+                <div className="p-4 my-12 text-md shadow-xl text-off-green">
+                  <h3 className="text-off-green font-light mb-2 text-md">
+                    Cons
+                  </h3>
+                  <ul>
+                    <li className="m-4 flex flex-row align-middle justify-start items-center">
+                      <AiOutlineWarning className="mr-4 text-off-green" />
+                      Watching a video repeatedly is not an engaging way to
+                      learn.
+                    </li>
+                    <li className="m-4 flex flex-row align-middle justify-start items-center">
+                      <AiOutlineWarning className="mr-4 text-off-green" />
+                      Lacking interactivity.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              {/* BSL */}
+              <div className="mb-8 flex flex-col items-center">
+                <h1 className="m-4 text-xl font-light flex flex-row">
+                  Existing BSL Applications | BSL by Saeed Bashir (2016)
+                </h1>
+                <img
+                  className="w-[15rem] lg:hidden rounded-md"
+                  src={
+                    "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/f2/6f/46/f26f4628-a59d-5557-bbc1-97476959ad7b/pr_source.png/1200x630wa.png"
+                  }
+                  alt={"BSL App"}
+                />
+                {/* Pros */}
+                <div className="p-4 my-12 text-md shadow-xl text-off-green">
+                  <h3 className="text-off-green font-light mb-2 text-md">
+                    Pros
+                  </h3>
+                  <ul>
+                    <li className="m-4 flex flex-row align-middle justify-start items-center">
+                      <AiOutlineCheck className="mr-4 text-off-green" />
+                      All learning topics are listed for user to select from.
+                    </li>
+                    <li className="m-4 flex flex-row align-middle justify-start items-center">
+                      <AiOutlineCheck className="mr-4 text-off-green" />
+                      Visually stimulating and engaging for User.
+                    </li>
+                    <li className="m-4 flex flex-row align-middle justify-start items-center">
+                      <AiOutlineCheck className="mr-4 text-off-green" />
+                      Even easier accessibility for learning
+                    </li>
+                  </ul>
+                </div>
+                {/* Cons */}
+                <div className="p-4 my-12 text-md shadow-xl text-off-green">
+                  <h3 className="text-off-green font-light mb-2 text-md">
+                    Cons
+                  </h3>
+                  <ul>
+                    <li className="m-4 flex flex-row align-middle justify-start items-center">
+                      <AiOutlineWarning className="mr-4 text-off-green" />
+                      Style of learning the same as Youtube videos
+                    </li>
+                    <li className="m-4 flex flex-row align-middle justify-start items-center">
+                      <AiOutlineWarning className="mr-4 text-off-green" />
+                      Visually draining: little to no use of stimulating
+                      graphics
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="hidden lg:block lg:w-1/2">
+            <div className="flex flex-col items-center gap-4 lg:sticky lg:top-4">
+              <img
+                className="w-full rounded-md"
+                src={
+                  "https://i.ytimg.com/vi/o29QtzBuSp4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB_Gs5xEYh3wzJbqYSu4UpoLWIKJA"
+                }
+                alt={"Commanding Hands"}
+              />
+              <img
+                className="w-full rounded-md"
+                src={
+                  "https://is1-ssl.mzstatic.com/image/thumb/Purple62/v4/f2/6f/46/f26f4628-a59d-5557-bbc1-97476959ad7b/pr_source.png/1200x630wa.png"
+                }
+                alt={"BSL App"}
+              />
+              <img
+                className="w-[20rem] rounded-md"
+                src={
+                  "https://is4-ssl.mzstatic.com/image/thumb/Purple71/v4/2b/77/dc/2b77dc4e-23bc-39a7-fada-c8e95ac5c210/pr_source.png/750x750bb.jpeg"
+                }
+                alt={"BSL App"}
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
 const Design = () => {
   return (
     <>
@@ -313,37 +481,39 @@ const Design = () => {
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1">
-                  <CldImage
-                    width="700"
-                    height="400"
-                    className="rounded-md mb-2"
-                    preserveTransformations
-                    src={
-                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363117/Portfolio%20images/inHandy/Project_Plan_bqkldr.jpg"
-                    }
-                    alt={"Project plan"}
-                  />
-                  <CldImage
-                    width="700"
-                    height="700"
-                    className="rounded-md mb-2"
-                    preserveTransformations
-                    src={
-                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363186/Portfolio%20images/inHandy/handDesign_izb0qm.png"
-                    }
-                    alt={"Hand design"}
-                  />
-                  <CldImage
-                    width="700"
-                    height="700"
-                    className="rounded-md mb-2"
-                    preserveTransformations
-                    src={
-                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363098/Portfolio%20images/inHandy/characterInspiration_wb7gzs.jpg"
-                    }
-                    alt={"Character inspiration"}
-                  />
+                <div className="-ml-12 -mt-12 p-8 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1">
+                  <p className="text-base font-light leading-7 text-off-green">
+                    Ideation process
+                  </p>
+                  <h1 className="flex flex-row mt-2 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
+                    Brainstorming + Design
+                    <span>
+                      <FaBrain className="ml-2 text-off-green" />
+                    </span>
+                  </h1>
+                  {/* Images */}
+                  <div className="w-full flex flex-row lg:flex-col">
+                    <CldImage
+                      width="700"
+                      height="700"
+                      className="rounded-md mb-2"
+                      preserveTransformations
+                      src={
+                        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363186/Portfolio%20images/inHandy/handDesign_izb0qm.png"
+                      }
+                      alt={"Hand design"}
+                    />
+                    <CldImage
+                      width="700"
+                      height="700"
+                      className="rounded-md mb-2"
+                      preserveTransformations
+                      src={
+                        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363098/Portfolio%20images/inHandy/characterInspiration_wb7gzs.jpg"
+                      }
+                      alt={"Character inspiration"}
+                    />
+                  </div>
                 </div>
               </div>
             </div>
@@ -352,31 +522,32 @@ const Design = () => {
           <div className="lg:col-span-2 lg:col-start-2 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-light leading-7 text-off-green">
-                  Ideation process
-                </p>
-                <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
-                  Brainstorming + Design{" "}
-                  <span>
-                    <FaBrain className="text-red-200" />
-                  </span>
-                </h1>
+                <CldImage
+                  width="1500"
+                  height="700"
+                  className="rounded-md mb-2"
+                  preserveTransformations
+                  src={
+                    "https://res.cloudinary.com/dolduzhix/image/upload/v1712363117/Portfolio%20images/inHandy/Project_Plan_bqkldr.jpg"
+                  }
+                  alt={"Project plan"}
+                />
                 <p className="mt-6 text-xl leading-8 text-off-green">
                   In my analysis of existing applications/methods of learning
                   BSL, most existing applications lacked in:
                 </p>
                 <ul className="my-12 text-sm shadow-xl p-2 text-off-green">
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <FaBrain className="mx-4 text-red-200" />
+                    <FaBrain className="mx-4 text-off-green" />
                     Interactivity - To maintain User interest whilst learning
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiFillSetting className="mx-4 text-gray-200" />
+                    <AiFillSetting className="mx-4 text-off-green" />
                     Memory - User retention of the information being taught to
                     memory.
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiFillSetting className="mx-4 text-gray-200" />
+                    <AiFillSetting className="mx-4 text-off-green" />
                     Cognitive Overload - Too much information given over a time
                     period.
                   </li>
@@ -609,6 +780,7 @@ const Method = () => {
   );
 };
 
+
 export default function InHandy() {
   return (
     <>
@@ -626,6 +798,7 @@ export default function InHandy() {
         </div>
         <Overview />
         <Introduction />
+        <Analysis />
         <Design />
         <Method />
       </div>
