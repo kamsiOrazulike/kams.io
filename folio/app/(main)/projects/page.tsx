@@ -94,6 +94,7 @@ export default function Projects() {
           </div>
           {/* <div className="hidden md:w-1/2 md:pl-12">
             <CldImage
+              draggable="false"
               width="1050"
               height="1000"
               preserveTransformations

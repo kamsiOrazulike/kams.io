@@ -44,6 +44,7 @@ const GenesisFoodDeliveryApp = () => {
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <CldImage
+              draggable="false"
               width="1050"
               height="1000"
               preserveTransformations
@@ -166,6 +167,7 @@ const GenHRM = () => {
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <CldImage
+              draggable="false"
               width="1000"
               height="900"
               className="rounded-md mb-2"
@@ -176,6 +178,7 @@ const GenHRM = () => {
               alt={"GenHRM Prototype"}
             />
             <CldImage
+              draggable="false"
               width="1000"
               height="900"
               className="rounded-md"
@@ -321,6 +324,7 @@ const GenesisGOAL = () => {
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <CldImage
+              draggable="false"
               width="1000"
               height="900"
               className="rounded-md mb-4"
@@ -331,6 +335,7 @@ const GenesisGOAL = () => {
               alt={"GOAL"}
             />
             <CldImage
+              draggable="false"
               width="1000"
               height="900"
               className="rounded-md"

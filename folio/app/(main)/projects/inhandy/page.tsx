@@ -65,6 +65,7 @@ const Overview = () => {
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <CldImage
+              draggable="false"
               width="1050"
               height="1000"
               preserveTransformations
@@ -222,6 +223,7 @@ const Introduction = () => {
                   >
                     Source &nbsp;{" "}
                     <CldImage
+                      draggable="false"
                       width="24"
                       height="10"
                       preserveTransformations
@@ -246,6 +248,7 @@ const Introduction = () => {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <CldImage
+                  draggable="false"
                   width="650"
                   height="200"
                   className="mb-4"
@@ -494,6 +497,7 @@ const Design = () => {
                   {/* Images */}
                   <div className="w-full flex flex-row lg:flex-col">
                     <CldImage
+                      draggable="false"
                       width="700"
                       height="700"
                       className="rounded-md mb-2"
@@ -504,6 +508,7 @@ const Design = () => {
                       alt={"Hand design"}
                     />
                     <CldImage
+                      draggable="false"
                       width="700"
                       height="700"
                       className="rounded-md mb-2"
@@ -523,6 +528,7 @@ const Design = () => {
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <CldImage
+                  draggable="false"
                   width="1500"
                   height="700"
                   className="rounded-md mb-2"
@@ -700,6 +706,7 @@ const Method = () => {
                   Language + Movies <FaFilm className="text-off-green" />
                 </h1>
                 <CldImage
+                  draggable="false"
                   width="700"
                   height="700"
                   className="rounded-md my-2"
@@ -780,6 +787,161 @@ const Method = () => {
   );
 };
 
+const Sketching = () => {
+  return (
+    <>
+      <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+          <div className="text-off-green lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+            <div className="lg:pr-4">
+              <div className="lg:max-w-lg">
+                <p className="text-base font-light leading-7 text-off-green">
+                  Sketch prototyping, Storyboarding
+                </p>
+                <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
+                  Lo-Fi Prototypes
+                </h1>
+                <div className="hidden lg:block">
+                  <CldImage
+                    draggable="false"
+                    width="541"
+                    height="1056"
+                    className="rounded-md mb-2"
+                    preserveTransformations
+                    src={
+                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363243/Portfolio%20images/inHandy/pageDesign_qq0lxb.png"
+                    }
+                    alt={"Lofi-sketching"}
+                  />
+                  <CldImage
+                    draggable="false"
+                    width="541"
+                    height="1056"
+                    className="rounded-md mb-2"
+                    preserveTransformations
+                    src={
+                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363248/Portfolio%20images/inHandy/pageDesign2_ispkuf.png"
+                    }
+                    alt={"Lofi-sketching"}
+                  />
+                  <CldImage
+                    draggable="false"
+                    width="512"
+                    height="917"
+                    className="rounded-md mb-2"
+                    preserveTransformations
+                    src={
+                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363254/Portfolio%20images/inHandy/pageDesign3_ahcup3.png"
+                    }
+                    alt={"Lofi-sketching"}
+                  />
+                  <CldImage
+                    draggable="false"
+                    width="493"
+                    height="800"
+                    className="rounded-md mb-2"
+                    preserveTransformations
+                    src={
+                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363260/Portfolio%20images/inHandy/pageDesign4_xh18of.png"
+                    }
+                    alt={"Lofi-sketching"}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden ">
+            <CldImage
+              draggable="false"
+              width="1708"
+              height="1056"
+              className="mx-auto"
+              preserveTransformations
+              src={
+                "https://res.cloudinary.com/dolduzhix/image/upload/v1712363136/Portfolio%20images/inHandy/allPages_guarni.png"
+              }
+              alt={"Sketches of pages"}
+            />
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+const SketchingII = () => {
+  return (
+    <>
+      <div className="relative isolate overflow-hidden bg-off-white px-6 py-8 sm:py-18 lg:overflow-visible lg:px-0">
+        <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
+          <div className="text-off-green lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+            <div className="lg:pr-4">
+              <div className="lg:max-w-lg">
+                <p className="text-base font-light leading-7 text-off-green">
+                  User Persona, Storyboarding
+                </p>
+                <h1 className="mt-2 mb-8 text-3xl font-bold tracking-tight sm:text-4xl">
+                  User personas
+                </h1>
+                <p className="font-light mb-8">
+                  By creating multiple personas, I aim to acknowledge the
+                  heterogeneity of my target audience. inHandy aims address the
+                  diverse needs of different user groups and given more time I
+                  would have created more personas representing even more
+                  diverse demographics. Creating variations in factors such as
+                  age, gender, occupation, or geographic location, as well as
+                  psychographic factors like attitudes, values, and specific
+                  lifestyles.
+                </p>
+                <div>
+                  <CldImage
+                    draggable="false"
+                    width="1708"
+                    height="1056"
+                    className="mx-auto"
+                    preserveTransformations
+                    src={
+                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363298/Portfolio%20images/inHandy/Persona1_qajog2.jpg"
+                    }
+                    alt={"Persona1"}
+                  />
+                  <CldImage
+                    draggable="false"
+                    width="1708"
+                    height="1056"
+                    className="mx-auto"
+                    preserveTransformations
+                    src={
+                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363304/Portfolio%20images/inHandy/Persona2_clshlh.jpg"
+                    }
+                    alt={"Persona2"}
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden ">
+            <CldImage
+              draggable="false"
+              width="1708"
+              height="1056"
+              className="mx-auto"
+              preserveTransformations
+              src={
+                "https://res.cloudinary.com/dolduzhix/image/upload/v1712363130/Portfolio%20images/inHandy/StoryboardComics_wapwh7.jpg"
+              }
+              alt={"Storyboard"}
+            />
+            <div className="mt-8">
+              <h1 className="text-5xl mb-2 font-light">Storyboard</h1>
+              <h1 className="mb-2 font-light">Storyboard</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
 
 export default function InHandy() {
   return (
@@ -801,6 +963,8 @@ export default function InHandy() {
         <Analysis />
         <Design />
         <Method />
+        <Sketching />
+        <SketchingII />
       </div>
     </>
   );

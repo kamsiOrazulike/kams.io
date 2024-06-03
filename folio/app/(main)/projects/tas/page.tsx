@@ -30,6 +30,7 @@ const Overview = () => {
           </div>
           <div className="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
             <CldImage
+              draggable="false"
               width="1050"
               height="900"
               preserveTransformations
@@ -39,6 +40,7 @@ const Overview = () => {
               alt={"Prototype design"}
             />
             <CldImage
+              draggable="false"
               width="1050"
               height="900"
               preserveTransformations
