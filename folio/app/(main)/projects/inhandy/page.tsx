@@ -802,50 +802,92 @@ const Sketching = () => {
                   Lo-Fi Prototypes
                 </h1>
                 <div className="hidden lg:block">
-                  <CldImage
-                    draggable="false"
-                    width="541"
-                    height="1056"
-                    className="rounded-md mb-2"
-                    preserveTransformations
-                    src={
-                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363243/Portfolio%20images/inHandy/pageDesign_qq0lxb.png"
-                    }
-                    alt={"Lofi-sketching"}
-                  />
-                  <CldImage
-                    draggable="false"
-                    width="541"
-                    height="1056"
-                    className="rounded-md mb-2"
-                    preserveTransformations
-                    src={
-                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363248/Portfolio%20images/inHandy/pageDesign2_ispkuf.png"
-                    }
-                    alt={"Lofi-sketching"}
-                  />
-                  <CldImage
-                    draggable="false"
-                    width="512"
-                    height="917"
-                    className="rounded-md mb-2"
-                    preserveTransformations
-                    src={
-                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363254/Portfolio%20images/inHandy/pageDesign3_ahcup3.png"
-                    }
-                    alt={"Lofi-sketching"}
-                  />
-                  <CldImage
-                    draggable="false"
-                    width="493"
-                    height="800"
-                    className="rounded-md mb-2"
-                    preserveTransformations
-                    src={
-                      "https://res.cloudinary.com/dolduzhix/image/upload/v1712363260/Portfolio%20images/inHandy/pageDesign4_xh18of.png"
-                    }
-                    alt={"Lofi-sketching"}
-                  />
+                  <div>
+                    <CldImage
+                      draggable="false"
+                      width="541"
+                      height="1056"
+                      className="rounded-md mb-2"
+                      preserveTransformations
+                      src={
+                        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363243/Portfolio%20images/inHandy/pageDesign_qq0lxb.png"
+                      }
+                      alt={"Lofi-sketching"}
+                    />
+                    <p className="font-light mb-8">
+                      To maintain the interest of the User the interface must
+                      display interesting and captivating graphic design
+                      elements. The image above is a sketch prototype of what
+                      the loading screen would look like upon opening the
+                      application. Unlike the existing applications that lack
+                      this feature; InHandy would capture the users attention by
+                      opening with a loading screen or a short animation. Both
+                      the loading screen and/or animation would be used to
+                      maximise awareness by displaying facts about d/Deaf
+                      culture.
+                    </p>
+                  </div>
+                  <div>
+                    <CldImage
+                      draggable="false"
+                      width="541"
+                      height="1056"
+                      className="rounded-md mb-2"
+                      preserveTransformations
+                      src={
+                        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363248/Portfolio%20images/inHandy/pageDesign2_ispkuf.png"
+                      }
+                      alt={"Lofi-sketching"}
+                    />
+                  </div>
+                  <div>
+                    <CldImage
+                      draggable="false"
+                      width="512"
+                      height="917"
+                      className="rounded-md mb-2"
+                      preserveTransformations
+                      src={
+                        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363254/Portfolio%20images/inHandy/pageDesign3_ahcup3.png"
+                      }
+                      alt={"Lofi-sketching"}
+                    />
+                    <p className="font-light mb-8">
+                      Based on research done, one of the best ways to learn or
+                      pick up a new language is through seeing the language
+                      being used in context. Exposing the conversational cues
+                      would give the user a better understanding of when to use
+                      a particular word of phrase. InHandy would do this by
+                      having the user select the 'correct' response option in
+                      order to progress in the animated short. This provides a
+                      visually engaging way to learn as it places the user in a
+                      situation as opposed to a professional behind a screen
+                      repeating a sign.
+                    </p>
+                  </div>
+                  <div>
+                    <CldImage
+                      draggable="false"
+                      width="493"
+                      height="800"
+                      className="rounded-md mb-2"
+                      preserveTransformations
+                      src={
+                        "https://res.cloudinary.com/dolduzhix/image/upload/v1712363260/Portfolio%20images/inHandy/pageDesign4_xh18of.png"
+                      }
+                      alt={"Lofi-sketching"}
+                    />
+                    <p className="font-light mb-8">
+                      Inspired by the similar set up of the 'Duolingo' language
+                      learning application, InHandy will use similar game-like
+                      testing methods to keep the user engaged through the
+                      learning experience. One of the in-app games InHandy would
+                      provide is a test to determine the User knowledge of
+                      British Sign Language. The interface would be programmed
+                      to unlock access to the game only after the User has
+                      completed the topic learning stage.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
@@ -861,7 +903,17 @@ const Sketching = () => {
                 "https://res.cloudinary.com/dolduzhix/image/upload/v1712363136/Portfolio%20images/inHandy/allPages_guarni.png"
               }
               alt={"Sketches of pages"}
-            />
+            />{" "}
+            <p className="block lg:hidden font-light my-4">
+              To maintain the interest of the User the interface must display
+              interesting and captivating graphic design elements. The image
+              above is a sketch prototype of what the loading screen would look
+              like upon opening the application. Unlike the existing
+              applications that lack this feature; InHandy would capture the
+              users attention by opening with a loading screen or a short
+              animation. Both the loading screen and/or animation would be used
+              to maximise awareness by displaying facts about d/Deaf culture.
+            </p>
           </div>
         </div>
       </div>
@@ -884,7 +936,7 @@ const SketchingII = () => {
                   User personas
                 </h1>
                 <p className="font-light mb-8">
-                  By creating multiple personas, I aim to acknowledge the
+                  By creating multiple personas, I aimed to acknowledge the
                   heterogeneity of my target audience. inHandy aims address the
                   diverse needs of different user groups and given more time I
                   would have created more personas representing even more
@@ -934,7 +986,13 @@ const SketchingII = () => {
             />
             <div className="mt-8">
               <h1 className="text-5xl mb-2 font-light">Storyboard</h1>
-              <h1 className="mb-2 font-light">Storyboard</h1>
+              <p className="font-light mb-8">
+                I envisioned two primary use cases for my intervention. The
+                first involves a wearable physical product integrated with a
+                digital gaming system. The user's motions would be tracked, and
+                feedback provided through the game display and haptic feedback
+                mechanisms. The second involved the use of a mobile application.
+              </p>
             </div>
           </div>
         </div>

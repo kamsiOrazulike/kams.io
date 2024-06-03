@@ -83,13 +83,13 @@ export default function Hero() {
             <div className="w-2/5 flex flex-col justify-center py-4">
               <p className="w-auto text-sm p-0 m-0 font-light italic ease-in-out duration-500 mb-4">
                 Hey! I am a Product designer with a passion for web development
-                & UX/UI Design. Currently pursuing an MSc/MA in
+                & UX/UI Design. Currently pursuing an MSc/MA in <br />
                 <a
                   href="https://www.imperial.ac.uk/study/courses/postgraduate-taught/innovation-design-engineering/"
                   className="border-b border-b-off-green"
                 >
                   {" "}
-                  Innovation Design Engineering
+                  Innovation Design Engineering at Imperial College London & Royal College of Art
                 </a>
                 .
               </p>
@@ -99,7 +99,7 @@ export default function Hero() {
             {getInTouch({ contactIcons: socialMediaItems })}
           </div>
           <div className="absolute leading-none bottom-0">
-          <div className="relative">
+            <div className="relative">
               <div className="cube-container">
                 <div className="frontendcube cube1">
                   <div className="box face1">
