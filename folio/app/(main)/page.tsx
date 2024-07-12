@@ -81,7 +81,7 @@ export default function Hero() {
         <div id="top">
           <div className="absolute left-6 top-12">
             <div className="w-2/5 flex flex-col justify-center py-4">
-              <p className="w-auto text-sm p-0 m-0 font-light italic ease-in-out duration-500 mb-4">
+              {/* <p className="w-auto text-sm p-0 m-0 font-light italic ease-in-out duration-500 mb-4">
                 Hey! I am a Product designer with a passion for web development
                 & UX/UI Design. Currently pursuing an MSc/MA in <br />
                 <a
@@ -92,7 +92,7 @@ export default function Hero() {
                   Innovation Design Engineering at Imperial College London & Royal College of Art
                 </a>
                 .
-              </p>
+              </p> */}
             </div>
           </div>
           <div className="absolute right-5 top-8">
