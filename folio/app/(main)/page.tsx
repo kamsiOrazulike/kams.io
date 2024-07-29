@@ -43,14 +43,6 @@ const getInTouch = ({ contactIcons }: GetInTouchProps) => {
 export default function Hero() {
   const socialMediaItems = [
     {
-      link: "https://cal-plus.vercel.app/",
-      icon: (
-        <p className="font-thin text-sm border-b border-b-off-green text-off-green transition-all ease-in duration-150 hover:scale-105">
-          Cal+
-        </p>
-      ),
-    },
-    {
       link: "https://www.linkedin.com/in/kamsiyonnaorazulike?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       icon: (
         <AiFillLinkedin className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
@@ -79,9 +71,9 @@ export default function Hero() {
     <div className="">
       <div className="text-off-green w-full h-screen bg-off-white">
         <div id="top">
-          <div className="absolute left-6 top-12">
+          {/* <div className="absolute left-6 top-12">
             <div className="w-2/5 flex flex-col justify-center py-4">
-              {/* <p className="w-auto text-sm p-0 m-0 font-light italic ease-in-out duration-500 mb-4">
+              <p className="w-auto text-sm p-0 m-0 font-light italic ease-in-out duration-500 mb-4">
                 Hey! I am a Product designer with a passion for web development
                 & UX/UI Design. Currently pursuing an MSc/MA in <br />
                 <a
@@ -92,14 +84,14 @@ export default function Hero() {
                   Innovation Design Engineering at Imperial College London & Royal College of Art
                 </a>
                 .
-              </p> */}
+              </p>
             </div>
-          </div>
+          </div> */}
           <div className="absolute right-5 top-8">
             {getInTouch({ contactIcons: socialMediaItems })}
           </div>
           <div className="absolute leading-none bottom-0">
-            <div className="relative">
+            {/* <div className="relative">
               <div className="cube-container">
                 <div className="frontendcube cube1">
                   <div className="box face1">
@@ -134,14 +126,14 @@ export default function Hero() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <h1 className="text-size p-0 m-0 text-center font-thin ease-in-out duration-500">
               {name}
             </h1>
           </div>
         </div>
       </div>
-      <Projects />
+      {/* <Projects /> */}
     </div>
   );
 }
