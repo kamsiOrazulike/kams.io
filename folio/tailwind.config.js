@@ -8,9 +8,9 @@ module.exports = {
   ],
   theme: {
     colors: {
-      "off-white": "#FFFCF5",
-      "off-white-2": "#ebe8e1",
-      "off-green": "#2e2d28",
+      "off-white": "#2e2d28",
+      "off-white-2": "#171614",
+      "off-green": "#FFFCF5",
     },
     extend: {
       backgroundImage: {

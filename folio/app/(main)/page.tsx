@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import { name } from "./lib/info";
-import Projects from "./projects/page";
 import {
   FaCss3,
   FaFigma,
@@ -19,6 +18,7 @@ import {
   AiFillInstagram,
   AiOutlineArrowRight,
 } from "react-icons/ai";
+import { CiGlobe } from "react-icons/ci";
 import { GetInTouchProps } from "./interface/types";
 
 const getInTouch = ({ contactIcons }: GetInTouchProps) => {
@@ -61,7 +61,13 @@ export default function Hero() {
       ),
     },
     {
-      link: "https://www.instagram.com/k0.design/",
+      link: "https://www.instagram.com/canvas.px/",
+      icon: (
+        <CiGlobe className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
+      ),
+    },
+    {
+      link: "https://www.instagram.com/canvas.ko/",
       icon: (
         <AiFillInstagram className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
       ),

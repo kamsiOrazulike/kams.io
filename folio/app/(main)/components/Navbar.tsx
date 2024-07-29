@@ -19,7 +19,7 @@ export default function Navbar() {
       ))}
       <a
         href="mailto:kamsi_orazulike@icloud.com"
-        className="border-b border-b-off-green/60 hover:border-b-off-green text-off-green/60 hover:text-off-green font-light text-[1rem] transition-colors duration-300 flex items-center"
+        className="text-off-green/60 hover:text-off-green font-light text-[1rem] transition-colors duration-300 flex items-center"
       >
         <span className="inline-block">Get in touch</span>
       </a>
