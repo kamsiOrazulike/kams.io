@@ -97,7 +97,7 @@ export default function Hero() {
             {getInTouch({ contactIcons: socialMediaItems })}
           </div>
           <div className="absolute leading-none bottom-0">
-            {/* <div className="relative">
+            <div className="relative">
               <div className="cube-container">
                 <div className="frontendcube cube1">
                   <div className="box face1">
@@ -132,14 +132,13 @@ export default function Hero() {
                   </div>
                 </div>
               </div>
-            </div> */}
+            </div>
             <h1 className="text-size p-0 m-0 text-center font-thin ease-in-out duration-500">
               {name}
             </h1>
           </div>
         </div>
       </div>
-      {/* <Projects /> */}
     </div>
   );
 }
