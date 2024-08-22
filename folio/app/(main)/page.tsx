@@ -75,7 +75,7 @@ export default function Hero() {
   ];
   return (
     <div className="">
-      <div className="text-off-green w-full h-screen bg-off-white">
+      <div className="text-off-green w-full min-h-screen bg-off-white">
         <div id="top">
           {/* <div className="absolute left-6 top-12">
             <div className="w-2/5 flex flex-col justify-center py-4">
