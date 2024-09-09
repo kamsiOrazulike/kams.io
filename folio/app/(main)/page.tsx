@@ -20,6 +20,7 @@ import {
 } from "react-icons/ai";
 import { CiGlobe } from "react-icons/ci";
 import { GetInTouchProps } from "./interface/types";
+import Projects from "./projects/page";
 
 const getInTouch = ({ contactIcons }: GetInTouchProps) => {
   return (
@@ -46,12 +47,6 @@ export default function Hero() {
       link: "https://www.linkedin.com/in/kamsiyonnaorazulike?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
       icon: (
         <AiFillLinkedin className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
-      ),
-    },
-    {
-      link: "http://be.net/kamsi_orazulike",
-      icon: (
-        <AiOutlineBehance className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
       ),
     },
     {
@@ -139,6 +134,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      <Projects />
     </div>
   );
 }

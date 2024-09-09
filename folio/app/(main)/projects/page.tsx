@@ -5,14 +5,12 @@ import { CldImage } from "next-cloudinary";
 export default function Projects() {
   const projects = [
     {
-      title: "@ Genesis Group",
-      subtitle: "UI Design | Full-stack Dev",
+      title: "CANVAS",
+      subtitle: "Processing (P5JS)",
       message:
-        "Check out different software projects I worked on during my time at Genesis Group. Including UX/UI design for food delivery mobile application, A Human Resources Management Portal and more",
-      image:
-        "https://res.cloudinary.com/dolduzhix/image/upload/v1712362998/Portfolio%20images/UXUI/GenesisMockup_cuy2vz.png",
-      href: "/projects/genesis",
-      date: "2023",
+        "Check out different projects I developed using P5JS. My latest passion",
+      href: "https://canvasbyko.vercel.app/",
+      date: "2024",
     },
     {
       title: "inHandy",
@@ -43,6 +41,16 @@ export default function Projects() {
         "https://res.cloudinary.com/dolduzhix/image/upload/v1712343005/Portfolio%20images/TheAfrikanStore/Front_face_h22jsb.png",
       href: "/projects/tas",
       date: "2024",
+    },
+    {
+      title: "@ Genesis Group",
+      subtitle: "UI Design | Full-stack Dev",
+      message:
+        "Check out different software projects I worked on during my time at Genesis Group. Including UX/UI design for food delivery mobile application, A Human Resources Management Portal and more",
+      image:
+        "https://res.cloudinary.com/dolduzhix/image/upload/v1712362998/Portfolio%20images/UXUI/GenesisMockup_cuy2vz.png",
+      href: "/projects/genesis",
+      date: "2023",
     },
   ];
 
