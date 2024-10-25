@@ -14,7 +14,7 @@ export default function Projects() {
     },
     {
       title: "inHandy",
-      subtitle: "UX/UI Design",
+      subtitle: "Product Design | UX/UI",
       message:
         "inHandy is my final year project submission/pitch for a sustainable digital product aimed at teaching BSL in an engaging and stimulating manner",
       image:
@@ -24,7 +24,7 @@ export default function Projects() {
     },
     {
       title: "The First Theatre",
-      subtitle: "Human-Computer Interaction | Product Design",
+      subtitle: "Product Design | Human-Computer Interaction",
       message:
         "For my Cyberphyscial systems module at Imperial College London, our group decided to combine the power of arduino programming with Machine Learning in order to create a unique Human-Computer interaction inspired by shadow puppetry",
       image:
@@ -34,7 +34,7 @@ export default function Projects() {
     },
     {
       title: "@ The Afrikan Store",
-      subtitle: "Product | Brand Design",
+      subtitle: "Product Design | 3D Design",
       message:
         "A summary of Product design projects completed for The Afrikan Store.",
       image:
@@ -44,7 +44,7 @@ export default function Projects() {
     },
     {
       title: "@ Genesis Group",
-      subtitle: "UI Design | Full-stack Dev",
+      subtitle: "Software Dev | Full-stack",
       message:
         "Check out different software projects I worked on during my time at Genesis Group. Including UX/UI design for food delivery mobile application, A Human Resources Management Portal and more",
       image:
