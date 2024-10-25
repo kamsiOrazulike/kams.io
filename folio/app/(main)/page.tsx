@@ -18,6 +18,7 @@ import {
   AiFillInstagram,
   AiOutlineArrowRight,
 } from "react-icons/ai";
+import { SiLeetcode } from "react-icons/si";
 import { CiGlobe } from "react-icons/ci";
 import { GetInTouchProps } from "./interface/types";
 import Projects from "./projects/page";
@@ -53,6 +54,12 @@ export default function Hero() {
       link: "https://github.com/kamsiOrazulike/kams.io",
       icon: (
         <AiFillGithub className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
+      ),
+    },
+    {
+      link: "https://leetcode.com/u/kamsi_orazulike/",
+      icon: (
+        <SiLeetcode className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
       ),
     },
     {
