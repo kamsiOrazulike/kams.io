@@ -63,12 +63,6 @@ export default function Hero() {
       ),
     },
     {
-      link: "https://canvasbyko.vercel.app/",
-      icon: (
-        <CiGlobe className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
-      ),
-    },
-    {
       link: "https://www.instagram.com/canvas.ko/",
       icon: (
         <AiFillInstagram className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
