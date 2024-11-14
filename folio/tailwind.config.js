@@ -23,6 +23,7 @@ module.exports = {
         audit: "url('/static/imgs/selfAudit.svg')",
         birdseye: "url('/static/imgs/birdseye.png')",
         name: "url('/static/svg/name.svg')",
+        profile:"url('/static/imgs/Me.png')",
         genhrm: "url('/static/imgs/genHRM/login.png')",
         "404bg":
           "url(https://i.pinimg.com/originals/a5/d5/60/a5d56021b749bd3da560a014e3e433af.jpg)",

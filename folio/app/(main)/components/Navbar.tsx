@@ -13,7 +13,7 @@ export default function Navbar() {
             href={option.link}
             className="text-off-green/60 hover:text-off-green font-light text-[1rem] transition-colors duration-300 flex items-center"
           >
-            <span className="inline-block ml-2">{option.title}</span>
+            <img src="./static/imgs/KO.png" className="w-8" />
           </a>
         </div>
       ))}

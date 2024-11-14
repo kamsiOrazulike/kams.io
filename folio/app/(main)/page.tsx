@@ -19,7 +19,6 @@ import {
   AiOutlineArrowRight,
 } from "react-icons/ai";
 import { SiLeetcode } from "react-icons/si";
-import { CiGlobe } from "react-icons/ci";
 import { GetInTouchProps } from "./interface/types";
 import Projects from "./projects/page";
 
@@ -89,11 +88,13 @@ export default function Hero() {
               </p>
             </div>
           </div> */}
+          {/* <div className="relative bg-profile -translate-x-8 w-[40rem] h-[100vh] z-0" /> */}
+
           <div className="absolute right-5 top-8">
             {getInTouch({ contactIcons: socialMediaItems })}
           </div>
           <div className="absolute leading-none bottom-0">
-            <div className="relative">
+            <div className="relative bottom-0">
               <div className="cube-container">
                 <div className="frontendcube cube1">
                   <div className="box face1">
