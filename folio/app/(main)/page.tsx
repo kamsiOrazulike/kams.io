@@ -88,6 +88,7 @@ export default function Hero() {
               </p>
             </div>
           </div> */}
+          
           {/* <div className="relative bg-profile -translate-x-8 w-[40rem] h-[100vh] z-0" /> */}
 
           <div className="absolute right-5 top-8">

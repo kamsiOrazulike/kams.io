@@ -16,7 +16,7 @@ export default function Projects() {
       title: "Genesis Group",
       subtitle: "Software Dev | Full-stack",
       message:
-        "Check out different software projects I worked on during my time at Genesis Group. Including UX/UI design for food delivery mobile application, A Human Resources Management Portal and more",
+        "Check out different projects I worked on during my time at Genesis Group.",
       image:
         "https://res.cloudinary.com/dolduzhix/image/upload/v1712362998/Portfolio%20images/UXUI/GenesisMockup_cuy2vz.png",
       href: "/projects/genesis",
