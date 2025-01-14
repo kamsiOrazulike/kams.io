@@ -5,26 +5,8 @@ import { CldImage } from "next-cloudinary";
 export default function Projects() {
   const projects = [
     {
-      title: "CANVAS",
-      subtitle: "Software Dev | Javascript (P5JS)",
-      message:
-        "Check out different projects I developed using P5JS. My latest passion",
-      href: "https://canvasbyko.vercel.app/",
-      date: "2024",
-    },
-    {
-      title: "Genesis Group",
-      subtitle: "Software Dev | Full-stack",
-      message:
-        "Check out different projects I worked on during my time at Genesis Group.",
-      image:
-        "https://res.cloudinary.com/dolduzhix/image/upload/v1712362998/Portfolio%20images/UXUI/GenesisMockup_cuy2vz.png",
-      href: "/projects/genesis",
-      date: "2023",
-    },
-    {
       title: "The First Theatre",
-      subtitle: "Product Design | Cyberphysical Systems",
+      subtitle: "Product Design | HUMAN-COMPUTER INTERACTION",
       message:
         "For my Cyberphyscial systems module at Imperial College London, our group decided to combine the power of arduino programming with Machine Learning in order to create a unique Human-Computer interaction inspired by shadow puppetry",
       image:
@@ -43,8 +25,18 @@ export default function Projects() {
       date: "2021",
     },
     {
+      title: "Genesis Group",
+      subtitle: "Software Dev | Full-stack",
+      message:
+        "Check out different projects I worked on during my time at Genesis Group.",
+      image:
+        "https://res.cloudinary.com/dolduzhix/image/upload/v1712362998/Portfolio%20images/UXUI/GenesisMockup_cuy2vz.png",
+      href: "/projects/genesis",
+      date: "2023",
+    },
+    {
       title: "@ The Afrikan Store",
-      subtitle: "Product Design | 3D Design",
+      subtitle: "Product Design",
       message:
         "A summary of Product design projects completed for The Afrikan Store.",
       image:

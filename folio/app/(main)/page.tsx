@@ -136,6 +136,7 @@ export default function Hero() {
           </div>
         </div>
       </div>
+      <Projects />
     </div>
   );
 }
