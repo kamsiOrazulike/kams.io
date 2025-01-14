@@ -75,8 +75,7 @@ export default function Hero() {
           {/* <div className="absolute left-6 top-12">
             <div className="w-2/5 flex flex-col justify-center py-4">
               <p className="w-auto text-sm p-0 m-0 font-light italic ease-in-out duration-500 mb-4">
-                Hey! I am a Product designer with a passion for web development
-                & UX/UI Design. Currently pursuing an MSc/MA in <br />
+                Hey! I am a Product designer with a passion for web development, currently pursuing an MSc/MA in <br />
                 <a
                   href="https://www.imperial.ac.uk/study/courses/postgraduate-taught/innovation-design-engineering/"
                   className="border-b border-b-off-green"
@@ -88,7 +87,7 @@ export default function Hero() {
               </p>
             </div>
           </div> */}
-          
+
           {/* <div className="relative bg-profile -translate-x-8 w-[40rem] h-[100vh] z-0" /> */}
 
           <div className="absolute right-5 top-8">
@@ -137,7 +136,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-      <Projects />
     </div>
   );
 }
