@@ -76,7 +76,7 @@ export default function Hero() {
           {/* Profile Section */}
           <div className="absolute w-full lg:w-1/2 h-full flex flex-col items-center lg:items-start justify-center lg:left-12">
             {/* Profile Image */}
-            <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden mb-8 lg:mb-12 bg-profile bg-center bg-cover border-4 border-off-green/20" />
+            <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden mb-8 lg:mb-12 bg-profile bg-cover bg-center border-4 border-off-green/20" />
           </div>
 
           {/* Social Media Icons */}
