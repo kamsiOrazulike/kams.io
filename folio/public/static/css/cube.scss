@@ -16,7 +16,7 @@ $color-outline: #fffcf5;
 .cube-container {
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: flex-end;
   align-items: center;
   // justify-content: center;
   perspective: 1000px;

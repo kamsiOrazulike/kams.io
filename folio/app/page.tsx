@@ -68,31 +68,23 @@ export default function Hero() {
       ),
     },
   ];
+
   return (
     <div className="">
       <div className="text-off-green w-full min-h-screen bg-gradient-to-l from-[#2a2a2a] to-[#080808]">
-        <div id="top">
-          {/* <div className="absolute left-6 top-12">
-            <div className="w-2/5 flex flex-col justify-center py-4">
-              <p className="w-auto text-sm p-0 m-0 font-light italic ease-in-out duration-500 mb-4">
-                Hey! I am a Product designer with a passion for web development, currently pursuing an MSc/MA in <br />
-                <a
-                  href="https://www.imperial.ac.uk/study/courses/postgraduate-taught/innovation-design-engineering/"
-                  className="border-b border-b-off-green"
-                >
-                  {" "}
-                  Innovation Design Engineering at Imperial College London & Royal College of Art
-                </a>
-                .
-              </p>
-            </div>
-          </div> */}
+        <div id="top" className="relative w-full h-screen">
+          {/* Profile Section */}
+          <div className="absolute w-full lg:w-1/2 h-full flex flex-col items-center lg:items-start justify-center lg:left-12">
+            {/* Profile Image */}
+            <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full overflow-hidden mb-8 lg:mb-12 bg-profile bg-center bg-cover border-4 border-off-green/20" />
+          </div>
 
-          {/* <div className="relative bg-profile -translate-x-8 w-[40rem] h-[100vh] z-0" /> */}
-
+          {/* Social Media Icons */}
           <div className="absolute right-5 top-8">
             {getInTouch({ contactIcons: socialMediaItems })}
           </div>
+
+          {/* Rotating Cubes */}
           <div className="absolute leading-none bottom-0">
             <div className="relative bottom-0">
               <div className="cube-container">
