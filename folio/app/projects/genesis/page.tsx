@@ -20,10 +20,10 @@ const GenesisFoodDeliveryApp = () => {
     <>
       <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-          <div className="text-gray-900 dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="text-white dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-light leading-7 text-red-600 dark:text-red-400">
+                <p className="text-white inline-block bg-[#fff]/10 border border-[#fff]/20 px-3 py-1 rounded mb-4 uppercase text-xs">
                   UI Design Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -71,15 +71,15 @@ const GenesisFoodDeliveryApp = () => {
                 </p>
                 <ul className="my-12 text-sm shadow-xl p-2">
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-red-600 dark:text-red-400" />
+                    <AiOutlineCheck className="mx-4 text-red-300 dark:text-red-400" />
                     Loyalty programs and rewards
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-red-600 dark:text-red-400" />{" "}
+                    <AiOutlineCheck className="mx-4 text-red-300 dark:text-red-400" />{" "}
                     A streamlined ordering process with limited clicks
                   </li>
                   <li className="m-4 flex flex-row align-middle justify-start items-center">
-                    <AiOutlineCheck className="mx-4 text-red-600 dark:text-red-400" />
+                    <AiOutlineCheck className="mx-4 text-red-300 dark:text-red-400" />
                     Real time order tracking
                   </li>
                 </ul>
@@ -96,7 +96,7 @@ const GenesisFoodDeliveryApp = () => {
                     </h1>
                     <ul
                       role="list"
-                      className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
+                      className="mt-8 space-y-8 text-white dark:text-gray-300"
                     >
                       <li>UI Designer</li>
                       <li>Graphic Designer</li>
@@ -109,7 +109,7 @@ const GenesisFoodDeliveryApp = () => {
                     </h1>
                     <ul
                       role="list"
-                      className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
+                      className="mt-8 space-y-8 text-white dark:text-gray-300"
                     >
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaFigma className="mr-4" />
@@ -149,10 +149,10 @@ const GenHRM = () => {
     <>
       <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-          <div className="text-gray-900 dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="text-white dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-light leading-7 text-red-600 dark:text-red-400">
+                <p className="text-white inline-block bg-[#fff]/10 border border-[#fff]/20 px-3 py-1 rounded mb-4 uppercase text-xs">
                   Full Stack Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -230,7 +230,7 @@ const GenHRM = () => {
                     </h1>
                     <ul
                       role="list"
-                      className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
+                      className="mt-8 space-y-8 text-white dark:text-gray-300"
                     >
                       <li>Scrum Master</li>
                       <li>Full stack Developer</li>
@@ -242,7 +242,7 @@ const GenHRM = () => {
                     </h1>
                     <ul
                       role="list"
-                      className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
+                      className="mt-8 space-y-8 text-white dark:text-gray-300"
                     >
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaNodeJs className="mr-4" />
@@ -298,10 +298,10 @@ const GenesisGOAL = () => {
     <>
       <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-18 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:grid-cols-2 lg:items-start lg:gap-y-10">
-          <div className="text-gray-900 dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="text-white dark:text-gray-300 lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-light leading-7 text-red-600 dark:text-red-400">
+                <p className="text-white inline-block bg-[#fff]/10 border border-[#fff]/20 px-3 py-1 rounded mb-4 uppercase text-xs">
                   Full Stack Project
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -389,7 +389,7 @@ const GenesisGOAL = () => {
                     </h1>
                     <ul
                       role="list"
-                      className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
+                      className="mt-8 space-y-8 text-white dark:text-gray-300"
                     >
                       <li>Fullstack Developer</li>
                     </ul>
@@ -400,7 +400,7 @@ const GenesisGOAL = () => {
                     </h1>
                     <ul
                       role="list"
-                      className="mt-8 space-y-8 text-gray-600 dark:text-gray-300"
+                      className="mt-8 space-y-8 text-white dark:text-gray-300"
                     >
                       <li className="m-4 flex flex-row align-middle justify-start items-center">
                         <FaReact className="mr-4" />

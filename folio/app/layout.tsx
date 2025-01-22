@@ -1,7 +1,9 @@
 import "./globals.css";
+import "../public/static/css/all.css";
+import "../public/static/css/cube.scss";
 import { Roboto } from "next/font/google";
-import { Analytics } from "@vercel/analytics/react";
-import { SpeedInsights } from "@vercel/speed-insights/next";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const roboto = Roboto({
   weight: ["100", "300", "500", "400", "700", "900"],
@@ -21,9 +23,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={roboto.className}>
+        <Navbar />
         {children}
-        {/* <Analytics /> */}
-        {/* <SpeedInsights /> */}
+        <Footer />
       </body>
     </html>
   );

@@ -1,9 +1,15 @@
-"use client";
 import React from "react";
-import { CldImage } from "next-cloudinary";
 
 export default function Projects() {
   const projects = [
+    {
+      title: "CANVAS.PX",
+      subtitle: "Founder | Software Developer",
+      message:
+        "CANVAS.px specializes in creating simple, cutting-edge websites and apps tailored to client needs. From design to development, we focus on delivering seamless, user-centered digital experiences that bring brand ideas to life.",
+      href: "https://canvasbyko.vercel.app/",
+      date: "2024",
+    },
     {
       title: "The First Theatre",
       subtitle: "Product Design | HUMAN-COMPUTER INTERACTION",
@@ -26,7 +32,7 @@ export default function Projects() {
     },
     {
       title: "Genesis Group",
-      subtitle: "Software Dev | Full-stack",
+      subtitle: "Software | Full-stack",
       message:
         "Check out different projects I worked on during my time at Genesis Group.",
       image:
@@ -51,7 +57,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-7xl mx-auto">
         {projects.map((project, index) => (
           <div key={index} className="flex flex-col h-full">
-            <div className="border border-black pt-4 pb-8 px-8 h-full flex flex-col">
+            <div className="border border-white rounded pt-4 pb-8 px-8 h-full flex flex-col">
               <div className="w-full flex flex-row justify-between">
                 <p className="text-xs md:text-base font-light leading-7 text-white uppercase">
                   {project.subtitle}

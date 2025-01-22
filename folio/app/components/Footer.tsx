@@ -61,15 +61,6 @@ const Footer = () => {
               </li>
               <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
                 <a
-                  href="http://be.net/kamsi_orazulike"
-                  target="_blank"
-                  className="text-xl"
-                >
-                  <AiOutlineBehance className="w-8 text-2xl text-off-green hover:text-blue-500 transition-all duration-150" />
-                </a>
-              </li>
-              <li className="mr-2 my-2 cursor-pointer hover:scale-105 transition-all duration-200">
-                <a
                   href="https://github.com/kamsiOrazulike"
                   target="_blank"
                   className="text-xl"
@@ -79,7 +70,7 @@ const Footer = () => {
               </li>
               <li className="my-2 cursor-pointer hover:scale-105 transition-all duration-200">
                 <a
-                  href="https://www.instagram.com/k0.design/"
+                  href="https://www.instagram.com/canvas.px/"
                   target="_blank"
                   className="text-xl"
                 >

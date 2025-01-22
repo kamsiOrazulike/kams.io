@@ -62,7 +62,7 @@ export default function Hero() {
       ),
     },
     {
-      link: "https://www.instagram.com/canvas.ko/",
+      link: "https://www.instagram.com/canvas.px/",
       icon: (
         <AiFillInstagram className="w-8 text-2xl text-off-green/50 hover:text-off-green transition-all duration-150" />
       ),
@@ -70,7 +70,7 @@ export default function Hero() {
   ];
   return (
     <div className="">
-      <div className="text-off-green w-full min-h-screen bg-off-white">
+      <div className="text-off-green w-full min-h-screen bg-gradient-to-l from-[#2a2a2a] to-[#080808]">
         <div id="top">
           {/* <div className="absolute left-6 top-12">
             <div className="w-2/5 flex flex-col justify-center py-4">

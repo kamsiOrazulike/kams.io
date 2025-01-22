@@ -30,7 +30,7 @@ const Overview = () => {
           <div className="text-off-green lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-light leading-7 text-off-green">
+                <p className="text-white inline-block bg-[#fff]/10 border border-[#fff]/20 px-3 py-1 rounded mb-4 uppercase text-xs">
                   inHandy: An interactive introduction to British Sign Language!
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -172,7 +172,7 @@ const Introduction = () => {
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-light leading-7 text-off-green">
+                <p className="text-white inline-block bg-[#fff]/10 border border-[#fff]/20 px-3 py-1 rounded mb-4 uppercase text-xs">
                   inHandy
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -324,7 +324,7 @@ const Analysis = () => {
         <div className="mx-auto flex flex-col items-center gap-y-16 lg:flex-row lg:mx-0 lg:items-start lg:gap-x-8 lg:gap-y-10">
           <div className="lg:w-1/2 lg:pr-8">
             <div className="lg:max-w-lg">
-              <p className="text-base font-light leading-7 text-off-green">
+              <p className="text-white inline-block bg-[#fff]/10 border border-[#fff]/20 px-3 py-1 rounded mb-4 uppercase text-xs">
                 'State of the art'
               </p>
               <h1 className="flex flex-row mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -481,11 +481,11 @@ const Design = () => {
     <>
       <div className="relative isolate overflow-hidden bg-off-white px-6 py-20 mt-12 sm:py-24 lg:overflow-visible lg:px-0">
         <div className="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 lg:mx-0 lg:max-w-none lg:items-start lg:gap-y-10">
-          <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
+          <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-16">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
                 <div className="-ml-12 -mt-12 p-8 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1">
-                  <p className="text-base font-light leading-7 text-off-green">
+                  <p className="text-white inline-block bg-[#fff]/10 border border-[#fff]/20 px-3 py-1 rounded mb-4 uppercase text-xs">
                     Ideation process
                   </p>
                   <h1 className="flex flex-row mt-2 mb-4 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -596,7 +596,7 @@ const Method = () => {
           <div className="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-light leading-7 text-off-green">
+                <p className="text-white inline-block bg-[#fff]/10 border border-[#fff]/20 px-3 py-1 rounded mb-4 uppercase text-xs">
                   Method I
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -740,7 +740,7 @@ const Method = () => {
                   engaging manner.
                 </p>
 
-                <p className="mt-8 text-base font-light leading-7 text-off-green">
+                <p className="mt-8 text-white inline-block bg-[#fff]/10 border border-[#fff]/20 px-3 py-1 rounded mb-4 uppercase text-xs">
                   Inspiration: Language learning application
                 </p>
                 <h1 className="text-3xl font-bold tracking-tight sm:text-4xl">
@@ -795,7 +795,7 @@ const Sketching = () => {
           <div className="text-off-green lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-light leading-7 text-off-green">
+                <p className="text-white inline-block bg-[#fff]/10 border border-[#fff]/20 px-3 py-1 rounded mb-4 uppercase text-xs">
                   Sketch prototyping, Storyboarding
                 </p>
                 <h1 className="mt-2 text-3xl font-bold tracking-tight sm:text-4xl">
@@ -929,7 +929,7 @@ const SketchingII = () => {
           <div className="text-off-green lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div className="lg:pr-4">
               <div className="lg:max-w-lg">
-                <p className="text-base font-light leading-7 text-off-green">
+                <p className="text-white inline-block bg-[#fff]/10 border border-[#fff]/20 px-3 py-1 rounded mb-4 uppercase text-xs">
                   User Persona, Storyboarding
                 </p>
                 <h1 className="mt-2 mb-8 text-3xl font-bold tracking-tight sm:text-4xl">
