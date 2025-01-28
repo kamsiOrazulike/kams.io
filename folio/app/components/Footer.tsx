@@ -41,7 +41,7 @@ const Footer = () => {
               smooth={true}
               offset={-500}
               duration={500}
-              className="to-top relative border border-off-green bg-off-white cursor-pointer p-2 hover:scale-105 m-2 text-off-green font-light text-lg transition-all duration-150"
+              className="to-top relative border border-off-green bg-off-white cursor-pointer p-2 hover:scale-105 m-2 text-off-green font-light text-md transition-all duration-150"
             >
               <AiOutlineArrowUp />
             </LinkScroll>
