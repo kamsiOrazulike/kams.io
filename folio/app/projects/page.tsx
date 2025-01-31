@@ -7,7 +7,7 @@ export default function Projects() {
       subtitle: "Founder | Software Developer",
       message:
         "CANVAS.px specializes in creating simple, cutting-edge websites and apps tailored to client needs. From design to development, we focus on delivering seamless, user-centered digital experiences that bring brand ideas to life.",
-      href: "https://canvasbyko.vercel.app/",
+      href: "https://canvaspx.com/",
       date: "2024",
     },
     {
