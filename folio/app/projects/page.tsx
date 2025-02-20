@@ -40,16 +40,6 @@ export default function Projects() {
       href: "/projects/genesis",
       date: "2023",
     },
-    {
-      title: "@ The Afrikan Store",
-      subtitle: "Product Design",
-      message:
-        "A summary of Product design projects completed for The Afrikan Store.",
-      image:
-        "https://res.cloudinary.com/dolduzhix/image/upload/v1712343005/Portfolio%20images/TheAfrikanStore/Front_face_h22jsb.png",
-      href: "/projects/tas",
-      date: "2024",
-    },
   ];
 
   return (
